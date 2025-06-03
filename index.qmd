@@ -1,6 +1,6 @@
 ---
-title: "Statistics 131a: Statistical Methods for Data Science"
-subtitle: "UC Berkeley, Fall 2024"
+title: "{{< var department >}} {{< var number >}}: {{< var name >}}"
+subtitle: "UC Berkeley, {{< var semester >}}"
 listing:
   - id: schedule
     template: assets/schedule.ejs

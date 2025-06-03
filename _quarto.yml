@@ -3,14 +3,14 @@ project:
 
 website:
   google-analytics: G-9Q0VSK0VJF
-  site-url: https://stat131a.berkeley.edu/fall-2024/
+  site-url: https://stat131a.berkeley.edu/summer-2025/
   sidebar:
     style: docked
     title: "Stat 131a"
     logo: assets/stat_bear.png
     tools:
       - icon: github
-        href: https://github.com/berkeley-stat131a/fall-2024
+        href: https://github.com/berkeley-stat131a/summer-2025
     contents:
       - href: index.qmd
         text: Home / Schedule

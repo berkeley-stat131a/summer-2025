@@ -1,1 +1,6 @@
-site-url: https://berkeley-scf.github.io/course-site-quarto/
+site-url: https://stat131a.berkeley.edu/summer-2025/
+department: Statistics
+department-abbrev: Stat
+number: 131a
+name: Statistical Methods for Data Science
+semester: Summer 2025
