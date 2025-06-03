@@ -1,0 +1,3214 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Statistics 131a: Statistical Methods for Data Science</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-b83b0baceb46e52c5d6d8cd3988af2cc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-schedule .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-week','listing-days',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-week","listing-days"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-schedule'] = new List('listing-schedule', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-buttons .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-button','listing-link','listing-color',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-button","listing-link","listing-color"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-buttons'] = new List('listing-buttons', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9Q0VSK0VJF"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9Q0VSK0VJF', { 'anonymize_ip': true});
+</script>
+<script async="" src="https://siteimproveanalytics.com/js/siteanalyze_6294756.js"></script>
+<link rel="shortcut icon" href="favicon.ico">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home / Schedule</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./assets/stat_bear.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Stat 131a</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/berkeley-stat131a/summer-2025" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Home / Schedule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./assignments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HW and Labs</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./staff.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Staff</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./calendar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Google Calendar</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#announcements" id="toc-announcements" class="nav-link active" data-scroll-target="#announcements">Announcements 📣</a></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule 📅</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Statistics 131a: Statistical Methods for Data Science</h1>
+<p class="subtitle lead">UC Berkeley, Summer 2025</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div id="listing-buttons" class="quarto-listing quarto-listing-container-custom">
+
+  <button style="background-color: purple;"><a href="https://edstem.org/us/courses/63606/discussion/">Ed</a></button>
+
+  <button style="background-color: green;"><a href="https://r.datahub.berkeley.edu">DataHub</a></button>
+
+  <button style="background-color: orange;"><a href="https://www.gradescope.com/courses/833089">Gradescope</a></button>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<!-- [All information on the course website is subject to change before August 28th, 2024.] -->
+<!-- ::: {.callout-note title="Welcome to Week 2"} -->
+<!-- Things are picking up now. -->
+<!-- ::: -->
+<!-- [Concept check form](https://docs.google.com/forms/d/e/1FAIpQLScnthLeOwlfNrkCJ69LWgWnmaA-qTNcbtxrHgMmWD4LCZVNug/viewform?usp=sf_link)\ -->
+<section id="announcements" class="level2">
+<h2 class="anchored" data-anchor-id="announcements">Announcements 📣</h2>
+<p>The final exam is Thursday, December 19th at 3pm in GPBB 100.</p>
+<!-- Please [complete your STAT 131A course evalulation](https://course-evaluations.berkeley.edu)! -->
+<!-- - With just a couple minutes of your time, you can provide incredibly valuable feedback to Van and Josh. -->
+</section>
+<section id="schedule" class="level2">
+<h2 class="anchored" data-anchor-id="schedule">Schedule 📅</h2>
+<!-- For a style similar to that of [Stat 20](https://stat20.berkeley.edu/fall-2024), modify `index.qmd` to point to `assets/{schedule-alt.ejs,buttons-alt.ejs}` and to `{schedule-alt.yml,buttons-alt.yml}` and `_quarto.yml` to point to `assets/styles-alt.scss`. -->
+<div id="listing-schedule" class="quarto-listing quarto-listing-container-custom">
+<h4 class="anchored">Week 16</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Dec 13:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture FP3</strong>
+               
+                 <span>Final prep lecture 3</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <span>Practice problems on bcourses</span><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Dec 11:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture FP2</strong>
+               
+                 <span>Final prep lecture 2</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <span>Practice problems on bcourses</span><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Dec 9:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture FP1</strong>
+               
+                 <span>Final prep lecture 1</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/14asmNnpJeY7XPaw1vJeQhWXMlOivoksWZXEZ_zCCXB4/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1tOkLgrxuQe2PzKMICfPWlw3qdKRaqi1s/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <span>Practice problems on bcourses</span><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 15</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Dec 6:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 24b</strong>
+               
+                 <span>More on decision trees, bagging, and random forests</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1vrtRLib3lrlaGOlMXEklPgspQ4XQaUASormQpykZq3w/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1JmlfQ-18z6EtorYBAQSsdTuoYPkZ6hJwrPhBfhmToQ0/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Dec 5:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 26</strong>
+               
+                 <span>Wrap up k-means and PCA. If time, decision trees.</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Dec 4:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 24a</strong>
+               
+                 <span>Decision trees, bagging, and random forests</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1_7oJHf85G8XBKj5XLlAZ4_vEX_d4LeHfJsrGEdXz9Lo/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/16eeUOIbWVCe22mzl0eqOQfRob5mHUqeGllrqPdOXeNs/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Dec 3:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 25</strong>
+               
+                 <span>k-means and PCA</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 11 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 11 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Dec 2:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 23b</strong>
+               
+                 <span>More on PCA</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1zgJkQNQcQoIxja4QdrNWdHtCMGo4UVBTtHSqws0NYQQ/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1VL6H_JNLtSlSsQ9nkopkVreAyAk9Ac1fvoGFfuM7GMI/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 14</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Nov 29:</th>
+           
+           <td>
+               <strong class="label label-Holiday">Holiday  (Thanksgiving Break)</strong>
+               
+                 <a href=""></a>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Nov 28:</th>
+           
+           <td>
+               <strong class="label label-Holiday">Holiday  (Thanksgiving Break)</strong>
+               
+                 <a href=""></a>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Nov 27:</th>
+           
+           <td>
+               <strong class="label label-Holiday">Holiday  (Thanksgiving Break)</strong>
+               
+                 <a href=""></a>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Nov 26:</th>
+           
+           <td>
+               <strong class="label label-Section">Section NA</strong>
+               
+                 <span>No section today!</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Nov 25:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 23a</strong>
+               
+                 <span>Principal component analysis (PCA)</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/10EosQYVpc1bX6FWQV3QGZC3iSDdN-QZ0MSLPa90PtUU/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1qPGpPVCNZxiRAGGlMRARdIT6Gkgpu2bJ8r6nkQfpz2Y/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 13</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Nov 22:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 22</strong>
+               
+                 <span>k-means clustering</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1nXyjqORTciHMndmcHKsYEywjdFs8YfcfxAJiQYXtXoA/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1yqRxpnwfHsfbKn8Xrgx-nuUXba_beY1Hm4TnOZY4V3I/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Nov 21:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 24</strong>
+               
+                 <span>Logistic regression and classification error metrics</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Nov 20:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 21</strong>
+               
+                 <span>A brief overview of statistical methods</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1wFZM1TEQJ1uY1Q2LVMqb49LNUmO9S-wwp9JfoAROb6U/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1uN-fM_pPO9ZuRywgEbTsyAPJ-Lx-MBz527y3ZQWywEc/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Nov 19:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 23</strong>
+               
+                 <span>Logistic regression and classification error metrics</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 10 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 10 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Nov 18:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 20b</strong>
+               
+                 <span>More on classification error metrics</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1ybRLXIQZDDpoi-XBfXANdc9Ywm6Vosp9YUnMmaqQd08/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1XGra5cZw6fjsrlZ_E_qC11khZ1uPHvTzFHd4QxQanZg/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 12</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Nov 15:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 20a</strong>
+               
+                 <span>Classification error metrics</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1BQdLpq6aSArflnQqhyLuDi1rl8scOIqHjdRJQITzN1o/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1aTrY-Nj3UInr7C7tre-OW0_05dYvDQvpELGQhP4TNkg/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Nov 14:</th>
+           
+           <td>
+               <strong class="label label-Section">Section NA</strong>
+               
+                 <span>Relax after midterm! No section.</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Nov 13:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture MT2</strong>
+               
+                 <span>Midterm 2 (in class)</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1CAYnNt1MAPEZxiYvfk6oqAkog1u23EqXZ52Nkqj7eMQ/edit?usp=sharing">Seating map</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Nov 12:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 21</strong>
+               
+                 <span>Midterm 2 Review</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1_kOiY9wE_Yxa2RT6EgV8Sys6ktIykMn2/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1OOcewLiihzQzAl5laWgFIDaZvIa62yr4/view?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Nov 11:</th>
+           
+           <td>
+               <strong class="label label-Holiday">Holiday  (Veterans Day)</strong>
+               
+                 <a href=""></a>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 11</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Nov 8:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture MT2P</strong>
+               
+                 <span>Midterm 2 Prep Lecture</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Nov 7:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 20</strong>
+               
+                 <span>Midterm 2 Review</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Nov 6:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 19b</strong>
+               
+                 <span>More on logistic regression</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1Z-Fy51ywyOaOIEFZ30TQyDZ_Sg0n6YlriuRfZIqzJkY/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1Iqz2TrzK06b4Imv0Ts0nowGOerPbVIHp/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1gBhjizJpYcN9PIDbt2N9jtWyaYMFxc2NF8AC9MgGh4c/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Nov 5:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 19</strong>
+               
+                 <span>Linear probability models</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 9 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 9 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Nov 4:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 19a</strong>
+               
+                 <span>Logistic regression</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1aqlgCsA2pjelzkM5kDYMAaynkFyf8mH5_XupK58ox4o/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1xnOMRa7RnKUSZqFEEnctgx5V8Ce6MaF9/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1iJjcs4wtiUPkm-awr5Wip_5yEuhythKB_Hb8RD643cI/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 10</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Nov 1:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture NA</strong>
+               
+                 <span>No lecture today</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Oct 31:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 18</strong>
+               
+                 <span>Review of regression and HW4 Help</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Oct 30:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 18</strong>
+               
+                 <span>Linear probability models (LPMs)</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1bSGxF-Xk92Or9tc4kGXFPsMKJzUvvU0O6i-zLj_eL94/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1EKfCZtbsZInER66UEXyKcFS_kGRkiIUU/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/18bbc9n6BT5LenqUeHVszcfevOpstNYJ14rKJqgEuUtM/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Oct 29:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 17</strong>
+               
+                 <span>Cross-validation</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 8 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 8 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Oct 28:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 17</strong>
+               
+                 <span>Cross-validation</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1O7nz_jwzLe7OZpYn8FdKMUET8n9tSi_eLNj-xjU28xw/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1IMYqzxGygSkhOEoaTzl6xVbHyr3qcN76uWBb14cu3ks/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 9</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Oct 25:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 16c</strong>
+               
+                 <span>Interactions</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/18y7xPdFIjuRqTyhEbmgg3dL71CO2eMegr5FP87iHULA/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1cwS9oUPYak2MFMXZXlaGXXuZOR6pr63Y/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1E6l8xmgmS_PYc3h52p079igV11GaCdyxyvNe1hMtWe8/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Oct 24:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 16</strong>
+               
+                 <span>Wrap up Lab 7, Review polynomial terms + categorical covariates</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Oct 23:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 16b</strong>
+               
+                 <span>Categorical covariates</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/14kR6fGcYWn99y_p4jCwfM7bZ4O_s2p0yBSw3K4u9ZJQ/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1qMjANSpsZOJxlPPb2V2nhtT0XMENeaXx/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1IZUZiAMIWBvdWaCWpgtED8m7jEwKzh1ZFtzYnMCXkII/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Oct 22:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 15</strong>
+               
+                 <span>Fitting linear regression (OLS) models</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 7, Part A (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 7, Part A (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Oct 21:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 16a</strong>
+               
+                 <span>Polynomial terms</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/16KOIRmHGvg8kRY8Bj-HNOOLyIUQR541mYbDvuoPuRak/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1-bL1geFzRMidDWWxKm3TMIey6e_P4-Dp/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/18XwXnGuvYvvbDIWbLGqIFYzAjLibBZEK2e3M3qqu7co/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 8</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Oct 18:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 15</strong>
+               
+                 <span>Closeness of fit</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1VTySBzfYtQEgWJjQwEjQSa4xUBD9JczauOBAXLI5PVA/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/10uzKxUjdb5iSi6x-Dfa1Nv5y4VdITpiahVuHaWcFXv4/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Oct 17:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 14</strong>
+               
+                 <span>More on multiple testing + HW3 Help</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 6 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 6 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Oct 16:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 14</strong>
+               
+                 <span>Uncertainty in regression and multiple regression</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1vdKQwLeeuYZHO0L-NjC7yquO2lPctalw-Mv_dFI8YG4/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/18A6Medao9c8htha2DTZS_PqIR7hpP5ZJV77dLn85E5w/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Oct 15:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 13</strong>
+               
+                 <span>Multiple testing via simulation</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 6 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 6 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Oct 14:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 13</strong>
+               
+                 <span>Correlation and simple linear regression</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/10LG9V-DWzuNeFnIRJUH-fSfTZZiOp9ZP3eSrIm1SjRI/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/15GwYpWcT2nH1lh4V41z7RFb4mH7tMUVuQBgb6ORykfw/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 7</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Oct 11:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 12b</strong>
+               
+                 <span>Power and experiment planning</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1vNam0pZOro6SGmoihj_OhNRtVRsB19ljypD_-hGVkKA/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1Ha_ekUgyFsrAcOOGuhYe1OUB6TxE-p2ohXBQLeA6Csg/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Oct 10:</th>
+           
+           <td>
+               <strong class="label label-Section">Section NA</strong>
+               
+                 <span>Relax after midterm! No section.</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Oct 9:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture MT1</strong>
+               
+                 <span>Midterm 1 (in class)</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1CAYnNt1MAPEZxiYvfk6oqAkog1u23EqXZ52Nkqj7eMQ/edit?usp=sharing">Seating map</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Oct 8:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 11</strong>
+               
+                 <span>Midterm 1 Prep Section</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Oct 7:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture MT1P</strong>
+               
+                 <span>Midterm 1 Prep Lecture</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1wSJFOfhNbSiFD4wC102F9i9Sccin-IHQ/view?usp=sharing">Annotated worksheet/slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1DOH-bvyFtWukYzjSgxxvjH0i91d_dB2WTDm78hmwCQ8/edit?usp=sharing">Worksheet/slides</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 6</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Oct 4:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 12a</strong>
+               
+                 <span>Type I+II errors and multiple testing</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1SjrkbntYjnrmvG04-1CEmkYYXJ1DTGgAsfJreR93kaY/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1d3QSFduTPUAyStAj61nbV3BgMrBU3UCA/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1-47k14Eqaogi2SjA5m3mrsvClgkn2gFbIp2muk18ypw/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Oct 3:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 10</strong>
+               
+                 <span>More on hypothesis testing</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 5 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 5 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Oct 2:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 11b</strong>
+               
+                 <span>More on hypothesis testing</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1kS9Ocpz7WN_FXwE2Gd4vC74nsHuWh5L2x956K5hBFoE/edit?usp=sharing">Slides (Updated)</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/14AavBfcdvJG9iYW0mb7XFy2-HbP9UqgGZJJHGMcM5Ks/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Oct 1:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 9</strong>
+               
+                 <span>Intro to hypothesis testing</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 5 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 5 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Sep 30:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 11a</strong>
+               
+                 <span>Intro to hypothesis testing</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/11UATbLU_FdD1UpVxD2rNbdUexY9zWJY9P5r13W9W24g/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1q6EV0lGotqHOtZQU0RoZP9PdhGuE_Iy1/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1QekZ_RxsgMBCvP-PEJ9Imc7zLVySKP-aD8qUUEa2b7k/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 5</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Sep 27:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 10b</strong>
+               
+                 <span>More on confidence intervals</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-shiny-demos&amp;urlpath=rstudio%2F">Demo (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-shiny-demos/blob/main/confidence-interval-simulation.R">Demo (GitHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/17suwYe7bBdYsFe_3-yd0sqM1LNfTh9kKPsYJCuQLRMk/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1E7zI2vSoAZTickeCQejnm9CHg15ro6Jw/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1ujy7CuYt4ZDv_o6bGdKLkHnyNcXQz1cdVPpqv8tHbnU/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Sep 26:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 8</strong>
+               
+                 <span>Confidence intervals in R</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 4, Part B (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 4, Part B (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Sep 25:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 10a</strong>
+               
+                 <span>Confidence intervals</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1QypG8sVSSWzgzAclfOW4OW5lOpszZNB79jXkKaltVDs/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1AFQVs5ZJ9XPCe05cSpPjuezQGc_jzohz/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1-JKmo6Vx0gWcoMQ-Y80pv8at-L5s9flCJOOZOj3KrfA/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Sep 24:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 7</strong>
+               
+                 <span>The bootstrap in R</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 4, Part A (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 4, Part A (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Sep 23:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 9</strong>
+               
+                 <span>The bootstrap</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1Ht9BGhNJAhaLADViZvC1hOVdKlugvM0S_z6rwL-upVo/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-shiny-demos&amp;urlpath=rstudio%2F">Demo (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-shiny-demos/blob/main/parametric-bootstrap-simulation.R">Demo (GitHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1y3LPugdCQm40XFySyZbmUyLgeu0W9NBFDPgodGzKZnM/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 4</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Sep 20:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 8b</strong>
+               
+                 <span>More on sampling distributions</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1lJkcOuAmJ4OCKS2DO-0dQFzdaNod9kTKFv6i3HRkziU/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1DyAqn8CmhxCeMxELP20iofjhpivoXpqnUqLkYekFeTk/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Sep 19:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 6</strong>
+               
+                 <span>Sampling distributions</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 3 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 3 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Sep 18:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 8a</strong>
+               
+                 <span>Sampling distributions</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-shiny-demos&amp;urlpath=rstudio%2F">Demo (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-shiny-demos/blob/main/parametric-sampling-distribution-simulation.R">Demo (GitHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1ISrQnEeZal1nmfh7KGAS47N_AuGiJ7wKhGCoKSHtE4Y/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1N4GZYX_2g3SEXMiHFKkhC44GYm64x4NiySvLRlIK1ko/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Sep 17:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 5</strong>
+               
+                 <span>Wrap up probability exercise and Lab 2</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Sep 16:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 7</strong>
+               
+                 <span>Parallel universes</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1Sv1xyeuvakhXlWuSOURbYJEgK-LvkShDpz86zaMJ1-o/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1jcPDtLUZcBIEKoc3IpiRSN3_jZkP6I9CMHLlGwmgrlU/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 3</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Sep 13:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 6b</strong>
+               
+                 <span>More parables and perplexing problems pertaining to probability</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1J15QrnYVivQGpCnMT4fjUJYPO00eZidcEtzKmTmASFo/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/18LLOOxgbtS5iFc4ViQYzBN_42F-ff2QF/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1dOJTmDfNEqhBXTi3CPL_ryZA6V_FZSHvuiOD7HHSgAE/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Sep 12:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 4</strong>
+               
+                 <span>Conceptual review of probability</span>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Sep 11:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 6a</strong>
+               
+                 <span>Parables and perplexing problems pertaining to probability</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1_X1CrVhlMTKm4197H3_eMgH_e_SieJXdXhlrOf22S_Y/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1VlBjaEgHrX16sLkJdCBvWwQ56dSC4k6zhxW0oP4GUMI/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Sep 10:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 3</strong>
+               
+                 <span>Working with distributions in R</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 2 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 2 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Sep 9:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 5</strong>
+               
+                 <span>Data from Distributions</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1IJ06_78Kny0X_op8xvHODflshMZ2H4qb8oVUVc07fpo/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://drive.google.com/file/d/1aIcGXm1brsUIAtMEvtjXgq8I7gfVV0yK/view?usp=sharing">Annotated slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1dZS2TLNucnYLcw3-Ta2d48eo8DnDfk4gDJ_CNRk8k_s/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 2</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Sep 6:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 4</strong>
+               
+                 <span>Distributions of Data</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1wBoMAOaq_WZ4N56vlyglohNEGDEG6AL0x_aLJr49c8s/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1V73RfDeS7jFx7r9Z3ephOVywYU-M1QmpqjS_EVwG6R8/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Thu Sep 5:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 2</strong>
+               
+                 <span>Data munging and plotting with stop-and-frisk</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 1 (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main">Lab 1 (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Sep 4:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 3</strong>
+               
+                 <span>Boxplots and Histograms</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1q1YIQByBlg0u2z3O-14IsoXtSyJXLCShkZ7z9ONv2jo/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1ZYPptIm2kiwW1Y_TX5pLF5hzV6_6QewaHQQrHovh6EI/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
+                   
+                 
+                   
+                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Tue Sep 3:</th>
+           
+           <td>
+               <strong class="label label-Section">Section 1</strong>
+               
+                 <span>Data munging and plotting with stop-and-frisk</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 1 (DataHub)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Mon Sep 2:</th>
+           
+           <td>
+               <strong class="label label-Holiday">Holiday  (Labor Day)</strong>
+               
+                 <a href=""></a>
+               
+          </td>
+           
+                <td></td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+  
+
+   <h4 class="anchored">Week 1</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+   
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Fri Aug 30:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 2</strong>
+               
+                 <span>Principles of visualization</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1knKWf8v94mOV03HR1FQSwFbj6yZz-vy_zCHTDhQSc7A/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1gdfMxOEYk8cHH1syIrz_YqDb1EEGLOwLkuQpRHNEAFg/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+                   
+                     <a href="https://stat131a.berkeley.edu/fall-2024/assets/Lab00.html">Lab 0 (HTML w/ DataHub Link)</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+
+        
+
+           <tr>
+           
+           <th scope="row" rowspan="1">Wed Aug 28:</th>
+           
+           <td>
+               <strong class="label label-Lecture">Lecture 1</strong>
+               
+                 <span>Welcome!</span>
+               
+          </td>
+           
+                <td>
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1E5kHtRuCvKPZ5EqzZY1Pu20bZq-QzHiSVwUtYo42IFQ/edit?usp=sharing">Slides</a><br>
+                   
+                 
+                   
+                     <a href="https://docs.google.com/presentation/d/1Dv6JYttK1Yh4xXO8X_QClVpEZVr7zt_doZlw3JDgIIs/edit?usp=sharing">Worksheet</a><br>
+                   
+                 
+               </td>
+           
+                
+           </tr>
+        
+   
+   </tbody>
+   </table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/stat131a\.berkeley\.edu\/summer-2025\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
