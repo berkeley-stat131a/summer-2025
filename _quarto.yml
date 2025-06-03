@@ -22,23 +22,8 @@ website:
         text: Syllabus
       - href: staff.qmd
         text: Staff
-      # - section: "Units"
-      #   contents:
-      #     - units/unit1.qmd
-      #     - units/unit2.ipynb
-      #     - units/unit3.qmd
-      # - href: data.qmd
-      #   text: Datasets
-      # - href: lectures.qmd
-      #   text: Lectures
-      # - href: labs.qmd
-      #   text: Labs
-      # - href: assignments.qmd
-      #   text: Assignments
       - href: calendar.qmd
         text: Google Calendar
-      # - href: license.qmd
-      #   text: License
 
           
 
