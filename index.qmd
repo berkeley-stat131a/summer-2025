@@ -10,6 +10,9 @@ listing:
     contents: buttons.yml
 ---
 
+## Welcome to STAT C131A
+
+
 ::: {#buttons}
 :::
 
@@ -23,15 +26,15 @@ listing:
 
 <!-- [Concept check form](https://docs.google.com/forms/d/e/1FAIpQLScnthLeOwlfNrkCJ69LWgWnmaA-qTNcbtxrHgMmWD4LCZVNug/viewform?usp=sf_link)\ -->
 
-## Announcements 📣
+<!-- ## Announcements 📣 -->
 
-The final exam is Thursday, December 19th at 3pm in GPBB 100.
+<!-- The final exam is Thursday, December 19th at 3pm in GPBB 100. -->
 
 <!-- Please [complete your STAT 131A course evalulation](https://course-evaluations.berkeley.edu)! -->
 
 <!-- - With just a couple minutes of your time, you can provide incredibly valuable feedback to Van and Josh. -->
 
-## Schedule 📅
+## Schedule
 
 <!-- For a style similar to that of [Stat 20](https://stat20.berkeley.edu/fall-2024), modify `index.qmd` to point to `assets/{schedule-alt.ejs,buttons-alt.ejs}` and to `{schedule-alt.yml,buttons-alt.yml}` and `_quarto.yml` to point to `assets/styles-alt.scss`. -->
 

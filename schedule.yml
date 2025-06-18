@@ -1,6 +1,6 @@
 - week: 1
   days:
-    - date: "Wed Aug 28"
+    - date: "Tue June 24"
       items:
         - type: "Lecture"
           id: "1"
@@ -19,7 +19,7 @@
             #   href: "#"
             # - id: "Lecture code (TBD)"
             #   href: "#"
-    - date: "Fri Aug 30"
+    - date: "Wed Jun 25"
       items:
         - type: "Lecture"
           id: "2"
@@ -38,24 +38,7 @@
               href: "https://stat131a.berkeley.edu/fall-2024/assets/Lab00.html"
             # - id: "Lecture code (TBD)"
             #   href: "#"
-- week: 2
-  days:
-    - date: "Mon Sep 2"
-      items:
-        - type: "Holiday"
-          id: " (Labor Day)"
-    - date: "Tue Sep 3"
-      items:
-        - type: "Section"
-          id: "1"
-          name: Data munging and plotting with stop-and-frisk
-          href: "#"
-          auxil:
-            - id: "Lab 1 (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            # - id: "Lab 1 (HTML)"
-            #   href: "labs-html/lab01-exercises.html"
-    - date: "Wed Sep 4"
+    - date: "Thu Jun 26"
       items:
         - type: "Lecture"
           id: "3"
@@ -76,1045 +59,1092 @@
               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
             - id: "Lecture code (GitHub)"
               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Thu Sep 5"
-      items:
         - type: "Section"
-          id: "2"
+          id: "1"
           name: Data munging and plotting with stop-and-frisk
           href: "#"
           auxil:
             - id: "Lab 1 (DataHub)"
               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 1 (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
             # - id: "Lab 1 (HTML)"
             #   href: "labs-html/lab01-exercises.html"
+# - week: 2
+#   days:
+#     - date: "Mon Sep 2"
+#       items:
+#         - type: "Holiday"
+#           id: " (Labor Day)"
+#     - date: "Tue Sep 3"
+#       items:
+#         - type: "Section"
+#           id: "1"
+#           name: Data munging and plotting with stop-and-frisk
+#           href: "#"
+#           auxil:
+#             - id: "Lab 1 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             # - id: "Lab 1 (HTML)"
+#             #   href: "labs-html/lab01-exercises.html"
+#     - date: "Wed Sep 4"
+#       items:
+#         - type: "Lecture"
+#           id: "3"
+#           name: Boxplots and Histograms
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1q1YIQByBlg0u2z3O-14IsoXtSyJXLCShkZ7z9ONv2jo/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1ZYPptIm2kiwW1Y_TX5pLF5hzV6_6QewaHQQrHovh6EI/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1rohKclAyb46mwVvBTtosSV2DOfAZI9U51dUDiZze-sI/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "lecture-code/boxplot-freq-hist-lecture-code.html"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Thu Sep 5"
+#       items:
+#         - type: "Section"
+#           id: "2"
+#           name: Data munging and plotting with stop-and-frisk
+#           href: "#"
+#           auxil:
+#             - id: "Lab 1 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 1 (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#             # - id: "Lab 1 (HTML)"
+#             #   href: "labs-html/lab01-exercises.html"
             
-    - date: "Fri Sep 6"
-      items:
-        - type: "Lecture"
-          id: "4"
-          name: Distributions of Data
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1wBoMAOaq_WZ4N56vlyglohNEGDEG6AL0x_aLJr49c8s/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1V73RfDeS7jFx7r9Z3ephOVywYU-M1QmpqjS_EVwG6R8/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1d1SjzPlQL63ZxjbWiyM9Kd7kFy1P9s8p_4PhQxh6fzs/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Fri Sep 6"
+#       items:
+#         - type: "Lecture"
+#           id: "4"
+#           name: Distributions of Data
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1wBoMAOaq_WZ4N56vlyglohNEGDEG6AL0x_aLJr49c8s/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1V73RfDeS7jFx7r9Z3ephOVywYU-M1QmpqjS_EVwG6R8/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1d1SjzPlQL63ZxjbWiyM9Kd7kFy1P9s8p_4PhQxh6fzs/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
       
-- week: 3
-  days:
-    - date: "Mon Sep 9"
-      items:
-        - type: "Lecture"
-          id: "5"
-          name: Data from Distributions
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1IJ06_78Kny0X_op8xvHODflshMZ2H4qb8oVUVc07fpo/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1aIcGXm1brsUIAtMEvtjXgq8I7gfVV0yK/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1dZS2TLNucnYLcw3-Ta2d48eo8DnDfk4gDJ_CNRk8k_s/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1X7534JtOdoPCNfD_C77-ZxyUq6E8_CWtrejvnDo84ws/edit?usp=sharing"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-    - date: "Tue Sep 10"
-      items:
-        - type: "Section"
-          id: "3"
-          name: Working with distributions in R
-          href: "#"
-          auxil:
-            - id: "Lab 2 (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 2 (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Wed Sep 11"
-      items:
-        - type: "Lecture"
-          id: "6a"
-          name: Parables and perplexing problems pertaining to probability
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1_X1CrVhlMTKm4197H3_eMgH_e_SieJXdXhlrOf22S_Y/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1VlBjaEgHrX16sLkJdCBvWwQ56dSC4k6zhxW0oP4GUMI/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1banfGnm_PEsoXJPqSdv8trl0EAKzyKhZov-cVthrx9c/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
-    - date: "Thu Sep 12"
-      items:
-        - type: "Section"
-          id: "4"
-          name: Conceptual review of probability
-          href: "#"
-    - date: "Fri Sep 13"
-      items:
-        - type: "Lecture"
-          id: "6b"
-          name: More parables and perplexing problems pertaining to probability
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1J15QrnYVivQGpCnMT4fjUJYPO00eZidcEtzKmTmASFo/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/18LLOOxgbtS5iFc4ViQYzBN_42F-ff2QF/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1dOJTmDfNEqhBXTi3CPL_ryZA6V_FZSHvuiOD7HHSgAE/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1273g661pdZosn3BEm5dSjLraDn8VK7bpQoMWIsbcC8k/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
+# - week: 3
+#   days:
+#     - date: "Mon Sep 9"
+#       items:
+#         - type: "Lecture"
+#           id: "5"
+#           name: Data from Distributions
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1IJ06_78Kny0X_op8xvHODflshMZ2H4qb8oVUVc07fpo/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1aIcGXm1brsUIAtMEvtjXgq8I7gfVV0yK/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1dZS2TLNucnYLcw3-Ta2d48eo8DnDfk4gDJ_CNRk8k_s/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1X7534JtOdoPCNfD_C77-ZxyUq6E8_CWtrejvnDo84ws/edit?usp=sharing"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#     - date: "Tue Sep 10"
+#       items:
+#         - type: "Section"
+#           id: "3"
+#           name: Working with distributions in R
+#           href: "#"
+#           auxil:
+#             - id: "Lab 2 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 2 (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Wed Sep 11"
+#       items:
+#         - type: "Lecture"
+#           id: "6a"
+#           name: Parables and perplexing problems pertaining to probability
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1_X1CrVhlMTKm4197H3_eMgH_e_SieJXdXhlrOf22S_Y/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1VlBjaEgHrX16sLkJdCBvWwQ56dSC4k6zhxW0oP4GUMI/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1banfGnm_PEsoXJPqSdv8trl0EAKzyKhZov-cVthrx9c/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
+#     - date: "Thu Sep 12"
+#       items:
+#         - type: "Section"
+#           id: "4"
+#           name: Conceptual review of probability
+#           href: "#"
+#     - date: "Fri Sep 13"
+#       items:
+#         - type: "Lecture"
+#           id: "6b"
+#           name: More parables and perplexing problems pertaining to probability
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1J15QrnYVivQGpCnMT4fjUJYPO00eZidcEtzKmTmASFo/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/18LLOOxgbtS5iFc4ViQYzBN_42F-ff2QF/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1dOJTmDfNEqhBXTi3CPL_ryZA6V_FZSHvuiOD7HHSgAE/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1273g661pdZosn3BEm5dSjLraDn8VK7bpQoMWIsbcC8k/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
 
-- week: 4
-  days:
-    - date: "Mon Sep 16"
-      items:
-        - type: "Lecture"
-          id: "7"
-          name: Parallel universes
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1Sv1xyeuvakhXlWuSOURbYJEgK-LvkShDpz86zaMJ1-o/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1jcPDtLUZcBIEKoc3IpiRSN3_jZkP6I9CMHLlGwmgrlU/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1ouiaRa-1s4bSdJDu0yzRVaRp-8sIvRvFUIFWf5hcdGg/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
-    - date: "Tue Sep 17"
-      items:
-        - type: "Section"
-          id: "5"
-          name: Wrap up probability exercise and Lab 2
-          href: "#"
-    - date: "Wed Sep 18"
-      items:
-        - type: "Lecture"
-          id: "8a"
-          name: Sampling distributions
-          href: "#"
-          auxil:
-            - id: "Demo (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-shiny-demos&urlpath=rstudio%2F"
-            - id: "Demo (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-shiny-demos/blob/main/parametric-sampling-distribution-simulation.R"
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1ISrQnEeZal1nmfh7KGAS47N_AuGiJ7wKhGCoKSHtE4Y/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1N4GZYX_2g3SEXMiHFKkhC44GYm64x4NiySvLRlIK1ko/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/18tFgutqvqfsf0B3UhyGhR0f-0-49_rytBWyj2eRDlAk/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
-    - date: "Thu Sep 19"
-      items:
-        - type: "Section"
-          id: "6"
-          name: Sampling distributions
-          href: "#"
-          auxil:
-            - id: "Lab 3 (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 3 (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Fri Sep 20"
-      items:
-        - type: "Lecture"
-          id: "8b"
-          name: More on sampling distributions
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1lJkcOuAmJ4OCKS2DO-0dQFzdaNod9kTKFv6i3HRkziU/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1DyAqn8CmhxCeMxELP20iofjhpivoXpqnUqLkYekFeTk/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1PRaEC7K4KPkpAC6jXd7tUiuivoySrJdh4lT6TtvuBaA/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
+# - week: 4
+#   days:
+#     - date: "Mon Sep 16"
+#       items:
+#         - type: "Lecture"
+#           id: "7"
+#           name: Parallel universes
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1Sv1xyeuvakhXlWuSOURbYJEgK-LvkShDpz86zaMJ1-o/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1jcPDtLUZcBIEKoc3IpiRSN3_jZkP6I9CMHLlGwmgrlU/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1ouiaRa-1s4bSdJDu0yzRVaRp-8sIvRvFUIFWf5hcdGg/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
+#     - date: "Tue Sep 17"
+#       items:
+#         - type: "Section"
+#           id: "5"
+#           name: Wrap up probability exercise and Lab 2
+#           href: "#"
+#     - date: "Wed Sep 18"
+#       items:
+#         - type: "Lecture"
+#           id: "8a"
+#           name: Sampling distributions
+#           href: "#"
+#           auxil:
+#             - id: "Demo (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-shiny-demos&urlpath=rstudio%2F"
+#             - id: "Demo (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-shiny-demos/blob/main/parametric-sampling-distribution-simulation.R"
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1ISrQnEeZal1nmfh7KGAS47N_AuGiJ7wKhGCoKSHtE4Y/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1N4GZYX_2g3SEXMiHFKkhC44GYm64x4NiySvLRlIK1ko/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/18tFgutqvqfsf0B3UhyGhR0f-0-49_rytBWyj2eRDlAk/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
+#     - date: "Thu Sep 19"
+#       items:
+#         - type: "Section"
+#           id: "6"
+#           name: Sampling distributions
+#           href: "#"
+#           auxil:
+#             - id: "Lab 3 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 3 (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Fri Sep 20"
+#       items:
+#         - type: "Lecture"
+#           id: "8b"
+#           name: More on sampling distributions
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1lJkcOuAmJ4OCKS2DO-0dQFzdaNod9kTKFv6i3HRkziU/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1DyAqn8CmhxCeMxELP20iofjhpivoXpqnUqLkYekFeTk/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1PRaEC7K4KPkpAC6jXd7tUiuivoySrJdh4lT6TtvuBaA/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
 
-- week: 5
-  days:
-    - date: "Mon Sep 23"
-      items:
-        - type: "Lecture"
-          id: "9"
-          name: The bootstrap
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1Ht9BGhNJAhaLADViZvC1hOVdKlugvM0S_z6rwL-upVo/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Demo (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-shiny-demos&urlpath=rstudio%2F"
-            - id: "Demo (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-shiny-demos/blob/main/parametric-bootstrap-simulation.R"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1y3LPugdCQm40XFySyZbmUyLgeu0W9NBFDPgodGzKZnM/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1FLNiKbBCeyY3mFTcfxlhUXKJIYcwJbkrOnBn0sO9SZo/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
+# - week: 5
+#   days:
+#     - date: "Mon Sep 23"
+#       items:
+#         - type: "Lecture"
+#           id: "9"
+#           name: The bootstrap
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1Ht9BGhNJAhaLADViZvC1hOVdKlugvM0S_z6rwL-upVo/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Demo (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-shiny-demos&urlpath=rstudio%2F"
+#             - id: "Demo (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-shiny-demos/blob/main/parametric-bootstrap-simulation.R"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1y3LPugdCQm40XFySyZbmUyLgeu0W9NBFDPgodGzKZnM/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1FLNiKbBCeyY3mFTcfxlhUXKJIYcwJbkrOnBn0sO9SZo/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
           
-    - date: "Tue Sep 24"
-      items:
-        - type: "Section"
-          id: "7"
-          name: The bootstrap in R
-          href: "#"
-          auxil:
-            - id: "Lab 4, Part A (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 4, Part A (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Wed Sep 25"
-      items:
-        - type: "Lecture"
-          id: "10a"
-          name: Confidence intervals
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1QypG8sVSSWzgzAclfOW4OW5lOpszZNB79jXkKaltVDs/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1AFQVs5ZJ9XPCe05cSpPjuezQGc_jzohz/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1-JKmo6Vx0gWcoMQ-Y80pv8at-L5s9flCJOOZOj3KrfA/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1h0JGbgTh4y6bWyKM2MbTq-iyDoz7Lf8zagAJfigl2II/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Thu Sep 26"
-      items:
-        - type: "Section"
-          id: "8"
-          name: Confidence intervals in R
-          href: "#"
-          auxil:
-            - id: "Lab 4, Part B (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 4, Part B (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Fri Sep 27"
-      items:
-        - type: "Lecture"
-          id: "10b"
-          name: More on confidence intervals
-          href: "#"
-          auxil:
-            - id: "Demo (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-shiny-demos&urlpath=rstudio%2F"
-            - id: "Demo (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-shiny-demos/blob/main/confidence-interval-simulation.R"
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/17suwYe7bBdYsFe_3-yd0sqM1LNfTh9kKPsYJCuQLRMk/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1E7zI2vSoAZTickeCQejnm9CHg15ro6Jw/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1ujy7CuYt4ZDv_o6bGdKLkHnyNcXQz1cdVPpqv8tHbnU/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1-k4m0EDRkfbH93I4J4VXYOGU0y229UMTnj1INPt5Dxs/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"     
+#     - date: "Tue Sep 24"
+#       items:
+#         - type: "Section"
+#           id: "7"
+#           name: The bootstrap in R
+#           href: "#"
+#           auxil:
+#             - id: "Lab 4, Part A (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 4, Part A (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Wed Sep 25"
+#       items:
+#         - type: "Lecture"
+#           id: "10a"
+#           name: Confidence intervals
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1QypG8sVSSWzgzAclfOW4OW5lOpszZNB79jXkKaltVDs/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1AFQVs5ZJ9XPCe05cSpPjuezQGc_jzohz/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1-JKmo6Vx0gWcoMQ-Y80pv8at-L5s9flCJOOZOj3KrfA/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1h0JGbgTh4y6bWyKM2MbTq-iyDoz7Lf8zagAJfigl2II/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Thu Sep 26"
+#       items:
+#         - type: "Section"
+#           id: "8"
+#           name: Confidence intervals in R
+#           href: "#"
+#           auxil:
+#             - id: "Lab 4, Part B (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 4, Part B (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Fri Sep 27"
+#       items:
+#         - type: "Lecture"
+#           id: "10b"
+#           name: More on confidence intervals
+#           href: "#"
+#           auxil:
+#             - id: "Demo (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-shiny-demos&urlpath=rstudio%2F"
+#             - id: "Demo (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-shiny-demos/blob/main/confidence-interval-simulation.R"
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/17suwYe7bBdYsFe_3-yd0sqM1LNfTh9kKPsYJCuQLRMk/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1E7zI2vSoAZTickeCQejnm9CHg15ro6Jw/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1ujy7CuYt4ZDv_o6bGdKLkHnyNcXQz1cdVPpqv8tHbnU/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1-k4m0EDRkfbH93I4J4VXYOGU0y229UMTnj1INPt5Dxs/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"     
 
-- week: 6
-  days:
-    - date: "Mon Sep 30"
-      items:
-        - type: "Lecture"
-          id: "11a"
-          name: Intro to hypothesis testing
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/11UATbLU_FdD1UpVxD2rNbdUexY9zWJY9P5r13W9W24g/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1q6EV0lGotqHOtZQU0RoZP9PdhGuE_Iy1/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1QekZ_RxsgMBCvP-PEJ9Imc7zLVySKP-aD8qUUEa2b7k/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1vbwNmli_nJTdn8ajOve7wqsavBgfwpSt4Yq02qD8VtY/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
-    - date: "Tue Oct 1"
-      items:
-        - type: "Section"
-          id: "9"
-          name: Intro to hypothesis testing
-          href: "#"
-          auxil:
-            - id: "Lab 5 (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 5 (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Wed Oct 2"
-      items:
-        - type: "Lecture"
-          id: "11b"
-          name: More on hypothesis testing
-          href: "#"
-          auxil:
-            - id: "Slides (Updated)"
-              href: "https://docs.google.com/presentation/d/1kS9Ocpz7WN_FXwE2Gd4vC74nsHuWh5L2x956K5hBFoE/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/14AavBfcdvJG9iYW0mb7XFy2-HbP9UqgGZJJHGMcM5Ks/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1jQn3Ulek-FDnK_YG1-H6O7OiK8hdzHoNrU3NZaIpUVM/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"  
-    - date: "Thu Oct 3"
-      items:
-        - type: "Section"
-          id: "10"
-          name: More on hypothesis testing
-          href: "#"
-          auxil:
-            - id: "Lab 5 (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 5 (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Fri Oct 4"
-      items:
-        - type: "Lecture"
-          id: "12a"
-          name: Type I+II errors and multiple testing
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1SjrkbntYjnrmvG04-1CEmkYYXJ1DTGgAsfJreR93kaY/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1d3QSFduTPUAyStAj61nbV3BgMrBU3UCA/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1-47k14Eqaogi2SjA5m3mrsvClgkn2gFbIp2muk18ypw/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/167FzE995fJKNMLI1xwEq37ZKvLNrqvonuE71ENrhssk/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"  
+# - week: 6
+#   days:
+#     - date: "Mon Sep 30"
+#       items:
+#         - type: "Lecture"
+#           id: "11a"
+#           name: Intro to hypothesis testing
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/11UATbLU_FdD1UpVxD2rNbdUexY9zWJY9P5r13W9W24g/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1q6EV0lGotqHOtZQU0RoZP9PdhGuE_Iy1/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1QekZ_RxsgMBCvP-PEJ9Imc7zLVySKP-aD8qUUEa2b7k/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1vbwNmli_nJTdn8ajOve7wqsavBgfwpSt4Yq02qD8VtY/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
+#     - date: "Tue Oct 1"
+#       items:
+#         - type: "Section"
+#           id: "9"
+#           name: Intro to hypothesis testing
+#           href: "#"
+#           auxil:
+#             - id: "Lab 5 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 5 (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Wed Oct 2"
+#       items:
+#         - type: "Lecture"
+#           id: "11b"
+#           name: More on hypothesis testing
+#           href: "#"
+#           auxil:
+#             - id: "Slides (Updated)"
+#               href: "https://docs.google.com/presentation/d/1kS9Ocpz7WN_FXwE2Gd4vC74nsHuWh5L2x956K5hBFoE/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/14AavBfcdvJG9iYW0mb7XFy2-HbP9UqgGZJJHGMcM5Ks/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1jQn3Ulek-FDnK_YG1-H6O7OiK8hdzHoNrU3NZaIpUVM/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"  
+#     - date: "Thu Oct 3"
+#       items:
+#         - type: "Section"
+#           id: "10"
+#           name: More on hypothesis testing
+#           href: "#"
+#           auxil:
+#             - id: "Lab 5 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 5 (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Fri Oct 4"
+#       items:
+#         - type: "Lecture"
+#           id: "12a"
+#           name: Type I+II errors and multiple testing
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1SjrkbntYjnrmvG04-1CEmkYYXJ1DTGgAsfJreR93kaY/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1d3QSFduTPUAyStAj61nbV3BgMrBU3UCA/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1-47k14Eqaogi2SjA5m3mrsvClgkn2gFbIp2muk18ypw/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/167FzE995fJKNMLI1xwEq37ZKvLNrqvonuE71ENrhssk/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"  
 
-- week: 7
-  days:
-    - date: "Mon Oct 7"
-      items:
-        - type: "Lecture"
-          id: "MT1P"
-          name: Midterm 1 Prep Lecture
-          href: "#"
-          auxil:
-            # - id: "Slides"
-            #   href: "#"
-            - id: "Annotated worksheet/slides"
-              href: "https://drive.google.com/file/d/1wSJFOfhNbSiFD4wC102F9i9Sccin-IHQ/view?usp=sharing"
-            - id: "Worksheet/slides"
-              href: "https://docs.google.com/presentation/d/1DOH-bvyFtWukYzjSgxxvjH0i91d_dB2WTDm78hmwCQ8/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "#"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
-    - date: "Tue Oct 8"
-      items:
-        - type: "Section"
-          id: "11"
-          name: Midterm 1 Prep Section
-          href: "#"
-    - date: "Wed Oct 9"
-      items:
-        - type: "Lecture"
-          id: "MT1"
-          name: Midterm 1 (in class)
-          href: "#"
-          auxil:
-            - id: "Seating map"
-              href: "https://docs.google.com/presentation/d/1CAYnNt1MAPEZxiYvfk6oqAkog1u23EqXZ52Nkqj7eMQ/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            # - id: "Worksheet"
-            #   href: "#"
-            # - id: "Abridged slides for live notes"
-            #   href: "#"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
-    - date: "Thu Oct 10"
-      items:
-        - type: "Section"
-          id: "NA"
-          name: Relax after midterm! No section.
-          href: "#"
-    - date: "Fri Oct 11"
-      items:
-        - type: "Lecture"
-          id: "12b"
-          name: Power and experiment planning
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1vNam0pZOro6SGmoihj_OhNRtVRsB19ljypD_-hGVkKA/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1Ha_ekUgyFsrAcOOGuhYe1OUB6TxE-p2ohXBQLeA6Csg/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1kxLi9qRoDZ-73aqMigD57SUjYaX9bC_qlCENZb-IaqA/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+# - week: 7
+#   days:
+#     - date: "Mon Oct 7"
+#       items:
+#         - type: "Lecture"
+#           id: "MT1P"
+#           name: Midterm 1 Prep Lecture
+#           href: "#"
+#           auxil:
+#             # - id: "Slides"
+#             #   href: "#"
+#             - id: "Annotated worksheet/slides"
+#               href: "https://drive.google.com/file/d/1wSJFOfhNbSiFD4wC102F9i9Sccin-IHQ/view?usp=sharing"
+#             - id: "Worksheet/slides"
+#               href: "https://docs.google.com/presentation/d/1DOH-bvyFtWukYzjSgxxvjH0i91d_dB2WTDm78hmwCQ8/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "#"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
+#     - date: "Tue Oct 8"
+#       items:
+#         - type: "Section"
+#           id: "11"
+#           name: Midterm 1 Prep Section
+#           href: "#"
+#     - date: "Wed Oct 9"
+#       items:
+#         - type: "Lecture"
+#           id: "MT1"
+#           name: Midterm 1 (in class)
+#           href: "#"
+#           auxil:
+#             - id: "Seating map"
+#               href: "https://docs.google.com/presentation/d/1CAYnNt1MAPEZxiYvfk6oqAkog1u23EqXZ52Nkqj7eMQ/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             # - id: "Worksheet"
+#             #   href: "#"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "#"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
+#     - date: "Thu Oct 10"
+#       items:
+#         - type: "Section"
+#           id: "NA"
+#           name: Relax after midterm! No section.
+#           href: "#"
+#     - date: "Fri Oct 11"
+#       items:
+#         - type: "Lecture"
+#           id: "12b"
+#           name: Power and experiment planning
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1vNam0pZOro6SGmoihj_OhNRtVRsB19ljypD_-hGVkKA/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1Ha_ekUgyFsrAcOOGuhYe1OUB6TxE-p2ohXBQLeA6Csg/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1kxLi9qRoDZ-73aqMigD57SUjYaX9bC_qlCENZb-IaqA/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
 
-- week: 8
-  days:
-    - date: "Mon Oct 14"
-      items:
-        - type: "Lecture"
-          id: "13"
-          name: Correlation and simple linear regression
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/10LG9V-DWzuNeFnIRJUH-fSfTZZiOp9ZP3eSrIm1SjRI/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/15GwYpWcT2nH1lh4V41z7RFb4mH7tMUVuQBgb6ORykfw/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1-18WRV6ISIBcCx1meY7d9FwemC5u9WcNrDXYmCFCyqQ/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Tue Oct 15"
-      items:
-        - type: "Section"
-          id: "13"
-          name: Multiple testing via simulation
-          href: "#"
-          auxil:
-            - id: "Lab 6 (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 6 (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Wed Oct 16"
-      items:
-        - type: "Lecture"
-          id: "14"
-          name: Uncertainty in regression and multiple regression
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1vdKQwLeeuYZHO0L-NjC7yquO2lPctalw-Mv_dFI8YG4/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/18A6Medao9c8htha2DTZS_PqIR7hpP5ZJV77dLn85E5w/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1uZV8zhbUFBmkMSWtwSvJeNG33liJVMGgxj-9H59Cf4c/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Thu Oct 17"
-      items:
-        - type: "Section"
-          id: "14"
-          name: More on multiple testing + HW3 Help
-          href: "#"
-          auxil:
-            - id: "Lab 6 (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 6 (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Fri Oct 18"
-      items:
-        - type: "Lecture"
-          id: "15"
-          name: Closeness of fit
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1VTySBzfYtQEgWJjQwEjQSa4xUBD9JczauOBAXLI5PVA/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/10uzKxUjdb5iSi6x-Dfa1Nv5y4VdITpiahVuHaWcFXv4/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1QOrhoRKKJpYpesXOYZtiU_Q_RNwYfcwDnyjXwiQs9ig/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+# - week: 8
+#   days:
+#     - date: "Mon Oct 14"
+#       items:
+#         - type: "Lecture"
+#           id: "13"
+#           name: Correlation and simple linear regression
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/10LG9V-DWzuNeFnIRJUH-fSfTZZiOp9ZP3eSrIm1SjRI/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/15GwYpWcT2nH1lh4V41z7RFb4mH7tMUVuQBgb6ORykfw/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1-18WRV6ISIBcCx1meY7d9FwemC5u9WcNrDXYmCFCyqQ/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Tue Oct 15"
+#       items:
+#         - type: "Section"
+#           id: "13"
+#           name: Multiple testing via simulation
+#           href: "#"
+#           auxil:
+#             - id: "Lab 6 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 6 (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Wed Oct 16"
+#       items:
+#         - type: "Lecture"
+#           id: "14"
+#           name: Uncertainty in regression and multiple regression
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1vdKQwLeeuYZHO0L-NjC7yquO2lPctalw-Mv_dFI8YG4/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/18A6Medao9c8htha2DTZS_PqIR7hpP5ZJV77dLn85E5w/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1uZV8zhbUFBmkMSWtwSvJeNG33liJVMGgxj-9H59Cf4c/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Thu Oct 17"
+#       items:
+#         - type: "Section"
+#           id: "14"
+#           name: More on multiple testing + HW3 Help
+#           href: "#"
+#           auxil:
+#             - id: "Lab 6 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 6 (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Fri Oct 18"
+#       items:
+#         - type: "Lecture"
+#           id: "15"
+#           name: Closeness of fit
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1VTySBzfYtQEgWJjQwEjQSa4xUBD9JczauOBAXLI5PVA/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/10uzKxUjdb5iSi6x-Dfa1Nv5y4VdITpiahVuHaWcFXv4/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1QOrhoRKKJpYpesXOYZtiU_Q_RNwYfcwDnyjXwiQs9ig/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
 
-- week: 9
-  days:
-    - date: "Mon Oct 21"
-      items:
-        - type: "Lecture"
-          id: "16a"
-          name: Polynomial terms
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/16KOIRmHGvg8kRY8Bj-HNOOLyIUQR541mYbDvuoPuRak/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1-bL1geFzRMidDWWxKm3TMIey6e_P4-Dp/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/18XwXnGuvYvvbDIWbLGqIFYzAjLibBZEK2e3M3qqu7co/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1MfvXXAo5OGrcYna6fJB3J8_DwSXwpXtKKbVf3zX3AuQ/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Tue Oct 22"
-      items:
-        - type: "Section"
-          id: "15"
-          name: Fitting linear regression (OLS) models
-          href: "#"
-          auxil:
-            - id: "Lab 7, Part A (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 7, Part A (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Wed Oct 23"
-      items:
-        - type: "Lecture"
-          id: "16b"
-          name: Categorical covariates 
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/14kR6fGcYWn99y_p4jCwfM7bZ4O_s2p0yBSw3K4u9ZJQ/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1qMjANSpsZOJxlPPb2V2nhtT0XMENeaXx/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1IZUZiAMIWBvdWaCWpgtED8m7jEwKzh1ZFtzYnMCXkII/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1vhO6jLR2y0HKYt72c7yrA1cPFDRb2WKSVMtxsm0paMA/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Thu Oct 24"
-      items:
-        - type: "Section"
-          id: "16"
-          name: Wrap up Lab 7, Review polynomial terms + categorical covariates
-          href: "#"
-    - date: "Fri Oct 25"
-      items:
-        - type: "Lecture"
-          id: "16c"
-          name: Interactions
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/18y7xPdFIjuRqTyhEbmgg3dL71CO2eMegr5FP87iHULA/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1cwS9oUPYak2MFMXZXlaGXXuZOR6pr63Y/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1E6l8xmgmS_PYc3h52p079igV11GaCdyxyvNe1hMtWe8/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "#"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+# - week: 9
+#   days:
+#     - date: "Mon Oct 21"
+#       items:
+#         - type: "Lecture"
+#           id: "16a"
+#           name: Polynomial terms
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/16KOIRmHGvg8kRY8Bj-HNOOLyIUQR541mYbDvuoPuRak/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1-bL1geFzRMidDWWxKm3TMIey6e_P4-Dp/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/18XwXnGuvYvvbDIWbLGqIFYzAjLibBZEK2e3M3qqu7co/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1MfvXXAo5OGrcYna6fJB3J8_DwSXwpXtKKbVf3zX3AuQ/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Tue Oct 22"
+#       items:
+#         - type: "Section"
+#           id: "15"
+#           name: Fitting linear regression (OLS) models
+#           href: "#"
+#           auxil:
+#             - id: "Lab 7, Part A (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 7, Part A (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Wed Oct 23"
+#       items:
+#         - type: "Lecture"
+#           id: "16b"
+#           name: Categorical covariates 
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/14kR6fGcYWn99y_p4jCwfM7bZ4O_s2p0yBSw3K4u9ZJQ/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1qMjANSpsZOJxlPPb2V2nhtT0XMENeaXx/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1IZUZiAMIWBvdWaCWpgtED8m7jEwKzh1ZFtzYnMCXkII/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1vhO6jLR2y0HKYt72c7yrA1cPFDRb2WKSVMtxsm0paMA/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Thu Oct 24"
+#       items:
+#         - type: "Section"
+#           id: "16"
+#           name: Wrap up Lab 7, Review polynomial terms + categorical covariates
+#           href: "#"
+#     - date: "Fri Oct 25"
+#       items:
+#         - type: "Lecture"
+#           id: "16c"
+#           name: Interactions
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/18y7xPdFIjuRqTyhEbmgg3dL71CO2eMegr5FP87iHULA/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1cwS9oUPYak2MFMXZXlaGXXuZOR6pr63Y/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1E6l8xmgmS_PYc3h52p079igV11GaCdyxyvNe1hMtWe8/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "#"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
 
-- week: 10
-  days:
-    - date: "Mon Oct 28"
-      items:
-        - type: "Lecture"
-          id: "17"
-          name: Cross-validation
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1O7nz_jwzLe7OZpYn8FdKMUET8n9tSi_eLNj-xjU28xw/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1IMYqzxGygSkhOEoaTzl6xVbHyr3qcN76uWBb14cu3ks/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1uH2ZzBzjwN0ZcfU1lgBYkKDc2uqOclLWPvEWNSiFczc/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
-    - date: "Tue Oct 29"
-      items:
-        - type: "Section"
-          id: "17"
-          name: Cross-validation
-          href: "#"
-          auxil:
-            - id: "Lab 8 (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 8 (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Wed Oct 30"
-      items:
-        - type: "Lecture"
-          id: "18"
-          name: Linear probability models (LPMs)
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1bSGxF-Xk92Or9tc4kGXFPsMKJzUvvU0O6i-zLj_eL94/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1EKfCZtbsZInER66UEXyKcFS_kGRkiIUU/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/18bbc9n6BT5LenqUeHVszcfevOpstNYJ14rKJqgEuUtM/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1Jdo700aWufm8O2v8t5gBNduUHxdTh78w0EnPX3JjO3Q/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Thu Oct 31"
-      items:
-        - type: "Section"
-          id: "18"
-          name: Review of regression and HW4 Help
-          href: "#"
-    - date: "Fri Nov 1"
-      items:
-        - type: "Lecture"
-          id: "NA"
-          name: No lecture today
-          href: "#"
-          auxil:
-            # - id: "Asynchronous recording to be posted"
-            #   href: "#"
-            # - id: "Slides"
-            #   href: "#"
-            # - id: "Annotated slides"
-            #   href: "#"
-            # - id: "Worksheet"
-            #   href: "#"
-            # - id: "Abridged slides for live notes"
-            #   href: "#"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
+# - week: 10
+#   days:
+#     - date: "Mon Oct 28"
+#       items:
+#         - type: "Lecture"
+#           id: "17"
+#           name: Cross-validation
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1O7nz_jwzLe7OZpYn8FdKMUET8n9tSi_eLNj-xjU28xw/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1IMYqzxGygSkhOEoaTzl6xVbHyr3qcN76uWBb14cu3ks/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1uH2ZzBzjwN0ZcfU1lgBYkKDc2uqOclLWPvEWNSiFczc/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
+#     - date: "Tue Oct 29"
+#       items:
+#         - type: "Section"
+#           id: "17"
+#           name: Cross-validation
+#           href: "#"
+#           auxil:
+#             - id: "Lab 8 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 8 (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Wed Oct 30"
+#       items:
+#         - type: "Lecture"
+#           id: "18"
+#           name: Linear probability models (LPMs)
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1bSGxF-Xk92Or9tc4kGXFPsMKJzUvvU0O6i-zLj_eL94/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1EKfCZtbsZInER66UEXyKcFS_kGRkiIUU/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/18bbc9n6BT5LenqUeHVszcfevOpstNYJ14rKJqgEuUtM/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1Jdo700aWufm8O2v8t5gBNduUHxdTh78w0EnPX3JjO3Q/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Thu Oct 31"
+#       items:
+#         - type: "Section"
+#           id: "18"
+#           name: Review of regression and HW4 Help
+#           href: "#"
+#     - date: "Fri Nov 1"
+#       items:
+#         - type: "Lecture"
+#           id: "NA"
+#           name: No lecture today
+#           href: "#"
+#           auxil:
+#             # - id: "Asynchronous recording to be posted"
+#             #   href: "#"
+#             # - id: "Slides"
+#             #   href: "#"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             # - id: "Worksheet"
+#             #   href: "#"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "#"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
 
-- week: 11
-  days:
-    - date: "Mon Nov 4"
-      items:
-        - type: "Lecture"
-          id: "19a"
-          name: Logistic regression
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1aqlgCsA2pjelzkM5kDYMAaynkFyf8mH5_XupK58ox4o/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1xnOMRa7RnKUSZqFEEnctgx5V8Ce6MaF9/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1iJjcs4wtiUPkm-awr5Wip_5yEuhythKB_Hb8RD643cI/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1BkRTECkF8cOBsXuGoEBawKYEOkEA6EYfSRpUaTYA200/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Tue Nov 5"
-      items:
-        - type: "Section"
-          id: "19"
-          name: Linear probability models
-          href: "#"
-          auxil:
-          - id: "Lab 9 (DataHub)"
-            href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-          - id: "Lab 9 (GitHub)"
-            href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Wed Nov 6"
-      items:
-        - type: "Lecture"
-          id: "19b"
-          name: More on logistic regression
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1Z-Fy51ywyOaOIEFZ30TQyDZ_Sg0n6YlriuRfZIqzJkY/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1Iqz2TrzK06b4Imv0Ts0nowGOerPbVIHp/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1gBhjizJpYcN9PIDbt2N9jtWyaYMFxc2NF8AC9MgGh4c/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1osf3LXDFYqeQ_wgMnffqvQhA3tRsM6cZ6fp2z4sK9-I/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Thu Nov 7"
-      items:
-        - type: "Section"
-          id: "20"
-          name: Midterm 2 Review
-          href: "#"
-    - date: "Fri Nov 8"
-      items:
-        - type: "Lecture"
-          id: "MT2P"
-          name: Midterm 2 Prep Lecture
-          href: "#"
-          auxil:
-            # - id: "Slides"
-            #   href: "#"
-            # - id: "Annotated slides"
-            #   href: "#"
-            # - id: "Worksheet"
-            #   href: "#"
-            # - id: "Abridged slides for live notes"
-            #   href: "#"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
+# - week: 11
+#   days:
+#     - date: "Mon Nov 4"
+#       items:
+#         - type: "Lecture"
+#           id: "19a"
+#           name: Logistic regression
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1aqlgCsA2pjelzkM5kDYMAaynkFyf8mH5_XupK58ox4o/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1xnOMRa7RnKUSZqFEEnctgx5V8Ce6MaF9/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1iJjcs4wtiUPkm-awr5Wip_5yEuhythKB_Hb8RD643cI/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1BkRTECkF8cOBsXuGoEBawKYEOkEA6EYfSRpUaTYA200/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Tue Nov 5"
+#       items:
+#         - type: "Section"
+#           id: "19"
+#           name: Linear probability models
+#           href: "#"
+#           auxil:
+#           - id: "Lab 9 (DataHub)"
+#             href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#           - id: "Lab 9 (GitHub)"
+#             href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Wed Nov 6"
+#       items:
+#         - type: "Lecture"
+#           id: "19b"
+#           name: More on logistic regression
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1Z-Fy51ywyOaOIEFZ30TQyDZ_Sg0n6YlriuRfZIqzJkY/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1Iqz2TrzK06b4Imv0Ts0nowGOerPbVIHp/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1gBhjizJpYcN9PIDbt2N9jtWyaYMFxc2NF8AC9MgGh4c/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1osf3LXDFYqeQ_wgMnffqvQhA3tRsM6cZ6fp2z4sK9-I/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Thu Nov 7"
+#       items:
+#         - type: "Section"
+#           id: "20"
+#           name: Midterm 2 Review
+#           href: "#"
+#     - date: "Fri Nov 8"
+#       items:
+#         - type: "Lecture"
+#           id: "MT2P"
+#           name: Midterm 2 Prep Lecture
+#           href: "#"
+#           auxil:
+#             # - id: "Slides"
+#             #   href: "#"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             # - id: "Worksheet"
+#             #   href: "#"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "#"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
 
-- week: 12
-  days:
-    - date: "Mon Nov 11"
-      items:
-        - type: "Holiday"
-          id: " (Veterans Day)"
-    - date: "Tue Nov 12"
-      items:
-        - type: "Section"
-          id: "21"
-          name: Midterm 2 Review
-          href: "#"
-          auxil:
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1_kOiY9wE_Yxa2RT6EgV8Sys6ktIykMn2/view?usp=sharing"
-            - id: "Worksheet"
-              href: "https://drive.google.com/file/d/1OOcewLiihzQzAl5laWgFIDaZvIa62yr4/view?usp=sharing"
-    - date: "Wed Nov 13"
-      items:
-        - type: "Lecture"
-          id: "MT2"
-          name: Midterm 2 (in class)
-          href: "#"
-          auxil:
-            - id: "Seating map"
-              href: "https://docs.google.com/presentation/d/1CAYnNt1MAPEZxiYvfk6oqAkog1u23EqXZ52Nkqj7eMQ/edit?usp=sharing"
-    - date: "Thu Nov 14"
-      items:
-        - type: "Section"
-          id: "NA"
-          name: Relax after midterm! No section.
-          href: "#"
-    - date: "Fri Nov 15"
-      items:
-        - type: "Lecture"
-          id: "20a"
-          name: Classification error metrics
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1BQdLpq6aSArflnQqhyLuDi1rl8scOIqHjdRJQITzN1o/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1aTrY-Nj3UInr7C7tre-OW0_05dYvDQvpELGQhP4TNkg/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1x-gKe4C_TZdjV0vNS6tDAmtla1430cccdfmqS5Zza4w/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
+# - week: 12
+#   days:
+#     - date: "Mon Nov 11"
+#       items:
+#         - type: "Holiday"
+#           id: " (Veterans Day)"
+#     - date: "Tue Nov 12"
+#       items:
+#         - type: "Section"
+#           id: "21"
+#           name: Midterm 2 Review
+#           href: "#"
+#           auxil:
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1_kOiY9wE_Yxa2RT6EgV8Sys6ktIykMn2/view?usp=sharing"
+#             - id: "Worksheet"
+#               href: "https://drive.google.com/file/d/1OOcewLiihzQzAl5laWgFIDaZvIa62yr4/view?usp=sharing"
+#     - date: "Wed Nov 13"
+#       items:
+#         - type: "Lecture"
+#           id: "MT2"
+#           name: Midterm 2 (in class)
+#           href: "#"
+#           auxil:
+#             - id: "Seating map"
+#               href: "https://docs.google.com/presentation/d/1CAYnNt1MAPEZxiYvfk6oqAkog1u23EqXZ52Nkqj7eMQ/edit?usp=sharing"
+#     - date: "Thu Nov 14"
+#       items:
+#         - type: "Section"
+#           id: "NA"
+#           name: Relax after midterm! No section.
+#           href: "#"
+#     - date: "Fri Nov 15"
+#       items:
+#         - type: "Lecture"
+#           id: "20a"
+#           name: Classification error metrics
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1BQdLpq6aSArflnQqhyLuDi1rl8scOIqHjdRJQITzN1o/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1aTrY-Nj3UInr7C7tre-OW0_05dYvDQvpELGQhP4TNkg/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1x-gKe4C_TZdjV0vNS6tDAmtla1430cccdfmqS5Zza4w/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
 
-- week: 13
-  days:
-    - date: "Mon Nov 18"
-      items:
-        - type: "Lecture"
-          id: "20b"
-          name: More on classification error metrics
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1ybRLXIQZDDpoi-XBfXANdc9Ywm6Vosp9YUnMmaqQd08/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1XGra5cZw6fjsrlZ_E_qC11khZ1uPHvTzFHd4QxQanZg/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1cN-QXsdXcAYsnzBxDNWmHkSqgLwD8JQ6Zz3tNOOGroA/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
-    - date: "Tue Nov 19"
-      items:
-        - type: "Section"
-          id: "23"
-          name: Logistic regression and classification error metrics
-          href: "#"
-          auxil:
-            - id: "Lab 10 (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 10 (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Wed Nov 20"
-      items:
-        - type: "Lecture"
-          id: "21"
-          name: A brief overview of statistical methods
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1wFZM1TEQJ1uY1Q2LVMqb49LNUmO9S-wwp9JfoAROb6U/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1uN-fM_pPO9ZuRywgEbTsyAPJ-Lx-MBz527y3ZQWywEc/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/16Zw7z2B6hx8FH9urkaQDRXuLrFaWy4yRpAvvOqzHCZQ/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-          #   href: "#"
-    - date: "Thu Nov 21"
-      items:
-        - type: "Section"
-          id: "24"
-          name: Logistic regression and classification error metrics
-          href: "#"
-    - date: "Fri Nov 22"
-      items:
-        - type: "Lecture"
-          id: "22"
-          name: k-means clustering
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1nXyjqORTciHMndmcHKsYEywjdFs8YfcfxAJiQYXtXoA/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1yqRxpnwfHsfbKn8Xrgx-nuUXba_beY1Hm4TnOZY4V3I/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1LSGQoKYLp_8U7-M1YY1YwbnaBqQbpHnFjypBDu8Rh7E/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
+# - week: 13
+#   days:
+#     - date: "Mon Nov 18"
+#       items:
+#         - type: "Lecture"
+#           id: "20b"
+#           name: More on classification error metrics
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1ybRLXIQZDDpoi-XBfXANdc9Ywm6Vosp9YUnMmaqQd08/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1XGra5cZw6fjsrlZ_E_qC11khZ1uPHvTzFHd4QxQanZg/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1cN-QXsdXcAYsnzBxDNWmHkSqgLwD8JQ6Zz3tNOOGroA/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
+#     - date: "Tue Nov 19"
+#       items:
+#         - type: "Section"
+#           id: "23"
+#           name: Logistic regression and classification error metrics
+#           href: "#"
+#           auxil:
+#             - id: "Lab 10 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 10 (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Wed Nov 20"
+#       items:
+#         - type: "Lecture"
+#           id: "21"
+#           name: A brief overview of statistical methods
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1wFZM1TEQJ1uY1Q2LVMqb49LNUmO9S-wwp9JfoAROb6U/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1uN-fM_pPO9ZuRywgEbTsyAPJ-Lx-MBz527y3ZQWywEc/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/16Zw7z2B6hx8FH9urkaQDRXuLrFaWy4yRpAvvOqzHCZQ/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#           #   href: "#"
+#     - date: "Thu Nov 21"
+#       items:
+#         - type: "Section"
+#           id: "24"
+#           name: Logistic regression and classification error metrics
+#           href: "#"
+#     - date: "Fri Nov 22"
+#       items:
+#         - type: "Lecture"
+#           id: "22"
+#           name: k-means clustering
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1nXyjqORTciHMndmcHKsYEywjdFs8YfcfxAJiQYXtXoA/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1yqRxpnwfHsfbKn8Xrgx-nuUXba_beY1Hm4TnOZY4V3I/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1LSGQoKYLp_8U7-M1YY1YwbnaBqQbpHnFjypBDu8Rh7E/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
 
-- week: 14
-  days:
-    - date: "Mon Nov 25"
-      items:
-        - type: "Lecture"
-          id: "23a"
-          name: Principal component analysis (PCA)
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/10EosQYVpc1bX6FWQV3QGZC3iSDdN-QZ0MSLPa90PtUU/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1qPGpPVCNZxiRAGGlMRARdIT6Gkgpu2bJ8r6nkQfpz2Y/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1uTCbDyt1ZYetRM9euT5K3R7fVqcz0YLlqU0lwAZJC7g/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Tue Nov 26"
-      items:
-        - type: "Section"
-          id: "NA"
-          name: No section today!
-          href: "#"
-    - date: "Wed Nov 27"
-      items:
-        - type: "Holiday"
-          id: " (Thanksgiving Break)"
-    - date: "Thu Nov 28"
-      items:
-        - type: "Holiday"
-          id: " (Thanksgiving Break)"
-    - date: "Fri Nov 29"
-      items:
-        - type: "Holiday"
-          id: " (Thanksgiving Break)"
+# - week: 14
+#   days:
+#     - date: "Mon Nov 25"
+#       items:
+#         - type: "Lecture"
+#           id: "23a"
+#           name: Principal component analysis (PCA)
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/10EosQYVpc1bX6FWQV3QGZC3iSDdN-QZ0MSLPa90PtUU/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1qPGpPVCNZxiRAGGlMRARdIT6Gkgpu2bJ8r6nkQfpz2Y/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1uTCbDyt1ZYetRM9euT5K3R7fVqcz0YLlqU0lwAZJC7g/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Tue Nov 26"
+#       items:
+#         - type: "Section"
+#           id: "NA"
+#           name: No section today!
+#           href: "#"
+#     - date: "Wed Nov 27"
+#       items:
+#         - type: "Holiday"
+#           id: " (Thanksgiving Break)"
+#     - date: "Thu Nov 28"
+#       items:
+#         - type: "Holiday"
+#           id: " (Thanksgiving Break)"
+#     - date: "Fri Nov 29"
+#       items:
+#         - type: "Holiday"
+#           id: " (Thanksgiving Break)"
 
-- week: 15
-  days:
-    - date: "Mon Dec 2"
-      items:
-        - type: "Lecture"
-          id: "23b"
-          name: More on PCA
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1zgJkQNQcQoIxja4QdrNWdHtCMGo4UVBTtHSqws0NYQQ/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1VL6H_JNLtSlSsQ9nkopkVreAyAk9Ac1fvoGFfuM7GMI/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1rv9IrkvfrUxP9TevXRKeA8BQoZvndschJoGWm48T_B0/edit?usp=sharing"
-            - id: "Lecture code (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-            - id: "Lecture code (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-    - date: "Tue Dec 3"
-      items:
-        - type: "Section"
-          id: "25"
-          name: k-means and PCA
-          href: "#"
-          auxil:
-            - id: "Lab 11 (DataHub)"
-              href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-            - id: "Lab 11 (GitHub)"
-              href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
-    - date: "Wed Dec 4"
-      items:
-        - type: "Lecture"
-          id: "24a"
-          name: Decision trees, bagging, and random forests
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1_7oJHf85G8XBKj5XLlAZ4_vEX_d4LeHfJsrGEdXz9Lo/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/16eeUOIbWVCe22mzl0eqOQfRob5mHUqeGllrqPdOXeNs/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1fqLoxvLDKbJc7IWb89skWlC2H7jrHE9Jjae3_fCSH44/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
-    - date: "Thu Dec 5"
-      items:
-        - type: "Section"
-          id: "26"
-          name: Wrap up k-means and PCA. If time, decision trees.
-          href: "#"
-    - date: "Fri Dec 6"
-      items:
-        - type: "Lecture"
-          id: "24b"
-          name: More on decision trees, bagging, and random forests
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/1vrtRLib3lrlaGOlMXEklPgspQ4XQaUASormQpykZq3w/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Worksheet"
-              href: "https://docs.google.com/presentation/d/1JmlfQ-18z6EtorYBAQSsdTuoYPkZ6hJwrPhBfhmToQ0/edit?usp=sharing"
-            # - id: "Abridged slides for live notes"
-            #   href: "https://docs.google.com/presentation/d/1BT6DJ2cZj6wcDQXz66gWkm9ok1D7x1pSVGfzfxMcKpM/edit?usp=sharing"
-            # - id: "Lecture code (HTML)"
-            #   href: "#"
-            # - id: "Lecture code (DataHub)"
-            #   href: "#"
+# - week: 15
+#   days:
+#     - date: "Mon Dec 2"
+#       items:
+#         - type: "Lecture"
+#           id: "23b"
+#           name: More on PCA
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1zgJkQNQcQoIxja4QdrNWdHtCMGo4UVBTtHSqws0NYQQ/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1VL6H_JNLtSlSsQ9nkopkVreAyAk9Ac1fvoGFfuM7GMI/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1rv9IrkvfrUxP9TevXRKeA8BQoZvndschJoGWm48T_B0/edit?usp=sharing"
+#             - id: "Lecture code (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
+#             - id: "Lecture code (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
+#     - date: "Tue Dec 3"
+#       items:
+#         - type: "Section"
+#           id: "25"
+#           name: k-means and PCA
+#           href: "#"
+#           auxil:
+#             - id: "Lab 11 (DataHub)"
+#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
+#             - id: "Lab 11 (GitHub)"
+#               href: "https://github.com/berkeley-stat131a/131a-labs-fall-2024/tree/main"
+#     - date: "Wed Dec 4"
+#       items:
+#         - type: "Lecture"
+#           id: "24a"
+#           name: Decision trees, bagging, and random forests
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1_7oJHf85G8XBKj5XLlAZ4_vEX_d4LeHfJsrGEdXz9Lo/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/16eeUOIbWVCe22mzl0eqOQfRob5mHUqeGllrqPdOXeNs/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1fqLoxvLDKbJc7IWb89skWlC2H7jrHE9Jjae3_fCSH44/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
+#     - date: "Thu Dec 5"
+#       items:
+#         - type: "Section"
+#           id: "26"
+#           name: Wrap up k-means and PCA. If time, decision trees.
+#           href: "#"
+#     - date: "Fri Dec 6"
+#       items:
+#         - type: "Lecture"
+#           id: "24b"
+#           name: More on decision trees, bagging, and random forests
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/1vrtRLib3lrlaGOlMXEklPgspQ4XQaUASormQpykZq3w/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Worksheet"
+#               href: "https://docs.google.com/presentation/d/1JmlfQ-18z6EtorYBAQSsdTuoYPkZ6hJwrPhBfhmToQ0/edit?usp=sharing"
+#             # - id: "Abridged slides for live notes"
+#             #   href: "https://docs.google.com/presentation/d/1BT6DJ2cZj6wcDQXz66gWkm9ok1D7x1pSVGfzfxMcKpM/edit?usp=sharing"
+#             # - id: "Lecture code (HTML)"
+#             #   href: "#"
+#             # - id: "Lecture code (DataHub)"
+#             #   href: "#"
 
-- week: 16
-  days:
-    - date: "Mon Dec 9"
-      items:
-        - type: "Lecture"
-          id: "FP1"
-          name: Final prep lecture 1
-          href: "#"
-          auxil:
-            - id: "Slides"
-              href: "https://docs.google.com/presentation/d/14asmNnpJeY7XPaw1vJeQhWXMlOivoksWZXEZ_zCCXB4/edit?usp=sharing"
-            - id: "Annotated slides"
-              href: "https://drive.google.com/file/d/1tOkLgrxuQe2PzKMICfPWlw3qdKRaqi1s/view?usp=sharing"
-            - id: "Practice problems on bcourses"
-              href: "#"
-    - date: "Wed Dec 11"
-      items:
-        - type: "Lecture"
-          id: "FP2"
-          name: Final prep lecture 2
-          href: "#"
-          auxil:
-            # - id: "Slides"
-            #   href: "https://docs.google.com/presentation/d/14asmNnpJeY7XPaw1vJeQhWXMlOivoksWZXEZ_zCCXB4/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Practice problems on bcourses"
-              href: "#"
-    - date: "Fri Dec 13"
-      items:
-        - type: "Lecture"
-          id: "FP3"
-          name: Final prep lecture 3
-          href: "#"
-          auxil:
-            # - id: "Slides"
-            #   href: "https://docs.google.com/presentation/d/14asmNnpJeY7XPaw1vJeQhWXMlOivoksWZXEZ_zCCXB4/edit?usp=sharing"
-            # - id: "Annotated slides"
-            #   href: "#"
-            - id: "Practice problems on bcourses"
-              href: "#"
+# - week: 16
+#   days:
+#     - date: "Mon Dec 9"
+#       items:
+#         - type: "Lecture"
+#           id: "FP1"
+#           name: Final prep lecture 1
+#           href: "#"
+#           auxil:
+#             - id: "Slides"
+#               href: "https://docs.google.com/presentation/d/14asmNnpJeY7XPaw1vJeQhWXMlOivoksWZXEZ_zCCXB4/edit?usp=sharing"
+#             - id: "Annotated slides"
+#               href: "https://drive.google.com/file/d/1tOkLgrxuQe2PzKMICfPWlw3qdKRaqi1s/view?usp=sharing"
+#             - id: "Practice problems on bcourses"
+#               href: "#"
+#     - date: "Wed Dec 11"
+#       items:
+#         - type: "Lecture"
+#           id: "FP2"
+#           name: Final prep lecture 2
+#           href: "#"
+#           auxil:
+#             # - id: "Slides"
+#             #   href: "https://docs.google.com/presentation/d/14asmNnpJeY7XPaw1vJeQhWXMlOivoksWZXEZ_zCCXB4/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Practice problems on bcourses"
+#               href: "#"
+#     - date: "Fri Dec 13"
+#       items:
+#         - type: "Lecture"
+#           id: "FP3"
+#           name: Final prep lecture 3
+#           href: "#"
+#           auxil:
+#             # - id: "Slides"
+#             #   href: "https://docs.google.com/presentation/d/14asmNnpJeY7XPaw1vJeQhWXMlOivoksWZXEZ_zCCXB4/edit?usp=sharing"
+#             # - id: "Annotated slides"
+#             #   href: "#"
+#             - id: "Practice problems on bcourses"
+#               href: "#"
     
