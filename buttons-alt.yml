@@ -1,6 +1,6 @@
-- button: Ed
-  link: https://edstem.org
-- button: DataHub
+- button: 📊 DataHub (write code)
   link: https://r.datahub.berkeley.edu
-- button: Gradescope
+- button: 📝 Gradescope (submit assignments, see grades)
   link: https://www.gradescope.com
+- button: 💬 Ed (ask questions)
+  link: https://edstem.org

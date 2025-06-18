@@ -3,36 +3,36 @@ title: "{{< var department >}} {{< var number >}}: {{< var name >}}"
 subtitle: "UC Berkeley, {{< var semester >}}"
 listing:
   - id: schedule
-    template: assets/schedule.ejs
-    contents: schedule.yml
+    template: assets/schedule-alt.ejs
+    contents: schedule-alt.yml
   - id: buttons
-    template: assets/buttons.ejs
-    contents: buttons.yml
+    template: assets/buttons-alt.ejs
+    contents: buttons-alt.yml
 ---
 
-## Welcome to STAT C131A
+## Course Staff
+
+- Everett Wetchler (Instructor) - <a href="https://mail.google.com/mail/u/1/?view=cm&to=wetchler@berkeley.edu&su=STAT%20C131A%20Spring%202025" target="_blank">wetchler@berkeley.edu</a>
+- ??? (GSI) - ???
+
+## Where and when we meet
+| Meeting | Location | Days | Times |
+| --- | --- | --- | --- |
+| Lecture | Davis 9 | Tue/Wed/Thu | 1-3pm | Attendance Required |
+| Lab | Evans 340 | Tue/Wed/Thu | 330-430 (Tue), 330-5 (Wed/Thu) | Attendance Required |
+| Office Hours (Everett) | Evans **323** | Tue | 11a-1p | Email me (wetchler@berkeley.edu) to schedule a 30m 1:1 slot |
+
+![Map of course locations](assets/131_map.png)
+
+## Core tools
 
 
 ::: {#buttons}
 :::
 
-<!-- [All information on the course website is subject to change before August 28th, 2024.] -->
-
-<!-- ::: {.callout-note title="Welcome to Week 2"} -->
-
-<!-- Things are picking up now. -->
-
-<!-- ::: -->
-
 <!-- [Concept check form](https://docs.google.com/forms/d/e/1FAIpQLScnthLeOwlfNrkCJ69LWgWnmaA-qTNcbtxrHgMmWD4LCZVNug/viewform?usp=sf_link)\ -->
 
-<!-- ## Announcements 📣 -->
-
-<!-- The final exam is Thursday, December 19th at 3pm in GPBB 100. -->
-
-<!-- Please [complete your STAT 131A course evalulation](https://course-evaluations.berkeley.edu)! -->
-
-<!-- - With just a couple minutes of your time, you can provide incredibly valuable feedback to Van and Josh. -->
+<!-- ## Announcements -->
 
 ## Schedule
 
