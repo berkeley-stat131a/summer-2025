@@ -32,17 +32,37 @@
     "href": "index.html",
     "title": "Statistics 131a: Statistical Methods for Data Science",
     "section": "",
-    "text": "Ed\n\n  DataHub\n\n  Gradescope\n\nNo matching items",
+    "text": "Everett Wetchler (Instructor) - wetchler@berkeley.edu\n??? (GSI) - ???",
     "crumbs": [
       "Home / Schedule"
     ]
   },
   {
-    "objectID": "index.html#welcome-to-stat-c131a",
-    "href": "index.html#welcome-to-stat-c131a",
+    "objectID": "index.html#course-staff",
+    "href": "index.html#course-staff",
     "title": "Statistics 131a: Statistical Methods for Data Science",
     "section": "",
-    "text": "Ed\n\n  DataHub\n\n  Gradescope\n\nNo matching items",
+    "text": "Everett Wetchler (Instructor) - wetchler@berkeley.edu\n??? (GSI) - ???",
+    "crumbs": [
+      "Home / Schedule"
+    ]
+  },
+  {
+    "objectID": "index.html#where-and-when-we-meet",
+    "href": "index.html#where-and-when-we-meet",
+    "title": "Statistics 131a: Statistical Methods for Data Science",
+    "section": "Where and when we meet",
+    "text": "Where and when we meet\n\n\n\nMeeting\nLocation\nDays\nTimes\n\n\n\n\nLecture\nDavis 9\nTue/Wed/Thu\n1-3pm\n\n\nLab\nEvans 340\nTue/Wed/Thu\n330-430 (Tue), 330-5 (Wed/Thu)\n\n\nOffice Hours (Everett)\nEvans 323\nTue\n11a-1p\n\n\n\n\n\n\nMap of course locations",
+    "crumbs": [
+      "Home / Schedule"
+    ]
+  },
+  {
+    "objectID": "index.html#core-tools",
+    "href": "index.html#core-tools",
+    "title": "Statistics 131a: Statistical Methods for Data Science",
+    "section": "Core tools",
+    "text": "Core tools\n\n\n📊 DataHub (write code)\n\n📝 Gradescope (submit assignments, see grades)\n\n💬 Ed (ask questions)\n\nNo matching items",
     "crumbs": [
       "Home / Schedule"
     ]
@@ -52,7 +72,7 @@
     "href": "index.html#schedule",
     "title": "Statistics 131a: Statistical Methods for Data Science",
     "section": "Schedule",
-    "text": "Schedule\n\n\nWeek 1\n\n   \n   \n   \n   \n   \n   \n   \n\n        \n\n           \n           \n           Thu Jun 26:\n           \n           \n               Lecture 3\n               \n                 Boxplots and Histograms\n               \n          \n           \n                \n                 \n                   \n                     Slides\n                   \n                 \n                   \n                     Worksheet\n                   \n                 \n                   \n                     Lecture code (DataHub)\n                   \n                 \n                   \n                     Lecture code (GitHub)\n                   \n                 \n               \n           \n                \n           \n        \n\n           \n           \n           \n               Section 1\n               \n                 Data munging and plotting with stop-and-frisk\n               \n          \n           \n                \n                 \n                   \n                     Lab 1 (DataHub)\n                   \n                 \n               \n           \n                \n           \n        \n   \n\n        \n\n           \n           \n           Wed Jun 25:\n           \n           \n               Lecture 2\n               \n                 Principles of visualization\n               \n          \n           \n                \n                 \n                   \n                     Slides\n                   \n                 \n                   \n                     Worksheet\n                   \n                 \n                   \n                     Lab 0 (HTML w/ DataHub Link)\n                   \n                 \n               \n           \n                \n           \n        \n   \n\n        \n\n           \n           \n           Tue June 24:\n           \n           \n               Lecture 1\n               \n                 Welcome!\n               \n          \n           \n                \n                 \n                   \n                     Slides\n                   \n                 \n                   \n                     Worksheet\n                   \n                 \n               \n           \n                \n           \n        \n   \n   \n   \nNo matching items\n\nThis work is licensed under a Creative Commons Attribution 4.0 International License.",
+    "text": "Schedule\n\n\n\n  Week 1\n  \n  \n\n  \n    \n    June 24\n    \n    \n    Getting Started\n    \n      \n        \n        Slides\n                 \n      \n        \n        Worksheet\n                 \n      \n    \n    \n    \n    \n  \n    \n    June 25\n    \n    \n    Good Data Visualization\n    \n      \n        \n        Slides\n                 \n      \n        \n        Worksheet\n                 \n      \n        \n        Lab 00\n                 \n      \n    \n    \n    \n    \n  \n  \n  \n  \n  Resources\n  \n  \n    \n      Tour of RStudio\n    \n  \n  \n  \n  \n\nNo matching items\n\nThis work is licensed under a Creative Commons Attribution 4.0 International License.",
     "crumbs": [
       "Home / Schedule"
     ]

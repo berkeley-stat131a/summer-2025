@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-week','listing-days',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-week','listing-days','listing-resources',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-week","listing-days"],
+      searchColumns: ["listing-week","listing-days","listing-resources"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -107,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-button','listing-link','listing-color',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-button','listing-link',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-button","listing-link","listing-color"],
+      searchColumns: ["listing-button","listing-link"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -168,7 +168,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/styles-alt.scss">
 </head>
 
 <body class="nav-sidebar docked quarto-light">
@@ -257,7 +257,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome-to-stat-c131a" id="toc-welcome-to-stat-c131a" class="nav-link active" data-scroll-target="#welcome-to-stat-c131a">Welcome to STAT C131A</a></li>
+  <li><a href="#course-staff" id="toc-course-staff" class="nav-link active" data-scroll-target="#course-staff">Course Staff</a></li>
+  <li><a href="#where-and-when-we-meet" id="toc-where-and-when-we-meet" class="nav-link" data-scroll-target="#where-and-when-we-meet">Where and when we meet</a></li>
+  <li><a href="#core-tools" id="toc-core-tools" class="nav-link" data-scroll-target="#core-tools">Core tools</a></li>
   <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
   </ul>
 </nav>
@@ -285,166 +287,135 @@ window.Quarto = {
 </header>
 
 
-<section id="welcome-to-stat-c131a" class="level2">
-<h2 class="anchored" data-anchor-id="welcome-to-stat-c131a">Welcome to STAT C131A</h2>
+<section id="course-staff" class="level2">
+<h2 class="anchored" data-anchor-id="course-staff">Course Staff</h2>
+<ul>
+<li>Everett Wetchler (Instructor) - <a href="https://mail.google.com/mail/u/1/?view=cm&amp;to=wetchler@berkeley.edu&amp;su=STAT%20C131A%20Spring%202025" target="_blank">wetchler@berkeley.edu</a></li>
+<li>??? (GSI) - ???</li>
+</ul>
+</section>
+<section id="where-and-when-we-meet" class="level2">
+<h2 class="anchored" data-anchor-id="where-and-when-we-meet">Where and when we meet</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Meeting</th>
+<th>Location</th>
+<th>Days</th>
+<th>Times</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lecture</td>
+<td>Davis 9</td>
+<td>Tue/Wed/Thu</td>
+<td>1-3pm</td>
+</tr>
+<tr class="even">
+<td>Lab</td>
+<td>Evans 340</td>
+<td>Tue/Wed/Thu</td>
+<td>330-430 (Tue), 330-5 (Wed/Thu)</td>
+</tr>
+<tr class="odd">
+<td>Office Hours (Everett)</td>
+<td>Evans <strong>323</strong></td>
+<td>Tue</td>
+<td>11a-1p</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/131_map.png" class="img-fluid figure-img"></p>
+<figcaption>Map of course locations</figcaption>
+</figure>
+</div>
+</section>
+<section id="core-tools" class="level2">
+<h2 class="anchored" data-anchor-id="core-tools">Core tools</h2>
 <div id="listing-buttons" class="quarto-listing quarto-listing-container-custom">
 
-  <button style="background-color: purple;"><a href="https://edstem.org/us/courses/63606/discussion/">Ed</a></button>
+<a href="https://r.datahub.berkeley.edu" type="button" class="btn btn-outline-primary btn-sm">📊 DataHub (write code)</a>
 
-  <button style="background-color: green;"><a href="https://r.datahub.berkeley.edu">DataHub</a></button>
+<a href="https://www.gradescope.com" type="button" class="btn btn-outline-primary btn-sm">📝 Gradescope (submit assignments, see grades)</a>
 
-  <button style="background-color: orange;"><a href="https://www.gradescope.com/courses/833089">Gradescope</a></button>
+<a href="https://edstem.org" type="button" class="btn btn-outline-primary btn-sm">💬 Ed (ask questions)</a>
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<!-- [All information on the course website is subject to change before August 28th, 2024.] -->
-<!-- ::: {.callout-note title="Welcome to Week 2"} -->
-<!-- Things are picking up now. -->
-<!-- ::: -->
 <!-- [Concept check form](https://docs.google.com/forms/d/e/1FAIpQLScnthLeOwlfNrkCJ69LWgWnmaA-qTNcbtxrHgMmWD4LCZVNug/viewform?usp=sf_link)\ -->
-<!-- ## Announcements 📣 -->
-<!-- The final exam is Thursday, December 19th at 3pm in GPBB 100. -->
-<!-- Please [complete your STAT 131A course evalulation](https://course-evaluations.berkeley.edu)! -->
-<!-- - With just a couple minutes of your time, you can provide incredibly valuable feedback to Van and Josh. -->
+<!-- ## Announcements -->
 </section>
 <section id="schedule" class="level2">
 <h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
 <!-- For a style similar to that of [Stat 20](https://stat20.berkeley.edu/fall-2024), modify `index.qmd` to point to `assets/{schedule-alt.ejs,buttons-alt.ejs}` and to `{schedule-alt.yml,buttons-alt.yml}` and `_quarto.yml` to point to `assets/styles-alt.scss`. -->
 <div id="listing-schedule" class="quarto-listing quarto-listing-container-custom">
-<h4 class="anchored">Week 1</h4>
 
-   <table class="table" data-quarto-disable-processing="true">
-   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
-   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
-   
-   <tbody>
-   
-   
+  <h4 class="anchored">Week 1</h4>
+  <div class="week-x-box">
+  <div class="daily-sched">
 
+  
+    <div class="date-cell">
+    <p>June 24</p>
+    </div>
+    <div class="materials-cell">
+    <p><span class="daily-topic">Getting Started</span><br>
+    
+      
         
-
-           <tr>
-           
-           <th scope="row" rowspan="2">Thu Jun 26:</th>
-           
-           <td>
-               <strong class="label label-Lecture">Lecture 3</strong>
-               
-                 <span>Boxplots and Histograms</span>
-               
-          </td>
-           
-                <td>
+        <a href="https://docs.google.com/presentation/d/1E5kHtRuCvKPZ5EqzZY1Pu20bZq-QzHiSVwUtYo42IFQ/edit?usp=sharing" type="button" class="btn btn-outline-primary btn-sm">Slides</a>
                  
-                   
-                     <a href="https://docs.google.com/presentation/d/1q1YIQByBlg0u2z3O-14IsoXtSyJXLCShkZ7z9ONv2jo/edit?usp=sharing">Slides</a><br>
-                   
-                 
-                   
-                     <a href="https://docs.google.com/presentation/d/1ZYPptIm2kiwW1Y_TX5pLF5hzV6_6QewaHQQrHovh6EI/edit?usp=sharing">Worksheet</a><br>
-                   
-                 
-                   
-                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&amp;urlpath=rstudio%2F">Lecture code (DataHub)</a><br>
-                   
-                 
-                   
-                     <a href="https://github.com/berkeley-stat131a/131a-lecture-code">Lecture code (GitHub)</a><br>
-                   
-                 
-               </td>
-           
-                
-           </tr>
+      
         
-
-           <tr>
-           
-           <td>
-               <strong class="label label-Section">Section 1</strong>
-               
-                 <span>Data munging and plotting with stop-and-frisk</span>
-               
-          </td>
-           
-                <td>
+        <a href="https://docs.google.com/presentation/d/1Dv6JYttK1Yh4xXO8X_QClVpEZVr7zt_doZlw3JDgIIs/edit?usp=sharing" type="button" class="btn btn-outline-primary btn-sm">Worksheet</a>
                  
-                   
-                     <a href="https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&amp;urlpath=rstudio%2F">Lab 1 (DataHub)</a><br>
-                   
-                 
-               </td>
-           
-                
-           </tr>
+      
+    
+    </p>
+    </div>
+    
+  
+    <div class="date-cell">
+    <p>June 25</p>
+    </div>
+    <div class="materials-cell">
+    <p><span class="daily-topic">Good Data Visualization</span><br>
+    
+      
         
-   
-
+        <a href="https://docs.google.com/presentation/d/1knKWf8v94mOV03HR1FQSwFbj6yZz-vy_zCHTDhQSc7A/edit?usp=sharing" type="button" class="btn btn-outline-primary btn-sm">Slides</a>
+                 
+      
         
-
-           <tr>
-           
-           <th scope="row" rowspan="1">Wed Jun 25:</th>
-           
-           <td>
-               <strong class="label label-Lecture">Lecture 2</strong>
-               
-                 <span>Principles of visualization</span>
-               
-          </td>
-           
-                <td>
+        <a href="https://docs.google.com/presentation/d/1gdfMxOEYk8cHH1syIrz_YqDb1EEGLOwLkuQpRHNEAFg/edit?usp=sharing" type="button" class="btn btn-outline-primary btn-sm">Worksheet</a>
                  
-                   
-                     <a href="https://docs.google.com/presentation/d/1knKWf8v94mOV03HR1FQSwFbj6yZz-vy_zCHTDhQSc7A/edit?usp=sharing">Slides</a><br>
-                   
-                 
-                   
-                     <a href="https://docs.google.com/presentation/d/1gdfMxOEYk8cHH1syIrz_YqDb1EEGLOwLkuQpRHNEAFg/edit?usp=sharing">Worksheet</a><br>
-                   
-                 
-                   
-                     <a href="https://stat131a.berkeley.edu/fall-2024/assets/Lab00.html">Lab 0 (HTML w/ DataHub Link)</a><br>
-                   
-                 
-               </td>
-           
-                
-           </tr>
+      
         
-   
+        <a href="assets/Lab00.html" type="button" class="btn btn-outline-primary btn-sm">Lab 00</a>
+                 
+      
+    
+    </p>
+    </div>
+    
+  
+  
+  </div>
+  <div class="resources">
+  <p><span">Resources</span"></p>
+  <ul>
+  
+    
+      <li><a href="https://www.gastonsanchez.com/R-ice-breaker/1-07-rstudio-tour.html">Tour of RStudio</a></li>
+    
+  
+  </ul>
+  </div>
+  </div>
 
-        
-
-           <tr>
-           
-           <th scope="row" rowspan="1">Tue June 24:</th>
-           
-           <td>
-               <strong class="label label-Lecture">Lecture 1</strong>
-               
-                 <span>Welcome!</span>
-               
-          </td>
-           
-                <td>
-                 
-                   
-                     <a href="https://docs.google.com/presentation/d/1E5kHtRuCvKPZ5EqzZY1Pu20bZq-QzHiSVwUtYo42IFQ/edit?usp=sharing">Slides</a><br>
-                   
-                 
-                   
-                     <a href="https://docs.google.com/presentation/d/1Dv6JYttK1Yh4xXO8X_QClVpEZVr7zt_doZlw3JDgIIs/edit?usp=sharing">Worksheet</a><br>
-                   
-                 
-               </td>
-           
-                
-           </tr>
-        
-   
-   </tbody>
-   </table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
