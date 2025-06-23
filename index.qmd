@@ -1,5 +1,5 @@
 ---
-title: "{{< var department >}} {{< var number >}}: {{< var name >}}"
+title: "{{< var department-abbrev >}} {{< var number >}}: {{< var name >}}"
 subtitle: "UC Berkeley, {{< var semester >}}"
 listing:
   - id: schedule
@@ -14,7 +14,7 @@ listing:
 
 ::: {#buttons}
 :::
-For all other questions or requests, contact Prof Wetchler directly - `wetchler@berkeley.edu`
+<b>For all other questions or requests, contact Prof Wetchler directly - `wetchler@berkeley.edu`</b>
 
 ## Course Staff
 
