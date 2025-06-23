@@ -1,8 +1,10 @@
 ```{=html}
 <% for (const item of items) { %>
-
-<a  href="<%= item.link %>" type="button" class="btn btn-outline-primary btn-sm"><%= item.button %></a>
-
+	<a style="padding: 3px 8px; margin: 3px 0; background-color: <%- item.color %>; color: white" href="<%= item.link %>" type="button" class="btn btn-outline-primary btn-sm">
+		<i class="fa-solid fa-<%= item.faicon %>"></i> <b><%= item.text %></b>
+	</a>
+	<%= item.explanation %>
+	<br>
 <% } %>
 
 ```

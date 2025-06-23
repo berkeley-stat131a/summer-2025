@@ -1,2 +1,14 @@
-/.quarto/
-/_site/
+# Compiled python files
+*.py[cod]
+# iPython notebook backups
+.ipynb_checkpoints
+*nbconvert/*
+# Virtual environment files
+env/
+venv/
+# Mac system files
+*DS_Store*
+# R history files
+.RHistory
+# Files and folders explicitly marked to not be checked in
+*NOCHECKIN*

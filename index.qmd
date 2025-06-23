@@ -10,33 +10,31 @@ listing:
     contents: buttons-alt.yml
 ---
 
-## Course Staff
-
-- Everett Wetchler (Instructor) - <a href="https://mail.google.com/mail/u/1/?view=cm&to=wetchler@berkeley.edu&su=STAT%20C131A%20Spring%202025" target="_blank">wetchler@berkeley.edu</a>
-- ??? (GSI) - ???
-
-## Where and when we meet
-| Meeting | Location | Days | Times |
-| --- | --- | --- | --- |
-| Lecture | Davis 9 | Tue/Wed/Thu | 1-3pm | Attendance Required |
-| Lab | Evans 340 | Tue/Wed/Thu | 330-430 (Tue), 330-5 (Wed/Thu) | Attendance Required |
-| Office Hours (Everett) | Evans **323** | Tue | 11a-1p | Email me (wetchler@berkeley.edu) to schedule a 30m 1:1 slot |
-
-![Map of course locations](assets/131_map.png)
-
 ## Core tools
-
 
 ::: {#buttons}
 :::
+For all other questions or requests, contact Prof Wetchler directly - `wetchler@berkeley.edu`
 
-<!-- [Concept check form](https://docs.google.com/forms/d/e/1FAIpQLScnthLeOwlfNrkCJ69LWgWnmaA-qTNcbtxrHgMmWD4LCZVNug/viewform?usp=sf_link)\ -->
+## Course Staff
 
-<!-- ## Announcements -->
+| Position | Name | Email |
+| --- | --- | --- |
+| Instructor | Everett Wetchler | `wetchler@berkeley.edu` |
+| GSI | Huong Vu | `huong_vu@berkeley.edu` |
+| Reader (Grading) | Sarah Sturgeon | |
 
-## Schedule
+## Where and when we meet + Office Hours
 
-<!-- For a style similar to that of [Stat 20](https://stat20.berkeley.edu/fall-2024), modify `index.qmd` to point to `assets/{schedule-alt.ejs,buttons-alt.ejs}` and to `{schedule-alt.yml,buttons-alt.yml}` and `_quarto.yml` to point to `assets/styles-alt.scss`. -->
+The GSI (Huong) will also hold office hours, times TBD
+
+<img src="assets/time_chart.png" alt="time_chart" width="900"/>
+
+## 8-week Schedule
+
+<img src="assets/stat_c131a_schedule_summer25.png" alt="schedule" width="600"/>
+
+## Content
 
 ::: {#schedule}
 :::

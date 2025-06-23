@@ -1,4 +1,4 @@
-- week: 1
+- week: 1 - Intro, R and RStudio, Data Visualization, Data Wrangling
   days:
     - display-date: June 24
       date: 6/24/25
@@ -6,9 +6,9 @@
       items:
         - type: Slides
           href: "https://docs.google.com/presentation/d/1E5kHtRuCvKPZ5EqzZY1Pu20bZq-QzHiSVwUtYo42IFQ/edit?usp=sharing"
-          publish: true
-        - type: Worksheet
-          href: "https://docs.google.com/presentation/d/1Dv6JYttK1Yh4xXO8X_QClVpEZVr7zt_doZlw3JDgIIs/edit?usp=sharing"
+          publish: false
+        - type: Lab 00 (due midnight tonight - June 24)
+          href: "assets/Lab00.html"
           publish: true
     - display-date: June 25
       date: 6/25/25
@@ -16,97 +16,13 @@
       items:
         - type: Slides
           href: "https://docs.google.com/presentation/d/1knKWf8v94mOV03HR1FQSwFbj6yZz-vy_zCHTDhQSc7A/edit?usp=sharing"
-          publish: true
-        - type: Worksheet
-          href: "https://docs.google.com/presentation/d/1gdfMxOEYk8cHH1syIrz_YqDb1EEGLOwLkuQpRHNEAFg/edit?usp=sharing"
-          publish: true
-        - type: Lab 00
-          href: "assets/Lab00.html"
-          publish: true
+          publish: false
+    - display-date: June 26
+      date: 6/25/25
+      topic: Data Wrangling and Project Management
+      items:
+        - type: Slides
+          href: "https://docs.google.com/presentation/d/1knKWf8v94mOV03HR1FQSwFbj6yZz-vy_zCHTDhQSc7A/edit?usp=sharing"
+          publish: false
   resources:
     - '<a href="https://www.gastonsanchez.com/R-ice-breaker/1-07-rstudio-tour.html">Tour of RStudio</a>'
-# - week: 2
-#   days:
-#     - display-date: Jan 23
-#       date: 1/23/24
-#       topic: Conditional Probability
-#       items:
-#         - type: Notes
-#           href: units/unit1.qmd
-#           publish: true
-#         - type: Slides
-#           href: units/unit1.qmd
-#           publish: true
-#         - type: PS
-#           href: units/unit1.qmd
-#           publish: true
-# - week: 1
-#   days:
-#     - date: "Tue June 24"
-#       items:
-#         - type: "Lecture"
-#           id: "1"
-#           name: Welcome!
-#           href: "#"
-#           auxil:
-#             - id: "Slides"
-#               href: "https://docs.google.com/presentation/d/1E5kHtRuCvKPZ5EqzZY1Pu20bZq-QzHiSVwUtYo42IFQ/edit?usp=sharing"
-#             # - id: "Annotated slides (TBD)"
-#             #   href: "#"
-#             - id: "Worksheet"
-#               href: "https://docs.google.com/presentation/d/1Dv6JYttK1Yh4xXO8X_QClVpEZVr7zt_doZlw3JDgIIs/edit?usp=sharing"
-#             # - id: "Abridged slides for live notes"
-#             #   href: "https://docs.google.com/presentation/d/1EM56MC2dL0rwWN3zd3HMUbMnkO-r0u5ZLPGlq7lILV8/edit?usp=sharing"
-#             # - id: "Demo (TBD)"
-#             #   href: "#"
-#             # - id: "Lecture code (TBD)"
-#             #   href: "#"
-#     - date: "Wed Jun 25"
-#       items:
-#         - type: "Lecture"
-#           id: "2"
-#           name: Principles of visualization
-#           href: "#"
-#           auxil:
-#             - id: "Slides"
-#               href: "https://docs.google.com/presentation/d/1knKWf8v94mOV03HR1FQSwFbj6yZz-vy_zCHTDhQSc7A/edit?usp=sharing"
-#             # - id: "Annotated slides (TBD)"
-#             #   href: "#"
-#             - id: "Worksheet"
-#               href: "https://docs.google.com/presentation/d/1gdfMxOEYk8cHH1syIrz_YqDb1EEGLOwLkuQpRHNEAFg/edit?usp=sharing"
-#             # - id: "Abridged slides for live notes"
-#             #   href: "https://docs.google.com/presentation/d/1unEenGdjaZG9_82IdQzkpxEIbIktUL9i_dUqwH6O4Gg/edit?usp=sharing"
-#             - id: "Lab 0 (HTML w/ DataHub Link)"
-#               href: "https://stat131a.berkeley.edu/fall-2024/assets/Lab00.html"
-#             # - id: "Lecture code (TBD)"
-#             #   href: "#"
-#     - date: "Thu Jun 26"
-#       items:
-#         - type: "Lecture"
-#           id: "3"
-#           name: Boxplots and Histograms
-#           href: "#"
-#           auxil:
-#             - id: "Slides"
-#               href: "https://docs.google.com/presentation/d/1q1YIQByBlg0u2z3O-14IsoXtSyJXLCShkZ7z9ONv2jo/edit?usp=sharing"
-#             # - id: "Annotated slides"
-#             #   href: "#"
-#             - id: "Worksheet"
-#               href: "https://docs.google.com/presentation/d/1ZYPptIm2kiwW1Y_TX5pLF5hzV6_6QewaHQQrHovh6EI/edit?usp=sharing"
-#             # - id: "Abridged slides for live notes"
-#             #   href: "https://docs.google.com/presentation/d/1rohKclAyb46mwVvBTtosSV2DOfAZI9U51dUDiZze-sI/edit?usp=sharing"
-#             # - id: "Lecture code (HTML)"
-#             #   href: "lecture-code/boxplot-freq-hist-lecture-code.html"
-#             - id: "Lecture code (DataHub)"
-#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-lecture-code&urlpath=rstudio%2F"
-#             - id: "Lecture code (GitHub)"
-#               href: "https://github.com/berkeley-stat131a/131a-lecture-code"
-#         - type: "Section"
-#           id: "1"
-#           name: Data munging and plotting with stop-and-frisk
-#           href: "#"
-#           auxil:
-#             - id: "Lab 1 (DataHub)"
-#               href: "https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2F131a-labs-fall-2024&urlpath=rstudio%2F"
-#             # - id: "Lab 1 (HTML)"
-#             #   href: "labs-html/lab01-exercises.html"

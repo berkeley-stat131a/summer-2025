@@ -1,6 +1,20 @@
-- button: 📊 DataHub (write code)
+- text: DataHub
+  explanation: Write code
+  faicon: laptop-code
   link: https://r.datahub.berkeley.edu
-- button: 📝 Gradescope (submit assignments, see grades)
+  color: '#003262'
+- text: Gradescope
+  explanation: Submit assignments, see grades
+  faicon: check-to-slot
   link: https://www.gradescope.com
-- button: 💬 Ed (ask questions)
-  link: https://edstem.org
+  color: '#FDB515'
+- text: Ed
+  explanation: Ask questions about course material
+  faicon: comments
+  link: https://edstem.org/us/courses/80202/discussion
+  color: '#3B7EA1'
+- text: bCourses
+  explanation: Only for lecture recordings (see "Media Files")
+  faicon: video
+  link: https://bcourses.berkeley.edu/courses/1545552/external_tools/90481
+  color: '#C4820E'
