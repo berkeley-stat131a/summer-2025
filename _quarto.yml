@@ -13,17 +13,7 @@ website:
         href: https://github.com/berkeley-stat131a/summer-2025
     contents:
       - href: index.qmd
-        text: Home / Schedule
-      - href: assignments.qmd
-        text: HW and Labs
-      - href: project.qmd
-        text: Project
-      - href: syllabus.qmd
-        text: Syllabus
-      - href: staff.qmd
-        text: Staff
-      - href: calendar.qmd
-        text: Google Calendar
+        text: Main
 
           
 
