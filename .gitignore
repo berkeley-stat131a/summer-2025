@@ -12,3 +12,5 @@ venv/
 .RHistory
 # Files and folders explicitly marked to not be checked in
 *NOCHECKIN*
+
+/.quarto/

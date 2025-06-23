@@ -15,8 +15,6 @@ website:
       - href: index.qmd
         text: Main
 
-          
-
 format:
   html:
     theme: cosmo

@@ -174,20 +174,4 @@ h2 {
   //padding: 1.5em 3em 0em 3em;
 }
 
-.week-x-box {
-  grid-template-columns: 1fr;
-  
-  .daily-sched {
-    grid-template-columns: 1fr;
-    
-    .date-col {
-      border-bottom: none
-    }
-  }
-  
-  .resources {
-    border-left: none;
-    border-top: 1px solid $gray-300;
-  }
-}
 }

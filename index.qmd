@@ -21,7 +21,7 @@ listing:
 | Position | Name | Email |
 | --- | --- | --- |
 | Instructor | Everett Wetchler | `wetchler@berkeley.edu` |
-| GSI | Huong Vu | `huong_vu@berkeley.edu` |
+| GSI (runs lab) | Huong Vu | `huong_vu@berkeley.edu` |
 | Reader (Grading) | Sarah Sturgeon | |
 
 ## Where and when we meet + Office Hours
