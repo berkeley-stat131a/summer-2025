@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-05dbb635f0909b4afea1659e329f307d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fe9c0dd970e2539c8ec94e99add279a0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -106,9 +106,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-text','listing-explanation','listing-faicon','listing-link','listing-color',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-text','listing-explanation','listing-faicon','listing-link','listing-bg_color','listing-text_color',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-text","listing-explanation","listing-faicon","listing-link","listing-color"],
+      searchColumns: ["listing-text","listing-explanation","listing-faicon","listing-link","listing-bg_color","listing-text_color"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -261,28 +261,52 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="core-tools">Core tools</h2>
 <div id="listing-buttons" class="quarto-listing quarto-listing-container-custom">
 
-    <a style="padding: 3px 8px; margin: 3px 0; background-color: #003262; color: white" href="https://r.datahub.berkeley.edu" type="button" class="btn btn-outline-primary btn-sm">
+    <a style="padding: 3px 8px; margin: 5px 0;
+              background-color: #003262;
+              color: white" href="https://r.datahub.berkeley.edu" target="_blank" type="button" class="btn btn-outline-primary btn-med">
         <i class="fa-solid fa-laptop-code"></i> <b>DataHub</b>
     </a>
     Write code
     <br>
 
-    <a style="padding: 3px 8px; margin: 3px 0; background-color: #FDB515; color: white" href="https://www.gradescope.com" type="button" class="btn btn-outline-primary btn-sm">
+    <a style="padding: 3px 8px; margin: 5px 0;
+              background-color: rgb(252, 98, 77);
+              color: white" href="https://pingpong.hks.harvard.edu/group/62/assistant" target="_blank" type="button" class="btn btn-outline-primary btn-med">
+        <i class="fa-solid fa-table-tennis-paddle-ball"></i> <b>PingPong</b>
+    </a>
+    Chatbot coach for writing code
+    <br>
+
+    <a style="padding: 3px 8px; margin: 5px 0;
+              background-color: #FDB515;
+              color: white" href="https://www.gradescope.com" target="_blank" type="button" class="btn btn-outline-primary btn-med">
         <i class="fa-solid fa-check-to-slot"></i> <b>Gradescope</b>
     </a>
     Submit assignments, see grades
     <br>
 
-    <a style="padding: 3px 8px; margin: 3px 0; background-color: #3B7EA1; color: white" href="https://edstem.org/us/courses/80202/discussion" type="button" class="btn btn-outline-primary btn-sm">
+    <a style="padding: 3px 8px; margin: 5px 0;
+              background-color: #3B7EA1;
+              color: white" href="https://edstem.org/us/courses/80202/discussion" target="_blank" type="button" class="btn btn-outline-primary btn-med">
         <i class="fa-solid fa-comments"></i> <b>Ed</b>
     </a>
     Ask questions about course material
     <br>
 
-    <a style="padding: 3px 8px; margin: 3px 0; background-color: #C4820E; color: white" href="https://bcourses.berkeley.edu/courses/1545552/external_tools/90481" type="button" class="btn btn-outline-primary btn-sm">
+    <a style="padding: 3px 8px; margin: 5px 0;
+              background-color: #C4820E;
+              color: white" href="https://bcourses.berkeley.edu/courses/1545552/external_tools/90481" target="_blank" type="button" class="btn btn-outline-primary btn-med">
         <i class="fa-solid fa-video"></i> <b>bCourses</b>
     </a>
     Only for lecture recordings (see "Media Files")
+    <br>
+
+    <a style="padding: 3px 8px; margin: 5px 0;
+              background-color: #986960;
+              color: white" href="https://epurdom.github.io/Stat131A/book/" target="_blank" type="button" class="btn btn-outline-primary btn-med">
+        <i class="fa-solid fa-book"></i> <b>Textbook</b>
+    </a>
+    Additional reference and lessons
     <br>
 
 <div class="listing-no-matching d-none">
@@ -390,7 +414,11 @@ No matching items
   <ul>
   
     
-      <li><a href="https://www.gastonsanchez.com/R-ice-breaker/1-07-rstudio-tour.html">Tour of RStudio</a></li>
+      <li><a href="https://www.gastonsanchez.com/R-ice-breaker/1-07-rstudio-tour.html" target="_blank">Tour of RStudio</a></li>
+    
+      <li><a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Markdown Cheatsheet</a></li>
+    
+      <li><a href="https://www.gastonsanchez.com/ target=" _blank"="">R tutorials from Gaston Sanchez (Berkeley)</a></li>
     
   
   </ul>

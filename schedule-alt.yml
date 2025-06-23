@@ -25,4 +25,6 @@
           href: ""
           publish: false
   resources:
-    - '<a href="https://www.gastonsanchez.com/R-ice-breaker/1-07-rstudio-tour.html">Tour of RStudio</a>'
+    - '<a href="https://www.gastonsanchez.com/R-ice-breaker/1-07-rstudio-tour.html" target="_blank">Tour of RStudio</a>'
+    - '<a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Markdown Cheatsheet</a>'
+    - '<a href="https://www.gastonsanchez.com/ target="_blank">R tutorials from Gaston Sanchez (Berkeley)</a>'

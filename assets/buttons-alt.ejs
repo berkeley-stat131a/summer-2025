@@ -1,6 +1,9 @@
 ```{=html}
 <% for (const item of items) { %>
-	<a style="padding: 3px 8px; margin: 3px 0; background-color: <%- item.color %>; color: white" href="<%= item.link %>" type="button" class="btn btn-outline-primary btn-sm">
+	<a style="padding: 3px 8px; margin: 5px 0;
+	          background-color: <%- item.bg_color %>;
+	          color: <%= item.text_color %>"
+	    href="<%= item.link %>" target="_blank" type="button" class="btn btn-outline-primary btn-med">
 		<i class="fa-solid fa-<%= item.faicon %>"></i> <b><%= item.text %></b>
 	</a>
 	<%= item.explanation %>
