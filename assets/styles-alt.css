@@ -1,0 +1,106 @@
+/*-- scss:defaults --*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;500&display=swap");
+/* css styles */
+.dropcap {
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+h1 {
+  color: #0e6876;
+}
+
+h2 {
+  color: #0e6876;
+}
+
+.v-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+/* homepage */
+.content-block {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.banner-text {
+  color: #0e6876;
+  font-size: clamp(1.8em, 6vw, 4em);
+  line-height: 0.9;
+  padding-top: 0.6em;
+}
+
+.week-x-box {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 2fr 1fr;
+  border: 1px solid #dfd7ca;
+  border-radius: 6px;
+  box-shadow: 0 0 0.5rem #dfd7ca;
+}
+.week-x-box .daily-sched {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 3px;
+}
+.week-x-box .daily-sched .date-cell {
+  border-bottom: 1px solid #dfd7ca;
+  padding: 2px;
+}
+.week-x-box .daily-sched .materials-cell {
+  border-bottom: 1px solid #dfd7ca;
+  padding: 2px;
+}
+.week-x-box .daily-sched .materials-cell .daily-topic {
+  font-size: 1em;
+}
+.week-x-box .daily-sched .date-cell:nth-last-child(-n+2) {
+  border-bottom: none; /* Removes the border from the last two items (the last row) */
+}
+.week-x-box .daily-sched .materials-cell:nth-last-child(-n+2) {
+  border-bottom: none; /* Removes the border from the last two items (the last row) */
+}
+.week-x-box .resources {
+  border-left: 1px solid #dfd7ca;
+  padding: 3px;
+}
+
+@media (min-width: 900px) {
+  .content-block {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .content-block {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  #banner {
+    order: 2;
+    margin: 0em 1em 0em 1em !important;
+    padding-top: 0em;
+  }
+  .banner-text {
+    padding-top: 0em;
+  }
+  #hex {
+    order: 1;
+  }
+}
+
+/*# sourceMappingURL=styles-alt.css.map */
