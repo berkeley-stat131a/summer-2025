@@ -17,8 +17,9 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: assets/styles-alt.scss
+    theme:
+      - cosmo
+      - assets/styles-alt.scss
     toc: true
     include-in-header:
       file: siteimprove.html

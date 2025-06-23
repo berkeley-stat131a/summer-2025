@@ -7,7 +7,7 @@
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #f8f5f0 !default;
-$gray-300: #dfd7ca !default;
+$gray-300: #dfd7ca;
 $gray-400: #ced4da !default;
 $gray-500: #98978b !default;
 $gray-600: #8e8c84 !default;
@@ -95,15 +95,25 @@ h2 {
     padding-top: .6em;
 }
 
+.week-container {  
+  border: 1px solid $gray-300;
+  border-radius: 6px;
+  box-shadow: 0 0 0.5rem $gray-300;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  .week-header {
+    margin: 0;
+  }
+}
+
 .week-x-box {
   display: grid;
   gap: 8px;
   grid-template-columns: 2fr 1fr;
-  border: 1px solid #888;
-  border-radius: 6px;
-  box-shadow: 0 0 0.5rem $gray-300;
+  border: 1px solid $gray-300;
+  margin-top: 10px;
   //filter: drop-shadow(0 0 0.75rem crimson);
-  
+
   .daily-sched {
     display: grid;
     grid-template-columns: 1fr 3fr;

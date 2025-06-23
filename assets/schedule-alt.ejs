@@ -2,7 +2,8 @@
 ```{=html}
 
 <% for (const week of items) { %>
-  <h4>Week <%= week.week %></h4>
+  <div class="week-container">
+  <h4 class="week-header">Week <%= week.week %></h4>
   <div class="week-x-box">
   <div class="daily-sched">
 
@@ -36,6 +37,7 @@
     <li>None this week</li>
   <% } %>
   </ul>
+  </div>
   </div>
   </div>
 <% } %>
