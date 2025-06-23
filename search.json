@@ -32,27 +32,7 @@
     "href": "index.html",
     "title": "Statistics 131a: Statistical Methods for Data Science",
     "section": "",
-    "text": "Everett Wetchler (Instructor) - wetchler@berkeley.edu\n??? (GSI) - ???",
-    "crumbs": [
-      "Home / Schedule"
-    ]
-  },
-  {
-    "objectID": "index.html#course-staff",
-    "href": "index.html#course-staff",
-    "title": "Statistics 131a: Statistical Methods for Data Science",
-    "section": "",
-    "text": "Everett Wetchler (Instructor) - wetchler@berkeley.edu\n??? (GSI) - ???",
-    "crumbs": [
-      "Home / Schedule"
-    ]
-  },
-  {
-    "objectID": "index.html#where-and-when-we-meet",
-    "href": "index.html#where-and-when-we-meet",
-    "title": "Statistics 131a: Statistical Methods for Data Science",
-    "section": "Where and when we meet",
-    "text": "Where and when we meet\n\n\n\nMeeting\nLocation\nDays\nTimes\n\n\n\n\nLecture\nDavis 9\nTue/Wed/Thu\n1-3pm\n\n\nLab\nEvans 340\nTue/Wed/Thu\n330-430 (Tue), 330-5 (Wed/Thu)\n\n\nOffice Hours (Everett)\nEvans 323\nTue\n11a-1p\n\n\n\n\n\n\nMap of course locations",
+    "text": "DataHub\n    \n    Write code\n    \n\n    \n         Gradescope\n    \n    Submit assignments, see grades\n    \n\n    \n         Ed\n    \n    Ask questions about course material\n    \n\n    \n         bCourses\n    \n    Only for lecture recordings (see \"Media Files\")\n    \n\nNo matching items\n\nFor all other questions or requests, contact Prof Wetchler directly - wetchler@berkeley.edu",
     "crumbs": [
       "Home / Schedule"
     ]
@@ -61,18 +41,48 @@
     "objectID": "index.html#core-tools",
     "href": "index.html#core-tools",
     "title": "Statistics 131a: Statistical Methods for Data Science",
-    "section": "Core tools",
-    "text": "Core tools\n\n\n📊 DataHub (write code)\n\n📝 Gradescope (submit assignments, see grades)\n\n💬 Ed (ask questions)\n\nNo matching items",
+    "section": "",
+    "text": "DataHub\n    \n    Write code\n    \n\n    \n         Gradescope\n    \n    Submit assignments, see grades\n    \n\n    \n         Ed\n    \n    Ask questions about course material\n    \n\n    \n         bCourses\n    \n    Only for lecture recordings (see \"Media Files\")\n    \n\nNo matching items\n\nFor all other questions or requests, contact Prof Wetchler directly - wetchler@berkeley.edu",
     "crumbs": [
       "Home / Schedule"
     ]
   },
   {
-    "objectID": "index.html#schedule",
-    "href": "index.html#schedule",
+    "objectID": "index.html#course-staff",
+    "href": "index.html#course-staff",
     "title": "Statistics 131a: Statistical Methods for Data Science",
-    "section": "Schedule",
-    "text": "Schedule\n\n\n\n  Week 1\n  \n  \n\n  \n    \n    June 24\n    \n    \n    Getting Started\n    \n      \n        \n        Slides\n                 \n      \n        \n        Worksheet\n                 \n      \n    \n    \n    \n    \n  \n    \n    June 25\n    \n    \n    Good Data Visualization\n    \n      \n        \n        Slides\n                 \n      \n        \n        Worksheet\n                 \n      \n        \n        Lab 00\n                 \n      \n    \n    \n    \n    \n  \n  \n  \n  \n  Resources\n  \n  \n    \n      Tour of RStudio\n    \n  \n  \n  \n  \n\nNo matching items\n\nThis work is licensed under a Creative Commons Attribution 4.0 International License.",
+    "section": "Course Staff",
+    "text": "Course Staff\n\n\n\nPosition\nName\nEmail\n\n\n\n\nInstructor\nEverett Wetchler\nwetchler@berkeley.edu\n\n\nGSI\nHuong Vu\nhuong_vu@berkeley.edu\n\n\nReader (Grading)\nSarah Sturgeon",
+    "crumbs": [
+      "Home / Schedule"
+    ]
+  },
+  {
+    "objectID": "index.html#where-and-when-we-meet-office-hours",
+    "href": "index.html#where-and-when-we-meet-office-hours",
+    "title": "Statistics 131a: Statistical Methods for Data Science",
+    "section": "Where and when we meet + Office Hours",
+    "text": "Where and when we meet + Office Hours\nThe GSI (Huong) will also hold office hours, times TBD",
+    "crumbs": [
+      "Home / Schedule"
+    ]
+  },
+  {
+    "objectID": "index.html#week-schedule",
+    "href": "index.html#week-schedule",
+    "title": "Statistics 131a: Statistical Methods for Data Science",
+    "section": "8-week Schedule",
+    "text": "8-week Schedule",
+    "crumbs": [
+      "Home / Schedule"
+    ]
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Statistics 131a: Statistical Methods for Data Science",
+    "section": "Content",
+    "text": "Content\n\n\n  Week 1 - Intro, R and RStudio, Data Visualization, Data Wrangling\n  \n  \n\n  \n    \n    June 24\n    \n    \n    Getting Started\n    \n      \n        \n      \n        \n        Lab 00 (due midnight tonight - June 24)\n                 \n      \n    \n    \n    \n    \n  \n    \n    June 25\n    \n    \n    Good Data Visualization\n    \n      \n        \n      \n    \n    \n    \n    \n  \n    \n    June 26\n    \n    \n    Data Wrangling and Project Management\n    \n      \n        \n      \n    \n    \n    \n    \n  \n  \n  \n  \n  Resources\n  \n  \n    \n      Tour of RStudio\n    \n  \n  \n  \n  \n\nNo matching items\n\nThis work is licensed under a Creative Commons Attribution 4.0 International License.",
     "crumbs": [
       "Home / Schedule"
     ]

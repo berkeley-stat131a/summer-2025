@@ -107,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-button','listing-link',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-text','listing-explanation','listing-faicon','listing-link','listing-color',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-button","listing-link"],
+      searchColumns: ["listing-text","listing-explanation","listing-faicon","listing-link","listing-color"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -137,6 +137,7 @@ gtag('config', 'G-9Q0VSK0VJF', { 'anonymize_ip': true});
 </script>
 <script async="" src="https://siteimproveanalytics.com/js/siteanalyze_6294756.js"></script>
 <link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -257,10 +258,11 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-staff" id="toc-course-staff" class="nav-link active" data-scroll-target="#course-staff">Course Staff</a></li>
-  <li><a href="#where-and-when-we-meet" id="toc-where-and-when-we-meet" class="nav-link" data-scroll-target="#where-and-when-we-meet">Where and when we meet</a></li>
-  <li><a href="#core-tools" id="toc-core-tools" class="nav-link" data-scroll-target="#core-tools">Core tools</a></li>
-  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#core-tools" id="toc-core-tools" class="nav-link active" data-scroll-target="#core-tools">Core tools</a></li>
+  <li><a href="#course-staff" id="toc-course-staff" class="nav-link" data-scroll-target="#course-staff">Course Staff</a></li>
+  <li><a href="#where-and-when-we-meet-office-hours" id="toc-where-and-when-we-meet-office-hours" class="nav-link" data-scroll-target="#where-and-when-we-meet-office-hours">Where and when we meet + Office Hours</a></li>
+  <li><a href="#week-schedule" id="toc-week-schedule" class="nav-link" data-scroll-target="#week-schedule">8-week Schedule</a></li>
+  <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">Content</a></li>
   </ul>
 </nav>
     </div>
@@ -287,73 +289,81 @@ window.Quarto = {
 </header>
 
 
-<section id="course-staff" class="level2">
-<h2 class="anchored" data-anchor-id="course-staff">Course Staff</h2>
-<ul>
-<li>Everett Wetchler (Instructor) - <a href="https://mail.google.com/mail/u/1/?view=cm&amp;to=wetchler@berkeley.edu&amp;su=STAT%20C131A%20Spring%202025" target="_blank">wetchler@berkeley.edu</a></li>
-<li>??? (GSI) - ???</li>
-</ul>
-</section>
-<section id="where-and-when-we-meet" class="level2">
-<h2 class="anchored" data-anchor-id="where-and-when-we-meet">Where and when we meet</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Meeting</th>
-<th>Location</th>
-<th>Days</th>
-<th>Times</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lecture</td>
-<td>Davis 9</td>
-<td>Tue/Wed/Thu</td>
-<td>1-3pm</td>
-</tr>
-<tr class="even">
-<td>Lab</td>
-<td>Evans 340</td>
-<td>Tue/Wed/Thu</td>
-<td>330-430 (Tue), 330-5 (Wed/Thu)</td>
-</tr>
-<tr class="odd">
-<td>Office Hours (Everett)</td>
-<td>Evans <strong>323</strong></td>
-<td>Tue</td>
-<td>11a-1p</td>
-</tr>
-</tbody>
-</table>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/131_map.png" class="img-fluid figure-img"></p>
-<figcaption>Map of course locations</figcaption>
-</figure>
-</div>
-</section>
 <section id="core-tools" class="level2">
 <h2 class="anchored" data-anchor-id="core-tools">Core tools</h2>
 <div id="listing-buttons" class="quarto-listing quarto-listing-container-custom">
 
-<a href="https://r.datahub.berkeley.edu" type="button" class="btn btn-outline-primary btn-sm">📊 DataHub (write code)</a>
+    <a style="padding: 3px 8px; margin: 3px 0; background-color: #003262; color: white" href="https://r.datahub.berkeley.edu" type="button" class="btn btn-outline-primary btn-sm">
+        <i class="fa-solid fa-laptop-code"></i> <b>DataHub</b>
+    </a>
+    Write code
+    <br>
 
-<a href="https://www.gradescope.com" type="button" class="btn btn-outline-primary btn-sm">📝 Gradescope (submit assignments, see grades)</a>
+    <a style="padding: 3px 8px; margin: 3px 0; background-color: #FDB515; color: white" href="https://www.gradescope.com" type="button" class="btn btn-outline-primary btn-sm">
+        <i class="fa-solid fa-check-to-slot"></i> <b>Gradescope</b>
+    </a>
+    Submit assignments, see grades
+    <br>
 
-<a href="https://edstem.org" type="button" class="btn btn-outline-primary btn-sm">💬 Ed (ask questions)</a>
+    <a style="padding: 3px 8px; margin: 3px 0; background-color: #3B7EA1; color: white" href="https://edstem.org/us/courses/80202/discussion" type="button" class="btn btn-outline-primary btn-sm">
+        <i class="fa-solid fa-comments"></i> <b>Ed</b>
+    </a>
+    Ask questions about course material
+    <br>
+
+    <a style="padding: 3px 8px; margin: 3px 0; background-color: #C4820E; color: white" href="https://bcourses.berkeley.edu/courses/1545552/external_tools/90481" type="button" class="btn btn-outline-primary btn-sm">
+        <i class="fa-solid fa-video"></i> <b>bCourses</b>
+    </a>
+    Only for lecture recordings (see "Media Files")
+    <br>
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<!-- [Concept check form](https://docs.google.com/forms/d/e/1FAIpQLScnthLeOwlfNrkCJ69LWgWnmaA-qTNcbtxrHgMmWD4LCZVNug/viewform?usp=sf_link)\ -->
-<!-- ## Announcements -->
+<p>For all other questions or requests, contact Prof Wetchler directly - <code>wetchler@berkeley.edu</code></p>
 </section>
-<section id="schedule" class="level2">
-<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
-<!-- For a style similar to that of [Stat 20](https://stat20.berkeley.edu/fall-2024), modify `index.qmd` to point to `assets/{schedule-alt.ejs,buttons-alt.ejs}` and to `{schedule-alt.yml,buttons-alt.yml}` and `_quarto.yml` to point to `assets/styles-alt.scss`. -->
+<section id="course-staff" class="level2">
+<h2 class="anchored" data-anchor-id="course-staff">Course Staff</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Position</th>
+<th>Name</th>
+<th>Email</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Instructor</td>
+<td>Everett Wetchler</td>
+<td><code>wetchler@berkeley.edu</code></td>
+</tr>
+<tr class="even">
+<td>GSI</td>
+<td>Huong Vu</td>
+<td><code>huong_vu@berkeley.edu</code></td>
+</tr>
+<tr class="odd">
+<td>Reader (Grading)</td>
+<td>Sarah Sturgeon</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="where-and-when-we-meet-office-hours" class="level2">
+<h2 class="anchored" data-anchor-id="where-and-when-we-meet-office-hours">Where and when we meet + Office Hours</h2>
+<p>The GSI (Huong) will also hold office hours, times TBD</p>
+<p><img src="assets/time_chart.png" alt="time_chart" width="900"></p>
+</section>
+<section id="week-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="week-schedule">8-week Schedule</h2>
+<p><img src="assets/stat_c131a_schedule_summer25.png" alt="schedule" width="600"></p>
+</section>
+<section id="content" class="level2">
+<h2 class="anchored" data-anchor-id="content">Content</h2>
 <div id="listing-schedule" class="quarto-listing quarto-listing-container-custom">
 
-  <h4 class="anchored">Week 1</h4>
+  <h4 class="anchored">Week 1 - Intro, R and RStudio, Data Visualization, Data Wrangling</h4>
   <div class="week-x-box">
   <div class="daily-sched">
 
@@ -366,11 +376,9 @@ window.Quarto = {
     
       
         
-        <a href="https://docs.google.com/presentation/d/1E5kHtRuCvKPZ5EqzZY1Pu20bZq-QzHiSVwUtYo42IFQ/edit?usp=sharing" type="button" class="btn btn-outline-primary btn-sm">Slides</a>
-                 
       
         
-        <a href="https://docs.google.com/presentation/d/1Dv6JYttK1Yh4xXO8X_QClVpEZVr7zt_doZlw3JDgIIs/edit?usp=sharing" type="button" class="btn btn-outline-primary btn-sm">Worksheet</a>
+        <a href="assets/Lab00.html" type="button" class="btn btn-outline-primary btn-sm">Lab 00 (due midnight tonight - June 24)</a>
                  
       
     
@@ -386,16 +394,20 @@ window.Quarto = {
     
       
         
-        <a href="https://docs.google.com/presentation/d/1knKWf8v94mOV03HR1FQSwFbj6yZz-vy_zCHTDhQSc7A/edit?usp=sharing" type="button" class="btn btn-outline-primary btn-sm">Slides</a>
-                 
+      
+    
+    </p>
+    </div>
+    
+  
+    <div class="date-cell">
+    <p>June 26</p>
+    </div>
+    <div class="materials-cell">
+    <p><span class="daily-topic">Data Wrangling and Project Management</span><br>
+    
       
         
-        <a href="https://docs.google.com/presentation/d/1gdfMxOEYk8cHH1syIrz_YqDb1EEGLOwLkuQpRHNEAFg/edit?usp=sharing" type="button" class="btn btn-outline-primary btn-sm">Worksheet</a>
-                 
-      
-        
-        <a href="assets/Lab00.html" type="button" class="btn btn-outline-primary btn-sm">Lab 00</a>
-                 
       
     
     </p>
