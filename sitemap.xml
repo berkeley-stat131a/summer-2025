@@ -1,59 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/assignment4.html</loc>
-    <lastmod>2025-06-24T00:01:16.676Z</lastmod>
-  </url>
-  <url>
     <loc>https://stat131a.berkeley.edu/summer-2025/index.html</loc>
-    <lastmod>2025-06-24T00:01:16.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/assignment5.html</loc>
-    <lastmod>2025-06-24T00:01:16.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/assignments.html</loc>
-    <lastmod>2025-06-24T00:01:16.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/assignment6.html</loc>
-    <lastmod>2025-06-24T00:01:16.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/data.html</loc>
-    <lastmod>2025-06-24T00:01:16.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/syllabus.html</loc>
-    <lastmod>2025-06-24T00:01:16.704Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/calendar.html</loc>
-    <lastmod>2025-06-24T00:01:16.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/staff.html</loc>
-    <lastmod>2025-06-24T00:01:16.704Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/license.html</loc>
-    <lastmod>2025-06-24T00:01:16.704Z</lastmod>
+    <lastmod>2025-06-24T19:08:02.384Z</lastmod>
   </url>
   <url>
     <loc>https://stat131a.berkeley.edu/summer-2025/project.html</loc>
-    <lastmod>2025-06-24T00:01:16.704Z</lastmod>
+    <lastmod>2025-06-24T19:08:02.412Z</lastmod>
   </url>
   <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/assignment2.html</loc>
-    <lastmod>2025-06-24T00:01:16.676Z</lastmod>
+    <loc>https://stat131a.berkeley.edu/summer-2025/data.html</loc>
+    <lastmod>2025-06-24T19:08:02.384Z</lastmod>
   </url>
   <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/assignment1.html</loc>
-    <lastmod>2025-06-24T00:01:16.676Z</lastmod>
+    <loc>https://stat131a.berkeley.edu/summer-2025/syllabus.html</loc>
+    <lastmod>2025-06-24T19:08:02.412Z</lastmod>
   </url>
   <url>
-    <loc>https://stat131a.berkeley.edu/summer-2025/assignment3.html</loc>
-    <lastmod>2025-06-24T00:01:16.676Z</lastmod>
+    <loc>https://stat131a.berkeley.edu/summer-2025/calendar.html</loc>
+    <lastmod>2025-06-24T19:08:02.384Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stat131a.berkeley.edu/summer-2025/staff.html</loc>
+    <lastmod>2025-06-24T19:08:02.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stat131a.berkeley.edu/summer-2025/license.html</loc>
+    <lastmod>2025-06-24T19:08:02.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stat131a.berkeley.edu/summer-2025/assignments.html</loc>
+    <lastmod>2025-06-24T19:08:02.384Z</lastmod>
   </url>
 </urlset>
