@@ -31,7 +31,11 @@
           href: ""
           publish: false
   resources:
-    - '<a href="https://www.gastonsanchez.com/R-ice-breaker/1-07-rstudio-tour.html" target="_blank">Tour of RStudio</a>'
-    - '<a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Markdown Cheatsheet</a>'
-    - '<a href="https://www.gastonsanchez.com/R-ice-breaker/#my-series-of-r-tutorials" target="_blank">R beginner tutorials</a>'
-    - '<a href="https://clauswilke.com/dataviz/introduction.html" target="_blank">Data Viz online book</a>'
+    - href: "https://www.gastonsanchez.com/R-ice-breaker/1-07-rstudio-tour.html"
+      text: Tour of RStudio
+    - href: "https://www.markdownguide.org/basic-syntax/"
+      text: Markdown Cheatsheet
+    - href: "https://www.gastonsanchez.com/R-ice-breaker/#my-series-of-r-tutorials"
+      text: R beginner tutorials
+    - href: "https://clauswilke.com/dataviz/introduction.html"
+      text: Data Viz online book

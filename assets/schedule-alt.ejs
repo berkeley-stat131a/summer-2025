@@ -32,7 +32,7 @@
   <ul>
   <% if (week.resources && week.resources.length > 0) { %>
     <% for (const item of week.resources) { %>
-      <li><%= item %></li>
+      <li><a  href="<%= item.href %>" target="_blank"><%= item.text %></a></li>
     <% } %>
   <% } else { %>
     <li>None this week</li>
