@@ -55,33 +55,16 @@ All assignments are worth 10 points. For every day late (up to 1 week) you lose 
 
 ### Even more resources
 
-Everything you need to know for Stat 131a will be covered in lectures, labs, and assignments.
+Everything you need to know for Stat 131a will be covered in lectures, labs, and assignments. However, most of the course material is covered by the online textbook developed specifically for 131A.
 
-- It is possible to do very well in Stat 131a without ever referring to an outside textbook or resource.
+- You can find the textbook [here](https://epurdom.github.io/Stat131A/book/) or on the homepage
 
-However, most of the course material is covered by the online textbook developed specifically for 131A.
+Other resources that may be helpful:
 
-- You can find the textbook [here](https://epurdom.github.io/Stat131A/book/).
-
-The [StatQuest YouTube Channel](https://www.youtube.com/@statquest) is an *excellent* resource.
-
-- StatQuest provides videos on many of the topics we will cover in class. The instructor is very entertaining!
-
-If you would like some additional optional reading, you can try the following books.
-
--   [Theory Meets Data](http://stat88.org/textbook/content/intro.html) by Ani Adhikari. This is the online book for STAT 88 that covers introductory probability at the level of Stat 20.
+- [R beginner tutorials](https://clauswilke.com/dataviz/introduction.html")
+- [Markdown Cheatsheet](https://www.markdownguide.org/basic-syntax/)
+- [Data Viz online book](https://clauswilke.com/dataviz/introduction.html)
+- [StatQuest YouTube Channel](https://www.youtube.com/@statquest)
+    - StatQuest provides videos on many of the topics we will cover in class. The instructor is very entertaining!
 - [R for Data Science](http://r4ds.had.co.nz), by Garrett Grolemund and Hadley Wickham. This is a free online book that covers the `tidyverse` set of `R` packages.
--   *The Statistical Sleuth: A Course in Methods of Data Analysis* by Ramsey and Schafer
--   *Introductory Statistics with R* by Peter Dalgaard
-
-None of these books covers all of the topics we will cover in 131A, nor do they necessarily have the same perspective and focus as this class.
-<!-- -- they do not have extensive use of bootstrapping and resampling methods. -->
-But for those students wanting some additional structure or R assistance, these books may be helpful and should be at the right level for this class.
-
-Stat 20 and Data 8 are similar courses, but each covers some subjects that the other does not.
-While we will cover these topics in class, you may find the following useful background if you are seeing them for the first time (more to follow):
-
--   [Computational and Inferential Thinking: The Foundations of Data Science](https://www.inferentialthinking.com), by Ani Adhikari and John DeNero -- chapters 11-13.
-
-This is the online book used by Data 8.
-These chapters introduce hypothesis testing using only resampling ideas, ideas which are not necessarily covered in Stat 20.
+-   [Theory Meets Data](http://stat88.org/textbook/content/intro.html) by Ani Adhikari. This is the online book for STAT 88 that covers introductory probability at the level of Stat 20.
