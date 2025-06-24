@@ -14,15 +14,15 @@ listing:
 
 ::: {#buttons}
 :::
-<b>For all other questions or requests, contact Prof Wetchler directly - `wetchler@berkeley.edu`</b>
+<b>For all other questions or requests, contact Prof Wetchler directly - <a href="mailto:wetchler@berkeley.edu?subject=STAT%20C131A">wetchler@berkeley.edu</a></b>
 
 ## Course Staff
 
 | Position | Name | Email |
 | --- | --- | --- |
-| Instructor | Everett Wetchler | `wetchler@berkeley.edu` |
-| GSI (runs lab) | Huong Vu | `huong_vu@berkeley.edu` |
-| Reader (Grading) | Sarah Sturgeon | |
+| **Instructor** | **Everett Wetchler** | <a href="mailto:wetchler@berkeley.edu?subject=STAT%20C131A">wetchler@berkeley.edu</a> |
+| GSI (runs lab) | Huong Vu | <a href="mailto:huong_vu@berkeley.edu?subject=STAT%20C131A">huong_vu@berkeley.edu</a> |
+| Reader (grading) | Sarah Sturgeon | |
 
 ## Where and when we meet + Office Hours
 
