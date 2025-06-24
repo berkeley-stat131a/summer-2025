@@ -17,6 +17,7 @@
       <% for (const item of day.items) { %>
         <% if (item.publish){ %>
         <a  href="<%= item.href %>" type="button" class="btn btn-outline-primary btn-sm"><%= item.type %></a>
+        <%= item.details %>
                  <% } %>
       <% } %>
     <% } %>

@@ -17,6 +17,9 @@
       date: 6/25/25
       topic: Good Data Visualization
       items:
+        - type: Pre-reading (Ch 1-3)
+          href: "https://clauswilke.com/dataviz/introduction.html"
+          publish: true
         - type: Slides
           href: ""
           publish: false
