@@ -65,7 +65,10 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Students in Stat 131A are expected to have read the syllabus in its entirety by the second week of the course."
+    "text": "SYLLABUS STILL UNDER CONSTRUCTION\n\nGrading:\n\n\n\nComponent\nFraction\nNotes\n\n\n\n\nAttendance\n10%\nAttend 80% of classes for full credit\n\n\nLabs/Homework\n20%\nTwo lowest grades dropped\n\n\nMidterm\n30%\n\n\n\nFinal\n40%\n\n\n\n\n\n\nCurving\nThis class is not curved. However, I may curve upwards if the exams prove harder than I intended. I design exams fresh every semester, so it’s hard to perfectly calibrate their difficulty.\n\n\nLetter grades\nWe follow the standard university grading system. 97% = A+, 93% = A, 90% = A-, 87% = B+, etc\n\n\nLaptop policy\nLaptops closed during lecture unless otherwise indicated.\n\n\nAttendance\nMeasured through an attendance check in the middle of lecture. Don’t sweat missing a class here and there, you’ll get full credit if you attend 80% of classes.\n\n\nLecture recordings\nWill be posted after class\n\n\nOffice Hours\nSee Main page\n\n\nCollaboration policy\nAll assignments are individual assignments unless otherwise indicated. However, you can ask other students for help with specific questions or to better understand something in general - you just can’t do the assignment together.\n\n\nLate Assignments\nAll assignments are worth 10 points. For every day late (up to 1 week) you lose 1 point off the top.\n\n\nExams\n\nMidterm: July 17 (review day in class on July 16)\nFinal (cumulative): August 14 (review day in class on August 13)\n\n\n\nEven more resources\nEverything you need to know for Stat 131a will be covered in lectures, labs, and assignments.\n\nIt is possible to do very well in Stat 131a without ever referring to an outside textbook or resource.\n\nHowever, most of the course material is covered by the online textbook developed specifically for 131A.\n\nYou can find the textbook here.\n\nThe StatQuest YouTube Channel is an excellent resource.\n\nStatQuest provides videos on many of the topics we will cover in class. The instructor is very entertaining!\n\nIf you would like some additional optional reading, you can try the following books.\n\nTheory Meets Data by Ani Adhikari. This is the online book for STAT 88 that covers introductory probability at the level of Stat 20.\nR for Data Science, by Garrett Grolemund and Hadley Wickham. This is a free online book that covers the tidyverse set of R packages.\nThe Statistical Sleuth: A Course in Methods of Data Analysis by Ramsey and Schafer\nIntroductory Statistics with R by Peter Dalgaard\n\nNone of these books covers all of the topics we will cover in 131A, nor do they necessarily have the same perspective and focus as this class.  But for those students wanting some additional structure or R assistance, these books may be helpful and should be at the right level for this class.\nStat 20 and Data 8 are similar courses, but each covers some subjects that the other does not. While we will cover these topics in class, you may find the following useful background if you are seeing them for the first time (more to follow):\n\nComputational and Inferential Thinking: The Foundations of Data Science, by Ani Adhikari and John DeNero – chapters 11-13.\n\nThis is the online book used by Data 8. These chapters introduce hypothesis testing using only resampling ideas, ideas which are not necessarily covered in Stat 20.",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#course-details",
@@ -113,8 +116,11 @@
     "objectID": "syllabus.html#lecture-recordings",
     "href": "syllabus.html#lecture-recordings",
     "title": "Syllabus",
-    "section": "Lecture recordings 🎥",
-    "text": "Lecture recordings 🎥\nLectures will be recorded automatically.\n\nThe course staff cannot guarantee audio or video quality.\nLecture recordings are posted on bcourses.\n\nLabs and office hours are not recorded.\nThe homework assignments may occasionally ask you to watch additional recordings to supplement the lecture material (e.g., if we run out of time covering an essential topic)."
+    "section": "",
+    "text": "Will be posted after class",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#attendance-and-participation",
@@ -155,8 +161,11 @@
     "objectID": "syllabus.html#exams",
     "href": "syllabus.html#exams",
     "title": "Syllabus",
-    "section": "Exams ⌛",
-    "text": "Exams ⌛\nThe first midterm is scheduled for Wednesday October 9 and will take place during lecture in Morgan 101.\nThe second midterm is scheduled for Wednesday November 13 and will take place during lecture in Morgan 101.\nThe final exam will take place Thursday December 19, 3-6pm (scheduled by the registrar). Location TBD.\n\nAll exams are cumulative, with emphasis on more recent material.\nTo acknowledge maturation over the course of the semester, exams are increasingly weighted in your course grade.\nIf you do not perform well on the first midterm, you can still do very well in 131a!\nUpdate: We will raise your midterm 1 and midterm 2 scores to up to 80% of the maximum score, based on your performance on the relevant sections of the final.\n\nIf you cannot attend an exam due to an extenuating circumstance, please contact the course staff ASAP to determine whether your circumstance qualifies for a make-up exam."
+    "section": "",
+    "text": "Midterm: July 17 (review day in class on July 16)\nFinal (cumulative): August 14 (review day in class on August 13)",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#textbooks-and-resources",
@@ -937,5 +946,75 @@
     "title": "Due dates",
     "section": "🏁 Final exam",
     "text": "🏁 Final exam\nThursday, December 19, 3-6pm @ GPBB 100"
+  },
+  {
+    "objectID": "syllabus.html#grading",
+    "href": "syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Component\nFraction\nNotes\n\n\n\n\nAttendance\n10%\nAttend 80% of classes for full credit\n\n\nLabs/Homework\n20%\nTwo lowest grades dropped\n\n\nMidterm\n30%\n\n\n\nFinal\n40%\n\n\n\n\n\n\nThis class is not curved. However, I may curve upwards if the exams prove harder than I intended. I design exams fresh every semester, so it’s hard to perfectly calibrate their difficulty.\n\n\n\nWe follow the standard university grading system. 97% = A+, 93% = A, 90% = A-, 87% = B+, etc",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#laptop-policy",
+    "href": "syllabus.html#laptop-policy",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Laptops closed during lecture unless otherwise indicated.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#attendance",
+    "href": "syllabus.html#attendance",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Measured through an attendance check in the middle of lecture. Don’t sweat missing a class here and there, you’ll get full credit if you attend 80% of classes.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#office-hours",
+    "href": "syllabus.html#office-hours",
+    "title": "Syllabus",
+    "section": "",
+    "text": "See Main page",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#collaboration-policy",
+    "href": "syllabus.html#collaboration-policy",
+    "title": "Syllabus",
+    "section": "",
+    "text": "All assignments are individual assignments unless otherwise indicated. However, you can ask other students for help with specific questions or to better understand something in general - you just can’t do the assignment together.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#late-assignments",
+    "href": "syllabus.html#late-assignments",
+    "title": "Syllabus",
+    "section": "",
+    "text": "All assignments are worth 10 points. For every day late (up to 1 week) you lose 1 point off the top.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#even-more-resources",
+    "href": "syllabus.html#even-more-resources",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Everything you need to know for Stat 131a will be covered in lectures, labs, and assignments.\n\nIt is possible to do very well in Stat 131a without ever referring to an outside textbook or resource.\n\nHowever, most of the course material is covered by the online textbook developed specifically for 131A.\n\nYou can find the textbook here.\n\nThe StatQuest YouTube Channel is an excellent resource.\n\nStatQuest provides videos on many of the topics we will cover in class. The instructor is very entertaining!\n\nIf you would like some additional optional reading, you can try the following books.\n\nTheory Meets Data by Ani Adhikari. This is the online book for STAT 88 that covers introductory probability at the level of Stat 20.\nR for Data Science, by Garrett Grolemund and Hadley Wickham. This is a free online book that covers the tidyverse set of R packages.\nThe Statistical Sleuth: A Course in Methods of Data Analysis by Ramsey and Schafer\nIntroductory Statistics with R by Peter Dalgaard\n\nNone of these books covers all of the topics we will cover in 131A, nor do they necessarily have the same perspective and focus as this class.  But for those students wanting some additional structure or R assistance, these books may be helpful and should be at the right level for this class.\nStat 20 and Data 8 are similar courses, but each covers some subjects that the other does not. While we will cover these topics in class, you may find the following useful background if you are seeing them for the first time (more to follow):\n\nComputational and Inferential Thinking: The Foundations of Data Science, by Ani Adhikari and John DeNero – chapters 11-13.\n\nThis is the online book used by Data 8. These chapters introduce hypothesis testing using only resampling ideas, ideas which are not necessarily covered in Stat 20.",
+    "crumbs": [
+      "Syllabus"
+    ]
   }
 ]
