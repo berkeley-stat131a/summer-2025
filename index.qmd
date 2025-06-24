@@ -26,13 +26,16 @@ listing:
 
 ## Where and when we meet + Office Hours
 
-The GSI (Huong) will also hold office hours, times TBD
+<img src="assets/time_chart2.png" alt="time chart" width="800"/>
 
-<img src="assets/time_chart.png" alt="time_chart" width="900"/>
+## More office hours
+
+* <b>GSI (Huong) - Mondays 9-11am, Evans 434</b>
+* Everett by appointment - email me
 
 ## 8-week Schedule
 
-<img src="assets/stat_c131a_schedule_summer25.png" alt="schedule" width="600"/>
+<img src="assets/grid_schedule.png" alt="schedule" width="600"/>
 
 ## Content
 

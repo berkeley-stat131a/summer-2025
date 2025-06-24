@@ -387,11 +387,11 @@
   {
     "objectID": "assignments.html",
     "href": "assignments.html",
-    "title": "Due dates",
+    "title": "Assignments",
     "section": "",
-    "text": "DataHub\nGitHub\nDue date: Monday, September 9, midnight PT",
+    "text": "Github repository with all coding assignments\n\n\n\nAssignment\nDue date\nLinks\n\n\n\n\nLab 00\nTuesday 2025-06-24 11:59pm\nDatahub\n\n\nCourse Pre-Survey\nTuesday 2025-06-24 11:59pm\nGradescope",
     "crumbs": [
-      "HW and Labs"
+      "Assignments"
     ]
   },
   {
@@ -749,7 +749,7 @@
     "href": "index.html#content",
     "title": "STAT c131a: Statistical Methods for Data Science",
     "section": "Content",
-    "text": "Content\n\n\n  \n  Week 1 - Intro, R and RStudio, Data Visualization, Data Wrangling\n  \n  \n\n  \n    \n    June 24\n    \n    \n    Getting Started\n    \n      \n        \n      \n        \n      \n    \n    \n    \n    \n  \n    \n    June 25\n    \n    \n    Good Data Visualization\n    \n      \n        \n      \n    \n    \n    \n    \n  \n    \n    June 26\n    \n    \n    Data Wrangling and Project Management\n    \n      \n        \n      \n    \n    \n    \n    \n  \n  \n  \n  \n  Resources\n  \n  \n    \n      Tour of RStudio\n    \n      Markdown Cheatsheet\n    \n      R tutorials from Gaston Sanchez (Berkeley)\n    \n  \n  \n  \n  \n  \n\n\nNo matching items\n\n\nThis work is licensed under a Creative Commons Attribution 4.0 International License.",
+    "text": "Content\n\n\n  \n  Week 1 - Intro, R and RStudio, Data Visualization, Data Wrangling\n  \n  \n\n  \n    \n    June 24\n    \n    \n    Getting Started\n    \n      \n        \n        Slides\n                 \n      \n        \n        Lab 00\n                 \n      \n        \n        Course pre-survey\n                 \n      \n    \n    \n    \n    \n  \n    \n    June 25\n    \n    \n    Good Data Visualization\n    \n      \n        \n      \n    \n    \n    \n    \n  \n    \n    June 26\n    \n    \n    Data Wrangling\n    \n      \n        \n      \n    \n    \n    \n    \n  \n  \n  \n  \n  Resources\n  \n  \n    \n      Tour of RStudio\n    \n      Markdown Cheatsheet\n    \n      R tutorials from Gaston Sanchez (Berkeley)\n    \n  \n  \n  \n  \n  \n\n\nNo matching items\n\n\nThis work is licensed under a Creative Commons Attribution 4.0 International License.",
     "crumbs": [
       "Main"
     ]
@@ -759,7 +759,7 @@
     "href": "index.html#where-and-when-we-meet-office-hours",
     "title": "STAT c131a: Statistical Methods for Data Science",
     "section": "Where and when we meet + Office Hours",
-    "text": "Where and when we meet + Office Hours\nThe GSI (Huong) will also hold office hours, times TBD",
+    "text": "Where and when we meet + Office Hours",
     "crumbs": [
       "Main"
     ]
@@ -773,5 +773,169 @@
     "crumbs": [
       "Main"
     ]
+  },
+  {
+    "objectID": "index.html#more-office-hours",
+    "href": "index.html#more-office-hours",
+    "title": "STAT c131a: Statistical Methods for Data Science",
+    "section": "More office hours",
+    "text": "More office hours\n\nGSI (Huong) - Mondays 9-11am, Evans 434\nEverett by appointment - email me",
+    "crumbs": [
+      "Main"
+    ]
+  },
+  {
+    "objectID": "assignments_josh.html",
+    "href": "assignments_josh.html",
+    "title": "Due dates",
+    "section": "",
+    "text": "DataHub\nGitHub\nDue date: Monday, September 9, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-1",
+    "href": "assignments_josh.html#lab-1",
+    "title": "Due dates",
+    "section": "",
+    "text": "DataHub\nGitHub\nDue date: Monday, September 9, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#hw1",
+    "href": "assignments_josh.html#hw1",
+    "title": "Due dates",
+    "section": "📊 HW1",
+    "text": "📊 HW1\nHW 1 details\nDue date: Friday, September 13, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-2",
+    "href": "assignments_josh.html#lab-2",
+    "title": "Due dates",
+    "section": "🔔 Lab 2",
+    "text": "🔔 Lab 2\nDataHub\nGitHub\nDue date: Wednesday, September 18, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-3",
+    "href": "assignments_josh.html#lab-3",
+    "title": "Due dates",
+    "section": "👨‍🚀 Lab 3",
+    "text": "👨‍🚀 Lab 3\nDataHub\nGitHub\nYour Lab 3 submission must include a completed PDF of the Lecture 8 worksheet.\n\nYou can ignore the two normal distribution plots at the end of the worksheet.\n\nDue date: Monday, September 23, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#hw2",
+    "href": "assignments_josh.html#hw2",
+    "title": "Due dates",
+    "section": "🍬 HW2",
+    "text": "🍬 HW2\nHW 2 details\nDue date: Friday, September 27 Monday, September 30, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-4-part-a-and-part-b",
+    "href": "assignments_josh.html#lab-4-part-a-and-part-b",
+    "title": "Due dates",
+    "section": "🩸 Lab 4 (Part A and Part B)",
+    "text": "🩸 Lab 4 (Part A and Part B)\nDataHub (Part A and B)\nGitHub (Part A and B)\nDue date: Wednesday, October 2, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#midterm-1",
+    "href": "assignments_josh.html#midterm-1",
+    "title": "Due dates",
+    "section": "📝 Midterm 1",
+    "text": "📝 Midterm 1\nWednesday, October 9, 2-3pm in Morgan 101"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-5",
+    "href": "assignments_josh.html#lab-5",
+    "title": "Due dates",
+    "section": "🥾 Lab 5",
+    "text": "🥾 Lab 5\nLab 5 (DataHub)\nLab 5 (GitHub)\nDue date: Friday, October 11, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#hw3",
+    "href": "assignments_josh.html#hw3",
+    "title": "Due dates",
+    "section": "🧪 HW3",
+    "text": "🧪 HW3\nHW 3 details\nDue date: Friday, October 18 Sunday, October 20, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-6",
+    "href": "assignments_josh.html#lab-6",
+    "title": "Due dates",
+    "section": "🎯 Lab 6",
+    "text": "🎯 Lab 6\nLab 6 (DataHub)\nLab 6 (GitHub)\nDue date: Wednesday, October 23, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-7-parts-a-and-b-part-a",
+    "href": "assignments_josh.html#lab-7-parts-a-and-b-part-a",
+    "title": "Due dates",
+    "section": "🚘 Lab 7, Parts A and B Part A",
+    "text": "🚘 Lab 7, Parts A and B Part A\nLab 7 (DataHub)\nLab 7 (GitHub)\nPart B posted shortly after Part A. There is no longer a Part B to Lab 7.\nDue date: Monday, October 28, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-8",
+    "href": "assignments_josh.html#lab-8",
+    "title": "Due dates",
+    "section": "🚘 Lab 8",
+    "text": "🚘 Lab 8\nLab 8 (DataHub)\nLab 8 (GitHub)\nDue date: Friday, November 8, midnight PT\nNote: This due date should have been Friday, November 1. I’m leaving the deadline as 11/8 to minimize confusion, but note that HW4 draws on material from Lab 8."
+  },
+  {
+    "objectID": "assignments_josh.html#hw4",
+    "href": "assignments_josh.html#hw4",
+    "title": "Due dates",
+    "section": "🎓 HW4",
+    "text": "🎓 HW4\nHW 4 details\nDue date: Monday, November 4, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-9",
+    "href": "assignments_josh.html#lab-9",
+    "title": "Due dates",
+    "section": "📈 Lab 9",
+    "text": "📈 Lab 9\nLab 9 (DataHub)\nLab 9 (GitHub)\nDue date: Friday, November 8, midnight PT\nNote: Lab 8 is also due on 11/8. See above."
+  },
+  {
+    "objectID": "assignments_josh.html#midterm-2",
+    "href": "assignments_josh.html#midterm-2",
+    "title": "Due dates",
+    "section": "📝 Midterm 2",
+    "text": "📝 Midterm 2\nWednesday, November 13, 2-3pm in Morgan 101"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-10",
+    "href": "assignments_josh.html#lab-10",
+    "title": "Due dates",
+    "section": "🎯 Lab 10",
+    "text": "🎯 Lab 10\nLab 10 (DataHub)\nLab 10 (GitHub)\nAnticipated due date: Friday, November 22, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#hw5",
+    "href": "assignments_josh.html#hw5",
+    "title": "Due dates",
+    "section": "🫀 HW5",
+    "text": "🫀 HW5\nHW 5 details\nDue date: Monday, November 25, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#lab-11",
+    "href": "assignments_josh.html#lab-11",
+    "title": "Due dates",
+    "section": "🤹 Lab 11",
+    "text": "🤹 Lab 11\nLab 11 (DataHub)\nLab 11 (GitHub)\nAnticipated due date: Friday, December 6, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#hw6",
+    "href": "assignments_josh.html#hw6",
+    "title": "Due dates",
+    "section": "🏁 HW6",
+    "text": "🏁 HW6\nHW 6 details\nAnticipated due date: Monday, December 9, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#final-project",
+    "href": "assignments_josh.html#final-project",
+    "title": "Due dates",
+    "section": "🏁 Final project",
+    "text": "🏁 Final project\nProject details\nAnticipated due date: Sunday, December 15, midnight PT"
+  },
+  {
+    "objectID": "assignments_josh.html#final-exam",
+    "href": "assignments_josh.html#final-exam",
+    "title": "Due dates",
+    "section": "🏁 Final exam",
+    "text": "🏁 Final exam\nThursday, December 19, 3-6pm @ GPBB 100"
   }
 ]
