@@ -1,7 +1,7 @@
 - text: DataHub
   explanation: Write code
   faicon: laptop-code
-  link: https://r.datahub.berkeley.edu
+  link: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
   bg_color: '#003262'
   text_color: 'white'
 - text: PingPong

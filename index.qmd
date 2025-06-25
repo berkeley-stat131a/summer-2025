@@ -26,7 +26,7 @@ listing:
 
 ## Where and when we meet + Office Hours
 
-<img src="assets/time_chart2.png" alt="time chart" width="800"/>
+<img src="assets/time_chart.png" alt="time chart" width="800"/>
 
 ## More office hours
 
