@@ -18,7 +18,7 @@
           publish: true
     - display-date: June 25
       date: 6/25/25
-      topic: Good Data Visualization
+      topic: Data Visualization
       items:
         - type: Pre-reading A
           href: "https://drive.google.com/file/d/1ZUqTGE5ML8mw1D7g92JJIxKmbJnKHuLu/view?usp=sharing"
@@ -26,9 +26,12 @@
         - type: Pre-reading B (Ch 1-3)
           href: "https://clauswilke.com/dataviz/introduction.html"
           publish: true
-        - type: Slides
-          href: ""
-          publish: false
+        - type: Code-Along (lectures/Lab02_codealong.Rmd)
+          href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
+          publish: true
+        - type: "Assignment: Lab 01 (due Monday 6/30 midnight)"
+          href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
+          publish: true
     - display-date: June 26
       date: 6/25/25
       topic: Data Wrangling
@@ -37,6 +40,8 @@
           href: ""
           publish: false
   resources:
+    - href: "https://www.tidyverse.org"
+      text: tidyverse documentation (ggplot, dplyr, etc)
     - href: "https://www.gastonsanchez.com/R-ice-breaker/1-07-rstudio-tour.html"
       text: Tour of RStudio
     - href: "https://www.markdownguide.org/basic-syntax/"

@@ -11,3 +11,4 @@ editor:
 | --- | --- | --- |
 | Lab 00 | Tuesday 2025-06-24 11:59pm | [Datahub](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main) |
 | Course Pre-Survey | Tuesday 2025-06-24 11:59pm | [Gradescope](https://www.gradescope.com/courses/1057811) |
+| Lab 02 | Monday 2025-06-30 11:59pm | [Datahub](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main) |
