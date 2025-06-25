@@ -22,10 +22,10 @@
   link: https://edstem.org/us/courses/80202/discussion
   bg_color: '#3B7EA1'
   text_color: 'white'
-- text: bCourses
-  explanation: Only for lecture recordings (see "Media Files")
+- text: Lecture Recordings
+  explanation: (Youtube Playlist)
   faicon: video
-  link: https://bcourses.berkeley.edu/courses/1545552/external_tools/90481
+  link: https://www.youtube.com/playlist?list=PLwh45cIJaIHLgsYPeuCYhh22ydC11Cox6
   bg_color: '#C4820E'
   text_color: 'white'
 - text: Textbook
