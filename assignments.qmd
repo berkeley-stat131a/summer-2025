@@ -5,10 +5,12 @@ editor:
     wrap: sentence
 ---
 
-[Github repository](https://github.com/berkeley-stat131a/summer-2025-assignments) with all coding assignments
+You can find all assignments on [Datahub](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main)
+Or you can look at the [Github repository](https://github.com/berkeley-stat131a/summer-2025-assignments) directly.
 
-| Assignment | Due date | Links |
+| Assignment | Due date | Link |
 | --- | --- | --- |
-| Lab 00 | Tuesday 2025-06-24 11:59pm | [Datahub](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main) |
+| Lab 00 | Tuesday 2025-06-24 11:59pm | See DataHub |
 | Course Pre-Survey | Tuesday 2025-06-24 11:59pm | [Gradescope](https://www.gradescope.com/courses/1057811) |
-| Lab 02 | Monday 2025-06-30 11:59pm | [Datahub](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main) |
+| Lab 01 | Monday 2025-06-30 11:59pm | See DataHub |
+| Lab 02 | Tuesday 2025-07-01 11:59pm | See DataHub |
