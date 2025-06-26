@@ -39,12 +39,18 @@
       date: 6/25/25
       topic: Data Wrangling
       items:
-        - type: Slides
+        - type: Code-Along (lectures/Lab03_codealong.Rmd)
+          href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
+          publish: true
+        - type: Lecture Recording
           href: ""
           publish: false
+        - type: "Assignment: Lab 02 (due Tuesday 7/1 midnight)"
+          href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
+          publish: true
   resources:
     - href: "https://www.tidyverse.org"
-      text: tidyverse documentation (ggplot, dplyr, etc)
+      text: tidyverse documentation (ggplot, dplyr, stringr, forcats, etc)
     - href: "https://www.gastonsanchez.com/R-ice-breaker/1-07-rstudio-tour.html"
       text: Tour of RStudio
     - href: "https://www.markdownguide.org/basic-syntax/"
