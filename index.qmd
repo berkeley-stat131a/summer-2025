@@ -21,7 +21,7 @@ listing:
 | Position | Name | Office Hours | Email |
 | --- | --- | --- | --- |
 | **Instructor** | **Everett Wetchler** | **1. Tu/W/Th 12:30-1, Evans 323 (my office)<br>2. Tu/W/Th After class (quick questions)<br>3.By appointment (email me)** | <a href="mailto:wetchler@berkeley.edu?subject=STAT%20C131A">wetchler@berkeley.edu</a> |
-| GSI (runs lab) | Huong Vu | Mondays 9-11am, Evans 434 | <a href="mailto:huong_vu@berkeley.edu?subject=STAT%20C131A">huong_vu@berkeley.edu</a> |
+| GSI (runs lab) | Huong Vu | Mondays 9-11am, <a href="https://berkeley.zoom.us/j/97377985822">Zoom link</a> | <a href="mailto:huong_vu@berkeley.edu?subject=STAT%20C131A">huong_vu@berkeley.edu</a> |
 | Reader (grading) | Sarah Sturgeon | |
 
 ## Where and when we meet + Office Hours

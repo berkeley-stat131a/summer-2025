@@ -24,6 +24,9 @@ format:
     theme:
       - cosmo
       - assets/styles-alt.scss
+    include-after-body:
+      - text: |
+          <script src="assets/popover-init.js"></script>
     toc: true
     include-in-header:
       file: siteimprove.html

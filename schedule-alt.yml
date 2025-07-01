@@ -3,46 +3,70 @@
     - display-date: June 24
       date: 6/24/25
       topic: Getting Started
+      popover:
+        lines:
+          - "Course overview"
+          - "Careers in Data Science"
+          - "Getting started with R and R Markdown"
       items:
-        - type: Slides
+        - type: slides
+          text: Lec01 Slides
           href: "https://docs.google.com/presentation/d/1KKvWs_a1CpUVoR-uFPfX47baZ7XJ0Kfn513lrCSzKZE/edit?usp=sharing"
           publish: true
-        - type: Lecture Recording
+        - type: video
+          text: Lec01 Recording
           href: "https://youtu.be/wTxsHJaym7M"
           publish: true
-        - type: "Assignment: Lab 00"
+        - type: assignment
+          text: "Assignment: Lab 00"
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
-        - type: "Assignment: Course pre-survey"
+        - type: assignment
+          text: "Assignment: Course pre-survey"
           href: "https://www.gradescope.com/courses/1057811"
           publish: true
     - display-date: June 25
       date: 6/25/25
       topic: Data Visualization
+      popover:
+        lines:
+          - "tidyverse.org"
+          - "ggplot and dplyr"
+          - "Choosing the right visualization"
       items:
-        - type: Pre-reading A
+        - type: reading
+          text: Pre-reading A
           href: "https://drive.google.com/file/d/1ZUqTGE5ML8mw1D7g92JJIxKmbJnKHuLu/view?usp=sharing"
           publish: true
-        - type: Pre-reading B (Ch 1-3)
+        - type: reading
+          text: Pre-reading B (Ch 1-3)
           href: "https://clauswilke.com/dataviz/introduction.html"
           publish: true
-        - type: Code-Along (lectures/Lab03_codealong_completed.Rmd)
+        - type: code
+          text: Code-Along (lectures/Lab02_CodeAlong.Rmd)
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
-        - type: Lecture Recording
+        - type: video
+          text: Lec02 Recording
           href: "https://youtu.be/Hozx049VcyY"
           publish: true
-        - type: "Assignment: Lab 01 (due Monday 6/30 midnight)"
+        - type: assignment
+          text: "Assignment: Lab 01 (due Monday 6/30 midnight)"
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
     - display-date: June 26
       date: 6/25/25
       topic: Data Wrangling
+      popover:
+        lines:
+          - "more tidyverse - forcats and stringr"
       items:
-        - type: Code-Along (lectures/Lab03_codealong_completed.Rmd)
+        - type: code
+          text: Code-Along (lectures/Lab03_CodeAlong.Rmd)
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
-        - type: Lecture Recording
+        - type: video
+          text: Lec03 Recording
           href: "https://youtu.be/6aVuH93aHS0"
           publish: true
         - type: "Assignment: Lab 02 (due Tuesday 7/1 midnight)"
@@ -59,3 +83,24 @@
       text: R beginner tutorials
     - href: "https://clauswilke.com/dataviz/introduction.html"
       text: Data Viz online book
+- week: 2 - Statistical testing with and without math
+  days:
+    - display-date: July 1
+      date: 7/1/25
+      topic: What is "statistical significance"?
+    - display-date: July 2
+      date: 7/2/25
+      topic: Statistical testing with simulation, not math.
+      items:
+        - type: reading
+          text: "Pre-reading (Ch 3.1-3.3 and 3.8). Note: this book uses *outdated* coding syntax, so only skim the code parts."
+          href: "https://epurdom.github.io/Stat131A/book/comparing-groups-and-hypothesis-testing.html"
+          publish: true
+    - display-date: July 3
+      date: 7/3/25
+      topic: "With math: classic statistical tests"
+      items:
+        - type: reading
+          text: "Pre-reading (Ch 3.4, 3.6, 3.7)"
+          href: "https://epurdom.github.io/Stat131A/book/comparing-groups-and-hypothesis-testing.html#bootstrap-confidence-intervals"
+          publish: true

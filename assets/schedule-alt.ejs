@@ -12,11 +12,33 @@
     <p><%= day['display-date'] %></p>
     </div>
     <div class="materials-cell">
-    <p><span class="daily-topic"><%= day.topic %></span><br>
+    <p><span class="daily-topic"><%= day.topic %>
+    <% if(day.popover) {%>
+      <i class="fa-solid fa-circle-info"
+      data-bs-toggle="popover"
+      data-bs-trigger="hover"
+      data-bs-content="<ul><% for (const line of day.popover.lines) {%><li><%= line %></li><%}%></ul>">
+      </i>
+    <% } %>
+    </span> <br>
     <% if (day.items && day.items.length > 0) { %>
       <% for (const item of day.items) { %>
         <% if (item.publish){ %>
-        <a  href="<%= item.href %>" target="_blank" type="button" class="btn btn-outline-primary btn-sm"><%= item.type %></a>
+        <a  href="<%= item.href %>" target="_blank"
+         class="btn btn-sm
+          <% if(item.type == "assignment") {
+                %>btn-danger<%
+             } else if(item.type == "video") {
+                %>btn-info<%
+             } else if(item.type == "code") {
+                %>btn-dark<%
+             } else if(item.type == "reading") {
+                %>btn-textbook<%
+             } else {
+                %>btn-light<%
+             }%>
+        ">
+        <%= item.text %></a>
         <%= item.details %>
                  <% } %>
       <% } %>
