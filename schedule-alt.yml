@@ -105,6 +105,14 @@
       date: 7/2/25
       topic: Statistical testing with simulation, not math.
       items:
+        - type: slides
+          text: Lec05 Slides
+          href: "https://docs.google.com/presentation/d/1ZxmQxxuMdMYHE86kYHlBcvd_CeTWKX5gciR-K8T1mjQ/edit?usp=sharing"
+          publish: true
+        - type: video
+          text: Lec05 Recording
+          href: "https://youtu.be/xUQvRPYPJG4"
+          publish: true
         - type: reading
           text: "Pre-reading (Ch 3.1-3.3 and 3.8). Note: this book uses *outdated* coding syntax, so only skim the code parts."
           href: "https://epurdom.github.io/Stat131A/book/comparing-groups-and-hypothesis-testing.html"
