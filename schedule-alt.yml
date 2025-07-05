@@ -14,7 +14,7 @@
           href: "https://docs.google.com/presentation/d/1KKvWs_a1CpUVoR-uFPfX47baZ7XJ0Kfn513lrCSzKZE/edit?usp=sharing"
           publish: true
         - type: video
-          text: Lec01 Recording
+          text: Lec01 Video
           href: "https://youtu.be/wTxsHJaym7M"
           publish: true
         - type: assignment
@@ -47,7 +47,7 @@
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
         - type: video
-          text: Lec02 Recording
+          text: Lec02 Video
           href: "https://youtu.be/Hozx049VcyY"
           publish: true
         - type: assignment
@@ -66,7 +66,7 @@
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
         - type: video
-          text: Lec03 Recording
+          text: Lec03 Video
           href: "https://youtu.be/6aVuH93aHS0"
           publish: true
         - type: "Assignment: Lab 02 (due Tuesday 7/1 midnight)"
@@ -94,7 +94,7 @@
           href: "https://docs.google.com/presentation/d/1batpxJOBjhGqRaY1tkov-Ucc7MPPlw916abL2i9yofo/edit?usp=sharing"
           publish: true
         - type: video
-          text: Lec04 Recording
+          text: Lec04 Video
           href: "https://youtu.be/mNZ0I1knAb0"
           publish: true
         - type: code
@@ -110,7 +110,7 @@
           href: "https://docs.google.com/presentation/d/1ZxmQxxuMdMYHE86kYHlBcvd_CeTWKX5gciR-K8T1mjQ/edit?usp=sharing"
           publish: true
         - type: video
-          text: Lec05 Recording
+          text: Lec05 Video
           href: "https://youtu.be/xUQvRPYPJG4"
           publish: true
         - type: reading
@@ -129,7 +129,15 @@
           text: "Pre-reading (Ch 3.4, 3.6, 3.7)"
           href: "https://epurdom.github.io/Stat131A/book/comparing-groups-and-hypothesis-testing.html#bootstrap-confidence-intervals"
           publish: true
+        - type: video
+          text: "Lec06 Video (Disclaimer: this wasn't a very good lecture. I was so tired y'all...)"
+          href: "https://youtu.be/XUIUsqi0BfE"
+          publish: true
         - type: assignment
           text: "Assignment: Lab 04 (due Wednesday 7/9 midnight)"
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
+          publish: true
+        - type: slides
+          text: (No slides today)
+          href: "#"
           publish: true
