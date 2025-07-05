@@ -17,7 +17,7 @@ website:
       - href: assignments.qmd
         text: Assignments
       - href: syllabus.qmd
-        text: Sylllabus
+        text: Syllabus
 
 format:
   html:
