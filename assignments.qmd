@@ -10,7 +10,9 @@ Or you can look at the [Github repository](https://github.com/berkeley-stat131a/
 
 | Assignment | Due date | Link |
 | --- | --- | --- |
-| Lab 00 | Tuesday 2025-06-24 11:59pm | See DataHub |
-| Course Pre-Survey | Tuesday 2025-06-24 11:59pm | [Gradescope](https://www.gradescope.com/courses/1057811) |
-| Lab 01 | Monday 2025-06-30 11:59pm | See DataHub |
-| Lab 02 | Tuesday 2025-07-01 11:59pm | See DataHub |
+| Lab 00 | Tuesday 2025-06-24 11:59pm |
+| Course Pre-Survey | Tuesday 2025-06-24 11:59pm |
+| Lab 01 | Monday 2025-06-30 11:59pm |
+| Lab 02 | Tuesday 2025-07-01 11:59pm |
+| Lab 03 | Wednesday 2025-07-08 11:59pm |
+| Lab 04 | Thursday 2025-07-09 11:59pm |
