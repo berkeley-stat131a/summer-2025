@@ -5,14 +5,16 @@ editor:
     wrap: sentence
 ---
 
-You can find all assignments on [Datahub](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main)
+You can find all assignments **(and posted solutions)** on [Datahub](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main)
 Or you can look at the [Github repository](https://github.com/berkeley-stat131a/summer-2025-assignments) directly.
 
-| Assignment | Due date | Link |
+| Assignment | Due date | Solution\* |
 | --- | --- | --- |
-| Lab 00 | Tuesday 2025-06-24 11:59pm |
-| Course Pre-Survey | Tuesday 2025-06-24 11:59pm |
-| Lab 01 | Monday 2025-06-30 11:59pm |
-| Lab 02 | Tuesday 2025-07-01 11:59pm |
-| Lab 03 | Wednesday 2025-07-08 11:59pm |
-| Lab 04 | Thursday 2025-07-09 11:59pm |
+| Course Pre-Survey | Tuesday 2025-06-24 11:59pm | - |
+| Lab 00 | Tuesday 2025-06-24 11:59pm | - |
+| Lab 01 | Monday 2025-06-30 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab01/Lab01_Solution.pdf) |
+| Lab 02 | Tuesday 2025-07-01 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab02/Lab02_Solution.pdf) |
+| Lab 03 | Wednesday 2025-07-08 11:59pm | (not released yet) |
+| Lab 04 | Thursday 2025-07-09 11:59pm | (not released yet) |
+
+\* These are called "solutions," but there are always many ways to solve any problem. Don't look at these as "THE right way" to do it, just one way that you might learn something from.
