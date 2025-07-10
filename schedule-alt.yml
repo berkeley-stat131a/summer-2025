@@ -141,6 +141,8 @@
           text: (No slides today)
           href: "#"
           publish: true
+- week: 3 - Probability, Correlation, Practice
+  days:
     - display-date: July 8
       date: 7/8/25
       topic: "Data Science in Context"
@@ -168,6 +170,20 @@
         - type: video
           text: "Lec08 Video"
           href: "https://youtu.be/SXHG1CcorPg"
+          publish: true
+    - display-date: July 10
+      date: 7/10/25
+      topic: "Correlation"
+      items:
+        - type: assignment
+          text: "Worksheet - Dog Breeds - See Gradescope (due Sunday 7/13 midnight)"
+          href: "https://www.gradescope.com/courses/1057811/assignments"
+          publish: true
+        - type: slides
+          text: "(No slides)"
+          publish: true
+        - type: video
+          text: "(No video)"
           publish: true
   resources:
     - href: https://en.wikipedia.org/wiki/Stop-and-frisk_in_New_York_City
