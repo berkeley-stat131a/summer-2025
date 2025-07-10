@@ -145,7 +145,33 @@
       date: 7/8/25
       topic: "Data Science in Context"
       items:
+        - type: slides
+          text: "Lec07 Slides"
+          href: "https://docs.google.com/presentation/d/1jANXxOt4k0LgUbmntXEFH8g0pEm_58Hwl89MIAIRD6I/edit?usp=sharing"
+          publish: true
+        - type: video
+          text: "Lec07 Video"
+          href: "https://youtu.be/spGv6Lm74yk"
+          publish: true
         - type: assignment
           text: "Assignment: Lab 05 (due Saturday 7/12 midnight)"
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
+    - display-date: July 9
+      date: 7/9/25
+      topic: "Probability"
+      items:
+        - type: slides
+          text: "Lec08 Slides"
+          href: "https://docs.google.com/presentation/d/1orNnr20kJzUWqjx5tHThh5OHXzBWzyq1wA7-0Xv_7u4/edit?usp=sharing"
+          publish: true
+        - type: video
+          text: "Lec08 Video"
+          href: "https://youtu.be/SXHG1CcorPg"
+          publish: true
+  resources:
+    - href: https://en.wikipedia.org/wiki/Stop-and-frisk_in_New_York_City
+      text: "Wikipedia on stop-and-frisk"
+    - href: https://www.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page
+      text: "NYC website with the truly 'raw' data"
+          
