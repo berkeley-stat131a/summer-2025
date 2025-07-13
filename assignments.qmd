@@ -11,8 +11,8 @@ Or you can look at the [Github repository](https://github.com/berkeley-stat131a/
 
 | Assignment | Due date | Solution\* |
 | --- | --- | --- |
-| Course Pre-Survey | Tue June 24 11:59pm | - |
-| Lab 00 - RStudio Intro | Tue June 24 11:59pm | - |
+| Course Pre-Survey | Tue June 24 11:59pm | n/a |
+| Lab 00 - RStudio Intro | Tue June 24 11:59pm | n/a |
 | Lab 01 - Data Visualization | Mon June 30 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab01/Lab01_Solution.pdf) |
 | Lab 02 - Data Wrangling | Tue July 1 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab02/Lab02_Solution.pdf) |
 | Lab 03 - Permutation Testing| Wed July 8 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab03/Lab03_Solution.pdf) |
