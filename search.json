@@ -1,5 +1,15 @@
 [
   {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Submit on Gradescope\nYou can find all assignments (and posted solutions) on Datahub Or you can look at the Github repository directly.\n\n\n\n\nAssignment\nDue date\nSolution*\n\n\n\n\nCourse Pre-Survey\nTue June 24 11:59pm\n-\n\n\nLab 00 - RStudio Intro\nTue June 24 11:59pm\n-\n\n\nLab 01 - Data Visualization\nMon June 30 11:59pm\npdf\n\n\nLab 02 - Data Wrangling\nTue July 1 11:59pm\npdf\n\n\nLab 03 - Permutation Testing\nWed July 8 11:59pm\n(not released yet)\n\n\nLab 04 - Randomness and Distributions\nThu July 9 11:59pm\n(not released yet)\n\n\nLab 05 - What’s going on in NYC?\nSat July 12 11:59pm\n(not released yet)\n\n\nWorksheet - Dog Breeds\nSunJuly 13 11:59pm\n(not released yet)\n\n\n\n* These are called “solutions,” but there are always many ways to solve any problem. Don’t look at these as “THE right way” to do it, just one way that you might learn something from.",
+    "crumbs": [
+      "Assignments"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "STAT c131a: Statistical Methods for Data Science",
@@ -70,6 +80,13 @@
     ]
   },
   {
+    "objectID": "staff.html",
+    "href": "staff.html",
+    "title": "🍎 Staff",
+    "section": "",
+    "text": "The teaching staff is excited to have you in 131A!\n\n\n\n Instructor: Josh Grossman Please call me “Josh”! No need for “Professor”, “Dr.”, “Sir”, etc.  jdgg at berkeley dot edu    \n\n\n GSI: Van Hovenga vhovenga at berkeley dot edu      \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn general, please use Ed to communicate with the course staff.\nUnless otherwise indicated, email should only be used for private concerns directed to a specific member of the teaching staff."
+  },
+  {
     "objectID": "data.html",
     "href": "data.html",
     "title": "Data",
@@ -91,23 +108,6 @@
     "text": "Data 2"
   },
   {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "SYLLABUS STILL UNDER CONSTRUCTION\n\nGrading:\n\n\n\nComponent\nFraction\nNotes\n\n\n\n\nAttendance\n10%\nAttend 80% of classes for full credit\n\n\nLabs/Homework\n20%\nTwo lowest grades dropped\n\n\nMidterm\n30%\n\n\n\nFinal\n40%\n\n\n\n\n\n\nCurving\nThis class is not curved. However, I may curve upwards if the exams prove harder than I intended. I design exams fresh every semester, so it’s hard to perfectly calibrate their difficulty.\n\n\nLetter grades\nWe follow the standard university grading system. 97% = A+, 93% = A, 90% = A-, 87% = B+, etc\n\n\nLaptop policy\nLaptops closed during lecture unless otherwise indicated.\n\n\nAssignments and late policy\n\nYou can submit assignments up to THREE DAYS late, with a penalty of 10% per day late.\nI drop your two lowest assignments in grading\n\n\n\nAttendance\nMeasured through an attendance check in the middle of lecture. Don’t sweat missing a class here and there, you’ll get full credit if you attend 80% of classes.\n\n\nLecture recordings\nWill be posted after class, see main page.\n\n\nOffice Hours\nSee Main page\n\n\nCollaboration policy\nAll assignments are individual assignments unless otherwise indicated. However, you can ask other students for help with specific questions or to better understand something in general - you just can’t do the assignment together.\n\n\nLate Assignments\nAll assignments are worth 10 points. For every day late (up to 1 week) you lose 1 point off the top.\n\n\nExams\n\nMidterm: July 17 (review day in class on July 16)\nFinal (cumulative): August 14 (review day in class on August 13)\n\n\n\nEven more resources\nEverything you need to know for Stat 131a will be covered in lectures, labs, and assignments. However, most of the course material is covered by the online textbook developed specifically for 131A.\n\nYou can find the textbook here or on the homepage\n\nOther resources that may be helpful:\n\nR beginner tutorials\nMarkdown Cheatsheet\nData Viz online book\nStatQuest YouTube Channel\n\nStatQuest provides videos on many of the topics we will cover in class. The instructor is very entertaining!\n\nR for Data Science, by Garrett Grolemund and Hadley Wickham. This is a free online book that covers the tidyverse set of R packages.\nTheory Meets Data by Ani Adhikari. This is the online book for STAT 88 that covers introductory probability at the level of Stat 20.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "staff.html",
-    "href": "staff.html",
-    "title": "🍎 Staff",
-    "section": "",
-    "text": "The teaching staff is excited to have you in 131A!\n\n\n\n Instructor: Josh Grossman Please call me “Josh”! No need for “Professor”, “Dr.”, “Sir”, etc.  jdgg at berkeley dot edu    \n\n\n GSI: Van Hovenga vhovenga at berkeley dot edu      \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn general, please use Ed to communicate with the course staff.\nUnless otherwise indicated, email should only be used for private concerns directed to a specific member of the teaching staff."
-  },
-  {
     "objectID": "license.html",
     "href": "license.html",
     "title": "License",
@@ -115,13 +115,13 @@
     "text": "This work is licensed under a Creative Commons Attribution 4.0 International License."
   },
   {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments",
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
     "section": "",
-    "text": "You can find all assignments (and posted solutions) on Datahub Or you can look at the Github repository directly.\n\n\n\nAssignment\nDue date\nSolution*\n\n\n\n\nCourse Pre-Survey\nTuesday June 24 11:59pm\n-\n\n\nLab 00\nTuesday June 24 11:59pm\n-\n\n\nLab 01\nMonday June 30 11:59pm\npdf\n\n\nLab 02\nTuesday July 1 11:59pm\npdf\n\n\nLab 03\nWednesday July 8 11:59pm\n(not released yet)\n\n\nLab 04\nThursday July 9 11:59pm\n(not released yet)\n\n\nLab 05\nSatureday July 12 11:59pm\n(not released yet)\n\n\n\n* These are called “solutions,” but there are always many ways to solve any problem. Don’t look at these as “THE right way” to do it, just one way that you might learn something from.",
+    "text": "SYLLABUS STILL UNDER CONSTRUCTION\n\nGrading:\n\n\n\nComponent\nFraction\nNotes\n\n\n\n\nAttendance\n10%\nAttend 80% of classes for full credit\n\n\nLabs/Homework\n20%\nTwo lowest grades dropped\n\n\nMidterm\n30%\n\n\n\nFinal\n40%\n\n\n\n\n\n\nCurving\nThis class is not curved. However, I may curve upwards if the exams prove harder than I intended. I design exams fresh every semester, so it’s hard to perfectly calibrate their difficulty.\n\n\nLetter grades\nWe follow the standard university grading system. 97% = A+, 93% = A, 90% = A-, 87% = B+, etc\n\n\nLaptop policy\nLaptops closed during lecture unless otherwise indicated.\n\n\nAssignments and late policy\n\nYou can submit assignments up to THREE DAYS late, with a penalty of 10% per day late.\nI drop your two lowest assignments in grading\n\n\n\nAttendance\nMeasured through an attendance check in the middle of lecture. Don’t sweat missing a class here and there, you’ll get full credit if you attend 80% of classes.\n\n\nLecture recordings\nWill be posted after class, see main page.\n\n\nOffice Hours\nSee Main page\n\n\nCollaboration policy\nAll assignments are individual assignments unless otherwise indicated. However, you can ask other students for help with specific questions or to better understand something in general - you just can’t do the assignment together.\n\n\nLate Assignments\nAll assignments are worth 10 points. For every day late (up to 1 week) you lose 1 point off the top.\n\n\nExams\n\nMidterm: July 17 (review day in class on July 16)\nFinal (cumulative): August 14 (review day in class on August 13)\n\n\n\nEven more resources\nEverything you need to know for Stat 131a will be covered in lectures, labs, and assignments. However, most of the course material is covered by the online textbook developed specifically for 131A.\n\nYou can find the textbook here or on the homepage\n\nOther resources that may be helpful:\n\nR beginner tutorials\nMarkdown Cheatsheet\nData Viz online book\nStatQuest YouTube Channel\n\nStatQuest provides videos on many of the topics we will cover in class. The instructor is very entertaining!\n\nR for Data Science, by Garrett Grolemund and Hadley Wickham. This is a free online book that covers the tidyverse set of R packages.\nTheory Meets Data by Ani Adhikari. This is the online book for STAT 88 that covers introductory probability at the level of Stat 20.",
     "crumbs": [
-      "Assignments"
+      "Syllabus"
     ]
   }
 ]
