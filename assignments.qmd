@@ -5,17 +5,19 @@ editor:
     wrap: sentence
 ---
 
-You can find all assignments **(and posted solutions)** on [Datahub](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main)
+1. Submit on [Gradescope](https://www.gradescope.com/courses/1057811)
+2. You can find all assignments **(and posted solutions)** on [Datahub](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main)
 Or you can look at the [Github repository](https://github.com/berkeley-stat131a/summer-2025-assignments) directly.
 
 | Assignment | Due date | Solution\* |
 | --- | --- | --- |
-| Course Pre-Survey | Tuesday June 24 11:59pm | - |
-| Lab 00 | Tuesday June 24 11:59pm | - |
-| Lab 01 | Monday June 30 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab01/Lab01_Solution.pdf) |
-| Lab 02 | Tuesday July 1 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab02/Lab02_Solution.pdf) |
-| Lab 03 | Wednesday July 8 11:59pm | (not released yet) |
-| Lab 04 | Thursday July 9 11:59pm | (not released yet) |
-| Lab 05 | Satureday July 12 11:59pm | (not released yet) |
+| Course Pre-Survey | Tue June 24 11:59pm | - |
+| Lab 00 - RStudio Intro | Tue June 24 11:59pm | - |
+| Lab 01 - Data Visualization | Mon June 30 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab01/Lab01_Solution.pdf) |
+| Lab 02 - Data Wrangling | Tue July 1 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab02/Lab02_Solution.pdf) |
+| Lab 03 - Permutation Testing| Wed July 8 11:59pm | (not released yet) |
+| Lab 04 - Randomness and Distributions | Thu July 9 11:59pm | (not released yet) |
+| Lab 05 - What's going on in NYC? | Sat July 12 11:59pm | (not released yet) |
+| Worksheet - Dog Breeds | SunJuly 13 11:59pm | (not released yet) |
 
 \* These are called "solutions," but there are always many ways to solve any problem. Don't look at these as "THE right way" to do it, just one way that you might learn something from.
