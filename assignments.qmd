@@ -19,5 +19,6 @@ Or you can look at the [Github repository](https://github.com/berkeley-stat131a/
 | Lab 04 - Randomness and Distributions | Thu July 9 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab04/Lab04_Solution.pdf) |
 | Lab 05 - What's going on in NYC? | Sat July 12 11:59pm | - |
 | Worksheet - Dog Breeds | Sun July 13 11:59pm | - |
+| Lab 06 - Correlation | Sun July 20 11:59pm | - |
 
 \* I call these "solutions," but there are always many ways to solve any problem. Don't look at these as "THE right way" to do it, just one way that you might learn something from.
