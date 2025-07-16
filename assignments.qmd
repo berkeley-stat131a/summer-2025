@@ -17,7 +17,7 @@ Or you can look at the [Github repository](https://github.com/berkeley-stat131a/
 | Lab 02 - Data Wrangling | Tue July 1 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab02/Lab02_Solution.pdf) |
 | Lab 03 - Permutation Testing| Wed July 8 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab03/Lab03_Solution.pdf) |
 | Lab 04 - Randomness and Distributions | Thu July 9 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab04/Lab04_Solution.pdf) |
-| Lab 05 - What's going on in NYC? | Sat July 12 11:59pm | - |
+| Lab 05 - What's going on in NYC? | Sat July 12 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab05/Lab05_Solution.pdf) |
 | Worksheet - Dog Breeds | Sun July 13 11:59pm | - |
 | Lab 06 - Correlation | Sun July 20 11:59pm | - |
 
