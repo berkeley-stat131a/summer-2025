@@ -10,6 +10,10 @@ listing:
     contents: buttons-alt.yml
 ---
 
+## Mid-course check-in scheduling
+
+Book time with me in the coming days [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ01vyYpIrl--2lM55C5mcB16Zm4KNOqIju-HCMUQPCw6xgqe3a0A-JmCanXFZ9tzT8aO_XOZwDz)
+
 ## Core tools
 
 ::: {#buttons}
