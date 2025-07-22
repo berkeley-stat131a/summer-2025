@@ -20,6 +20,7 @@ Or you can look at the [Github repository](https://github.com/berkeley-stat131a/
 | Lab 05 - What's going on in NYC? | Sat July 12 11:59pm | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab05/Lab05_Solution.pdf) |
 | Worksheet - Dog Breeds | Sun July 13 11:59pm | - |
 | Lab 06 - Correlation | Sun July 20 11:59pm | - |
-| Probability Quick Practice | (Ungraded, no submission) | [doc](https://docs.google.com/document/d/1aFSim4bXrQ_8p2kAfYlhBnWB9esdd2_2z7c4Aazuwxo/edit?usp=sharing)
+| Probability Quick Practice | (Ungraded, no submission) | [doc](https://docs.google.com/document/d/1aFSim4bXrQ_8p2kAfYlhBnWB9esdd2_2z7c4Aazuwxo/edit?usp=sharing) |
+| Midterm | (in-class Thu July 17) | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/exams/midterm/MidtermSolution.pdf) |
 
 \* I call these "solutions," but there are always many ways to solve any problem. Don't look at these as "THE right way" to do it, just one way that you might learn something from.
