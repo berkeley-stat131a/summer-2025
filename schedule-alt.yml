@@ -224,6 +224,23 @@
           text: "Probability Practice (Ungraded)"
           href: "https://docs.google.com/document/d/16xOWJ5GYZbKypQXmVQEnanMirUKuXZFqX9Fo0wB41OA/edit?usp=sharing"
           publish: true
+    - display-date: July 17
+      date: 7/17/25
+      topic: "Midterm"
+      items:
+        - type: assignment
+          text: "Midterm Solution"
+          href: "https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/exams/midterm/MidtermSolution.pdf"
+          publish: true
   resources:
     - href: https://www.guessthecorrelation.com/
       text: "Guess the Correlation"
+- week: 4 - Begin modeling, linear regression
+  days:
+    - display-date: July 22
+      date: 7/22/25
+      topic: "(No class)"
+    - display-date: July 23
+      date: 7/23/25
+      topic: "Midterm debrief, modeling intro"
+
