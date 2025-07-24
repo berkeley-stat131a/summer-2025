@@ -248,6 +248,10 @@
           text: "Lec12 Slides"
           href: "https://docs.google.com/presentation/d/1EjcMkHx0Lg1SdSiVg9yUPLEQKO-TPGwB2DZ0vnl6s90/edit?usp=sharing"
           publish: true
+        - type: code
+          text: "Midterm Common Errors (code demo)"
+          href: "https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture12_MidtermCommonErrors.pdf"
+          publish: true
         - type: video
           text: "Lec12 Video"
           href: "https://youtu.be/IoUOWy6zt64"
