@@ -246,11 +246,11 @@
       items:
         - type: slides
           text: "Lec12 Slides"
-          hrref: "https://docs.google.com/presentation/d/1EjcMkHx0Lg1SdSiVg9yUPLEQKO-TPGwB2DZ0vnl6s90/edit?usp=sharing"
+          href: "https://docs.google.com/presentation/d/1EjcMkHx0Lg1SdSiVg9yUPLEQKO-TPGwB2DZ0vnl6s90/edit?usp=sharing"
           publish: true
         - type: video
           text: "Lec12 Video"
-          hrref: "https://youtu.be/IoUOWy6zt64"
+          href: "https://youtu.be/IoUOWy6zt64"
           publish: true
         - type: assignment
           text: "Assignment: Lab 07 (due Sunday 7/27 midnight)"
@@ -259,5 +259,5 @@
     - display-date: July 24
       date: 7/24/25
       topic: "Introduction to modeling"
-      
+
 
