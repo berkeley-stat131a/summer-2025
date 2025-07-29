@@ -24,7 +24,7 @@ Or you can look at the [Github repository](https://github.com/berkeley-stat131a/
 | Midterm | (in-class Thu July 17) | [pdf](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/exams/midterm/MidtermSolution.pdf) |
 | Lab 07 - Post-Midterm Practice | Sun July 27 | - |
 | Lab 08 - Intro to Modeling | Tue July 29 | - |
-| Dataset Finding | Fri Aug 1 | See Ed |
+| Dataset Finding | Fri Aug 1 | See [Ed](https://edstem.org/us/courses/80202/discussion/6843580) |
 | Lab 09 - Regression | Fri Aug 1 | - |
 
 \* I call these "solutions," but there are always many ways to solve any problem. Don't look at these as "THE right way" to do it, just one way that you might learn something from.

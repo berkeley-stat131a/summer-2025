@@ -282,12 +282,24 @@
       topic: "Linear Regression"
       items:
         - type: slides
-          text: "Lec12 Slides"
+          text: "Lec14 Slides"
           href: "https://docs.google.com/presentation/d/1mxK7E7Jc1joVRgbcXygSeU340azix-cUOb2Zdm77IyI/edit?usp=sharing"
           publish: true
         - type: code
-          text: "Lecture Demo"
-          href: "???"
+          text: "Code Demo"
+          href: "https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture14_CodeDemo.Rmd"
+          publish: true
+        - type: video
+          text: "Lec14 Video"
+          href: "https://youtu.be/GWGpTgEpNSc"
+          publish: true
+        - type: assignment
+          text: "Assignment: Choose your dataset(s) (due Thu 7/31 END OF CLASS)"
+          href: "https://edstem.org/us/courses/80202/discussion/6843580"
+          publish: true
+        - type: assignment
+          text: "Assignment: Lab 09 (due Fri 8/1 midnight)"
+          href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
 
 
