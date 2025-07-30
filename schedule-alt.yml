@@ -301,5 +301,22 @@
           text: "Assignment: Lab 09 (due Fri 8/1 midnight)"
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
+    - display-date: July 30
+      topic: "Getting more from your data"
+      items:
+        - type: slides
+          text: "Lec15 Slides"
+          href: "https://docs.google.com/presentation/d/1gPkTn2aWXE6m_b6pAFwC0BGxOvc5PK6MUZG9arUODvY/edit?usp=sharing"
+          publish: true
+        - type: code
+          text: "Code Demo"
+          href: "https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture15_CodeDemo.Rmd"
+          publish: true
+        - type: video
+          text: "Lec15 Video"
+          href: "https://youtu.be/K6dHGicSnOk"
+          publish: true
+
+          
 
 
