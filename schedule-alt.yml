@@ -316,6 +316,24 @@
           text: "Lec15 Video"
           href: "https://youtu.be/K6dHGicSnOk"
           publish: true
+    - display-date: July 31
+      topic: "Getting acquainted with your data"
+      items:
+        - type: assignment
+          text: "Assignment: Lab 10 (due Mon 8/4 midnight)"
+          href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
+          publish: true
+        - type: slides
+          text: "No Slides"
+          publish: true
+        - type: video
+          text: "No Video"
+          publish: true
+  resources:
+    - href: "https://www.gastonsanchez.com/R-ice-breaker/"
+      text: "Installing R and RStudio on your computer (parts 1 and 2)"
+    - href: "https://www.gastonsanchez.com/"
+      text: "Other useful tutorials by Gaston Sanchez (scroll down to 'R Textbooks')"
 
           
 
