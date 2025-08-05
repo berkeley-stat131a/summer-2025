@@ -334,6 +334,27 @@
       text: "Installing R and RStudio on your computer (parts 1 and 2)"
     - href: "https://www.gastonsanchez.com/"
       text: "Other useful tutorials by Gaston Sanchez (scroll down to 'R Textbooks')"
+- week: 6 - More models, better models
+  days:
+    - display-date: Aug 5
+      topic: "Logistic Regression"
+      items:
+        - type: slides
+          text: "Lec17 Slides"
+          href: ""
+          publish: false
+        - type: code
+          text: "Code Demo"
+          href: "https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture14_CodeDemo.Rmd"
+          publish: false
+        - type: video
+          text: "Lec17 Video"
+          href: ""
+          publish: false
+        - type: assignment
+          text: "Assignment: Logistic Regression"
+          href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
+          publish: true
 
           
 
