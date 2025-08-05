@@ -341,12 +341,12 @@
       items:
         - type: slides
           text: "Lec17 Slides"
-          href: ""
-          publish: false
+          href: "https://docs.google.com/presentation/d/1kmbOKr_ck4zAmxw4wUByBNhiP8hyC1cV-pEf7X5YdgE/edit?usp=sharing"
+          publish: true
         - type: code
           text: "Code Demo"
-          href: "https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture14_CodeDemo.Rmd"
-          publish: false
+          href: "https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture17_CodeDemo.Rmd"
+          publish: true
         - type: video
           text: "Lec17 Video"
           href: ""
