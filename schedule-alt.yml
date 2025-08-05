@@ -359,6 +359,10 @@
           text: "Tutorial on logarithms"
           href: "https://www.youtube.com/watch?v=cEvgcoyZvB4"
           publish: true
+  resources:
+    - href: "https://www.youtube.com/watch?v=cEvgcoyZvB4"
+      text: "Logarithms Tutorial Video"
+
 
           
 
