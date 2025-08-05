@@ -355,6 +355,10 @@
           text: "Assignment: Logistic Regression"
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
+        - type: reading
+          text: "Tutorial on logarithms"
+          href: "https://www.youtube.com/watch?v=cEvgcoyZvB4"
+          publish: true
 
           
 
