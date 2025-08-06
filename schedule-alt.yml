@@ -359,9 +359,30 @@
           text: "Tutorial on logarithms"
           href: "https://www.youtube.com/watch?v=cEvgcoyZvB4"
           publish: true
+    - display-date: Aug 6
+      topic: "Classifier Evaluation"
+      items:
+        - type: slides
+          text: "Lec18 Slides"
+          href: "https://docs.google.com/presentation/d/1GOAOe6F6Gf1-ao5h15UZMO1w7O-Xwp4YX_zoMHDT8XQ/edit?usp=sharing"
+          publish: true
+        - type: video
+          text: "Lec18 Video"
+          href: "https://youtu.be/PLnaEfXgWuo"
+          publish: true
+        - type: assignment
+          text: "Assignment: Classifier Evaluation"
+          href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
+          publish: true
+    - display-date: Aug 7
+      topic: "Honest Models (Cross-Validation)"
   resources:
     - href: "https://www.youtube.com/watch?v=cEvgcoyZvB4"
       text: "Logarithms Tutorial Video"
+
+
+
+      
 
 
           
