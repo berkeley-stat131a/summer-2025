@@ -352,7 +352,7 @@
           href: "https://youtu.be/zLLNLXL-rQs"
           publish: true
         - type: assignment
-          text: "Assignment: Logistic Regression"
+          text: "Assignment: Logistic Regression (due Thu Aug 7 midnight)"
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
         - type: reading
@@ -370,16 +370,36 @@
           text: "Lec18 Video"
           href: "https://youtu.be/PLnaEfXgWuo"
           publish: true
+        - type: code
+          text: "Code Demo"
+          href: "https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture18_CodeDemo.Rmd"
+          publish: true
         - type: assignment
-          text: "Assignment: Classifier Evaluation"
+          text: "OPTIONAL Assignment: Classifier Evaluation"
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
     - display-date: Aug 7
       topic: "Honest Models (Cross-Validation)"
+      items:
+        - type: slides
+          text: "Lec19 Slides"
+          href: "https://docs.google.com/presentation/d/1OQG1B4M_VOrSax0RnhQq47kqx9BfVb4cq_Su190zQ9Y/edit?usp=sharing"
+          publish: true
+        - type: video
+          text: "Lec19 Video"
+          href: "https://youtu.be/nNwWpOG2XTo"
+          publish: true
+        - type: code
+          text: "Code Demo"
+          href: "https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture19_CodeDemo.Rmd"
+          publish: true
+        - type: assignment
+          text: "Assignment: Kaggle Modeling Competition! Prizes! (Due Tue Aug 10 midnight)"
+          href: "https://www.kaggle.com/t/0e30b7a6e34a4dd4bdff4a44355ad5ff"
+          publish: true
   resources:
     - href: "https://www.youtube.com/watch?v=cEvgcoyZvB4"
       text: "Logarithms Tutorial Video"
-
 
 
       

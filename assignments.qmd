@@ -27,8 +27,8 @@ Or you can look at the [Github repository](https://github.com/berkeley-stat131a/
 | Dataset Finding | Fri Aug 1 | See [Ed](https://edstem.org/us/courses/80202/discussion/6843580) |
 | Lab 09 - Regression | Fri Aug 1 | - |
 | Lab 10 - Getting acquainted with your data | Mon Aug 4 | - |
-| Lab 11 - Logistic Regression | Thu Aug 7 | - |
-| Lab 12 - Classifier Evaluation | Sun Aug 10 | - |
+| Lab 11 - Logistic Regression | Fri Aug 8 | - |
+| Lab 12 - OPTIONAL - Classifier Evaluation | Sun Aug 10 | - |
 | Lab 13 - Cross Validation | Mon Aug 11 | - |
 
 \* I call these "solutions," but there are always many ways to solve any problem. Don't look at these as "THE right way" to do it, just one way that you might learn something from.
