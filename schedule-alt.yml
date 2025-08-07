@@ -190,7 +190,7 @@
       text: "Wikipedia on stop-and-frisk"
     - href: https://www.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page
       text: "NYC website with the truly 'raw' data"
-- week: 3 - Correlation, Midterm
+- week: 4 - Correlation, Midterm
   days:
     - display-date: July 15
       date: 7/15/25
@@ -235,7 +235,7 @@
   resources:
     - href: https://www.guessthecorrelation.com/
       text: "Guess the Correlation"
-- week: 4 - Begin modeling, linear regression
+- week: 5 - Begin modeling, linear regression
   days:
     - display-date: July 22
       date: 7/22/25
@@ -276,7 +276,7 @@
           text: "Assignment: Lab 08 (due Tuesday 7/29 midnight)"
           href: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main"
           publish: true
-- week: 5 - Regression and personally-relevant datasets
+- week: 6 - Regression and personally-relevant datasets
   days:
     - display-date: July 29
       topic: "Linear Regression"
@@ -334,7 +334,7 @@
       text: "Installing R and RStudio on your computer (parts 1 and 2)"
     - href: "https://www.gastonsanchez.com/"
       text: "Other useful tutorials by Gaston Sanchez (scroll down to 'R Textbooks')"
-- week: 6 - More models, better models
+- week: 7 - More models, better models
   days:
     - display-date: Aug 5
       topic: "Logistic Regression"
@@ -400,6 +400,14 @@
   resources:
     - href: "https://www.youtube.com/watch?v=cEvgcoyZvB4"
       text: "Logarithms Tutorial Video"
+- week: 8 - The Home Stretch
+  days:
+    - display-date: Aug 12
+      topic: "Lab Work Time"
+    - display-date: Aug 13
+      topic: "Final Review Session"
+    - display-date: Aug 14
+      topic: "Final Exam"
 
 
       
