@@ -1,0 +1,50 @@
+---
+title: "Kaggle Competition (Lab 13)"
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+# A. What to submit on Kaggle
+
+Follow the instructions on the [competition page](https://www.kaggle.com/t/0e30b7a6e34a4dd4bdff4a44355ad5ff). You "submit" your predictions for all data in the test set. Note that each row in the test set has an `id` column (numbered from 2001 to 4000). You need to include these ids in your prediction file, which should look like the table below (you can also see a sample submission file on Kaggle). For example, the table below shows that for the test row with id 2001, your model predicts a happiness score of 1.9123. For the row with id 2002, your model predicts 3.3825. And so forth.
+
+| id   | happiness |
+|------|-----------|
+| 2001 | 1.9123    |
+| 2002 | 3.3825    |
+| ...  | ...       |
+| 3999 | 3.1747    |
+| 4000 | 2.0903    |
+
+# B. What to submit on Gradescope
+
+**1) Explorations of the data**
+
+You shouldn't need to clean the data much. It's all complete (no `NA`s) and modified to be very readable and tidy. But feel free to do any additional steps that make it more usable to you.
+
+But DO explore all of the variables. Their distributions (bar plots or scatterplots etc), and correlations with the DV (`happiness`), and anything else that helps you intuitively "understand" what's going on here.
+
+Also note that for categorical variables (like `race` or `marital`), a simple correlation with `happiness` doesn't work because a categorical variable really turns into multiple binary variables. Instead, you can fit a linear model predicting `happiness` from only that variable, and look at the `r²` (and the model coefficients, to see the direction that each category pushes the prediction). You can compare this `r²` to the correlation (`r`) values from continuous variables by just squaring their correlation coefficients to get `r²` values (or you could fit linear models for each of them and get `r²` directly – either way). You could then rank all of the variables by their `r²` values, as an initial estimate of how useful they are in modeling.
+
+**2) Build models and score with cross-validation**
+
+See the demos in [Lecture19_CodeDemo.Rmd](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture19_CodeDemo.Rmd) (also should be visible on DataHub) for how to do train/test splits. At minimum, whenever you fit a model, first record the `r²` from the model summary or `glance` – this is your "in sample" `r²`, scored on the same data you fit it on. Then have it predict on some data it hasn't seen to get your "out of sample" `r²`.
+
+**3) Make a table of model performances using the above results**
+
+Create something like this, based on the results of the various models you try:
+
+| Model | In-sample R² | Out-of-sample R² |
+|----|----|----|
+| happiness \~ race + sex | 0.103 | 0.085 |
+| happiness \~ race + sex + income | 0.145 | 0.131 |
+| ... | ... | ... |
+| happiness \~ race\*sex + income + marital + age + employment | 0.201 | 0.165 |
+
+**4) Submission**
+
+Submit a pdf of your code including everything you've done, right down to the last step of writing out your predictions (from your best model) to a csv file that you will submit to Kaggle. See previous section, but be sure it has two columns: `id` and `happiness`.
+
+
+
