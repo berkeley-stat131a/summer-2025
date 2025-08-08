@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Assignments</title>
+<title>Kaggle Competition (Lab 13)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,7 +92,7 @@ gtag('config', 'G-9Q0VSK0VJF', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./assignments.html">Assignments</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./competition.html">Kaggle Competition</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -131,13 +131,13 @@ gtag('config', 'G-9Q0VSK0VJF', { 'anonymize_ip': true});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./assignments.html" class="sidebar-item-text sidebar-link active">
+  <a href="./assignments.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Assignments</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./competition.html" class="sidebar-item-text sidebar-link">
+  <a href="./competition.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Kaggle Competition</span></a>
   </div>
 </li>
@@ -152,15 +152,22 @@ gtag('config', 'G-9Q0VSK0VJF', { 'anonymize_ip': true});
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a.-what-to-submit-on-kaggle" id="toc-a.-what-to-submit-on-kaggle" class="nav-link active" data-scroll-target="#a.-what-to-submit-on-kaggle">A. What to submit on Kaggle</a></li>
+  <li><a href="#b.-what-to-submit-on-gradescope" id="toc-b.-what-to-submit-on-gradescope" class="nav-link" data-scroll-target="#b.-what-to-submit-on-gradescope">B. What to submit on Gradescope</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Assignments</h1>
+<h1 class="title">Kaggle Competition (Lab 13)</h1>
 </div>
 
 
@@ -177,119 +184,91 @@ gtag('config', 'G-9Q0VSK0VJF', { 'anonymize_ip': true});
 </header>
 
 
-<ol type="1">
-<li>Submit on <a href="https://www.gradescope.com/courses/1057811">Gradescope</a></li>
-<li>You can find all assignments <strong>(and posted solutions)</strong> on <a href="https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&amp;urlpath=rstudio%2F&amp;branch=main">Datahub</a> Or you can look at the <a href="https://github.com/berkeley-stat131a/summer-2025-assignments">Github repository</a> directly.</li>
-</ol>
+<section id="a.-what-to-submit-on-kaggle" class="level1">
+<h1>A. What to submit on Kaggle</h1>
+<p>Follow the instructions on the <a href="https://www.kaggle.com/t/0e30b7a6e34a4dd4bdff4a44355ad5ff">competition page</a>. You “submit” your predictions for all data in the test set. Note that each row in the test set has an <code>id</code> column (numbered from 2001 to 4000). You need to include these ids in your prediction file, which should look like the table below (you can also see a sample submission file on Kaggle). For example, the table below shows that for the test row with id 2001, your model predicts a happiness score of 1.9123. For the row with id 2002, your model predicts 3.3825. And so forth.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Assignment</th>
-<th>Due date</th>
-<th>Solution*</th>
+<th>id</th>
+<th>happiness</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Course Pre-Survey</td>
-<td>Tue June 24 11:59pm</td>
-<td>n/a</td>
+<td>2001</td>
+<td>1.9123</td>
 </tr>
 <tr class="even">
-<td>Lab 00 - RStudio Intro</td>
-<td>Tue June 24 11:59pm</td>
-<td>n/a</td>
+<td>2002</td>
+<td>3.3825</td>
 </tr>
 <tr class="odd">
-<td>Lab 01 - Data Visualization</td>
-<td>Mon June 30 11:59pm</td>
-<td><a href="https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab01/Lab01_Solution.pdf">pdf</a></td>
+<td>…</td>
+<td>…</td>
 </tr>
 <tr class="even">
-<td>Lab 02 - Data Wrangling</td>
-<td>Tue July 1 11:59pm</td>
-<td><a href="https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab02/Lab02_Solution.pdf">pdf</a></td>
+<td>3999</td>
+<td>3.1747</td>
 </tr>
 <tr class="odd">
-<td>Lab 03 - Permutation Testing</td>
-<td>Wed July 8 11:59pm</td>
-<td><a href="https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab03/Lab03_Solution.pdf">pdf</a></td>
-</tr>
-<tr class="even">
-<td>Lab 04 - Randomness and Distributions</td>
-<td>Thu July 9 11:59pm</td>
-<td><a href="https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab04/Lab04_Solution.pdf">pdf</a></td>
-</tr>
-<tr class="odd">
-<td>Lab 05 - What’s going on in NYC?</td>
-<td>Sat July 12 11:59pm</td>
-<td><a href="https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab05/Lab05_Solution.pdf">pdf</a></td>
-</tr>
-<tr class="even">
-<td>Worksheet - Dog Breeds</td>
-<td>Sun July 13 11:59pm</td>
-<td>-</td>
-</tr>
-<tr class="odd">
-<td>Lab 06 - Correlation</td>
-<td>Sun July 20 11:59pm</td>
-<td>-</td>
-</tr>
-<tr class="even">
-<td>Probability Quick Practice</td>
-<td>(Ungraded, no submission)</td>
-<td><a href="https://docs.google.com/document/d/1aFSim4bXrQ_8p2kAfYlhBnWB9esdd2_2z7c4Aazuwxo/edit?usp=sharing">doc</a></td>
-</tr>
-<tr class="odd">
-<td>Midterm</td>
-<td>(in-class Thu July 17)</td>
-<td><a href="https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/exams/midterm/MidtermSolution.pdf">pdf</a></td>
-</tr>
-<tr class="even">
-<td>Lab 07 - Post-Midterm Practice</td>
-<td>Sun July 27</td>
-<td>-</td>
-</tr>
-<tr class="odd">
-<td>Lab 08 - Intro to Modeling</td>
-<td>Tue July 29</td>
-<td>-</td>
-</tr>
-<tr class="even">
-<td>Dataset Finding</td>
-<td>Fri Aug 1</td>
-<td>See <a href="https://edstem.org/us/courses/80202/discussion/6843580">Ed</a></td>
-</tr>
-<tr class="odd">
-<td>Lab 09 - Regression</td>
-<td>Fri Aug 1</td>
-<td>-</td>
-</tr>
-<tr class="even">
-<td>Lab 10 - Getting acquainted with your data</td>
-<td>Mon Aug 4</td>
-<td>-</td>
-</tr>
-<tr class="odd">
-<td>Lab 11 - Logistic Regression</td>
-<td>Fri Aug 8</td>
-<td>-</td>
-</tr>
-<tr class="even">
-<td>Lab 12 - OPTIONAL - Classifier Evaluation</td>
-<td>Sun Aug 10</td>
-<td>-</td>
-</tr>
-<tr class="odd">
-<td>Lab 13 - <a href="competition.html">Kaggle Competition</a></td>
-<td>Tue Aug 12</td>
-<td>-</td>
+<td>4000</td>
+<td>2.0903</td>
 </tr>
 </tbody>
 </table>
-<p>* I call these “solutions,” but there are always many ways to solve any problem. Don’t look at these as “THE right way” to do it, just one way that you might learn something from.</p>
+</section>
+<section id="b.-what-to-submit-on-gradescope" class="level1">
+<h1>B. What to submit on Gradescope</h1>
+<p><strong>1) Explorations of the data</strong></p>
+<p>You shouldn’t need to clean the data much. It’s all complete (no <code>NA</code>s) and modified to be very readable and tidy. But feel free to do any additional steps that make it more usable to you.</p>
+<p>But DO explore all of the variables. Their distributions (bar plots or scatterplots etc), and correlations with the DV (<code>happiness</code>), and anything else that helps you intuitively “understand” what’s going on here.</p>
+<p>Also note that for categorical variables (like <code>race</code> or <code>marital</code>), a simple correlation with <code>happiness</code> doesn’t work because a categorical variable really turns into multiple binary variables. Instead, you can fit a linear model predicting <code>happiness</code> from only that variable, and look at the <code>r²</code> (and the model coefficients, to see the direction that each category pushes the prediction). You can compare this <code>r²</code> to the correlation (<code>r</code>) values from continuous variables by just squaring their correlation coefficients to get <code>r²</code> values (or you could fit linear models for each of them and get <code>r²</code> directly – either way). You could then rank all of the variables by their <code>r²</code> values, as an initial estimate of how useful they are in modeling.</p>
+<p><strong>2) Build models and score with cross-validation</strong></p>
+<p>See the demos in <a href="https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture19_CodeDemo.Rmd">Lecture19_CodeDemo.Rmd</a> (also should be visible on DataHub) for how to do train/test splits. At minimum, whenever you fit a model, first record the <code>r²</code> from the model summary or <code>glance</code> – this is your “in sample” <code>r²</code>, scored on the same data you fit it on. Then have it predict on some data it hasn’t seen to get your “out of sample” <code>r²</code>.</p>
+<p><strong>3) Make a table of model performances using the above results</strong></p>
+<p>Create something like this, based on the results of the various models you try:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>In-sample R²</th>
+<th>Out-of-sample R²</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>happiness ~ race + sex</td>
+<td>0.103</td>
+<td>0.085</td>
+</tr>
+<tr class="even">
+<td>happiness ~ race + sex + income</td>
+<td>0.145</td>
+<td>0.131</td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr class="even">
+<td>happiness ~ race*sex + income + marital + age + employment</td>
+<td>0.201</td>
+<td>0.165</td>
+</tr>
+</tbody>
+</table>
+<p><strong>4) Submission</strong></p>
+<p>Submit a pdf of your code including everything you’ve done, right down to the last step of writing out your predictions (from your best model) to a csv file that you will submit to Kaggle. See previous section, but be sure it has two columns: <code>id</code> and <code>happiness</code>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

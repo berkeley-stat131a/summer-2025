@@ -1,15 +1,5 @@
 [
   {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments",
-    "section": "",
-    "text": "Submit on Gradescope\nYou can find all assignments (and posted solutions) on Datahub Or you can look at the Github repository directly.\n\n\n\n\nAssignment\nDue date\nSolution*\n\n\n\n\nCourse Pre-Survey\nTue June 24 11:59pm\nn/a\n\n\nLab 00 - RStudio Intro\nTue June 24 11:59pm\nn/a\n\n\nLab 01 - Data Visualization\nMon June 30 11:59pm\npdf\n\n\nLab 02 - Data Wrangling\nTue July 1 11:59pm\npdf\n\n\nLab 03 - Permutation Testing\nWed July 8 11:59pm\npdf\n\n\nLab 04 - Randomness and Distributions\nThu July 9 11:59pm\npdf\n\n\nLab 05 - What’s going on in NYC?\nSat July 12 11:59pm\npdf\n\n\nWorksheet - Dog Breeds\nSun July 13 11:59pm\n-\n\n\nLab 06 - Correlation\nSun July 20 11:59pm\n-\n\n\nProbability Quick Practice\n(Ungraded, no submission)\ndoc\n\n\nMidterm\n(in-class Thu July 17)\npdf\n\n\nLab 07 - Post-Midterm Practice\nSun July 27\n-\n\n\nLab 08 - Intro to Modeling\nTue July 29\n-\n\n\nDataset Finding\nFri Aug 1\nSee Ed\n\n\nLab 09 - Regression\nFri Aug 1\n-\n\n\nLab 10 - Getting acquainted with your data\nMon Aug 4\n-\n\n\nLab 11 - Logistic Regression\nFri Aug 8\n-\n\n\nLab 12 - OPTIONAL - Classifier Evaluation\nSun Aug 10\n-\n\n\nLab 13 - Kaggle Competition\nTue Aug 12\n-\n\n\n\n* I call these “solutions,” but there are always many ways to solve any problem. Don’t look at these as “THE right way” to do it, just one way that you might learn something from.",
-    "crumbs": [
-      "Assignments"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "STAT c131a: Statistical Methods for Data Science",
@@ -90,11 +80,48 @@
     ]
   },
   {
+    "objectID": "competition.html",
+    "href": "competition.html",
+    "title": "Kaggle Competition (Lab 13)",
+    "section": "",
+    "text": "A. What to submit on Kaggle\nFollow the instructions on the competition page. You “submit” your predictions for all data in the test set. Note that each row in the test set has an id column (numbered from 2001 to 4000). You need to include these ids in your prediction file, which should look like the table below (you can also see a sample submission file on Kaggle). For example, the table below shows that for the test row with id 2001, your model predicts a happiness score of 1.9123. For the row with id 2002, your model predicts 3.3825. And so forth.\n\n\n\nid\nhappiness\n\n\n\n\n2001\n1.9123\n\n\n2002\n3.3825\n\n\n…\n…\n\n\n3999\n3.1747\n\n\n4000\n2.0903\n\n\n\n\n\nB. What to submit on Gradescope\n1) Explorations of the data\nYou shouldn’t need to clean the data much. It’s all complete (no NAs) and modified to be very readable and tidy. But feel free to do any additional steps that make it more usable to you.\nBut DO explore all of the variables. Their distributions (bar plots or scatterplots etc), and correlations with the DV (happiness), and anything else that helps you intuitively “understand” what’s going on here.\nAlso note that for categorical variables (like race or marital), a simple correlation with happiness doesn’t work because a categorical variable really turns into multiple binary variables. Instead, you can fit a linear model predicting happiness from only that variable, and look at the r² (and the model coefficients, to see the direction that each category pushes the prediction). You can compare this r² to the correlation (r) values from continuous variables by just squaring their correlation coefficients to get r² values (or you could fit linear models for each of them and get r² directly – either way). You could then rank all of the variables by their r² values, as an initial estimate of how useful they are in modeling.\n2) Build models and score with cross-validation\nSee the demos in Lecture19_CodeDemo.Rmd (also should be visible on DataHub) for how to do train/test splits. At minimum, whenever you fit a model, first record the r² from the model summary or glance – this is your “in sample” r², scored on the same data you fit it on. Then have it predict on some data it hasn’t seen to get your “out of sample” r².\n3) Make a table of model performances using the above results\nCreate something like this, based on the results of the various models you try:\n\n\n\n\n\n\n\n\nModel\nIn-sample R²\nOut-of-sample R²\n\n\n\n\nhappiness ~ race + sex\n0.103\n0.085\n\n\nhappiness ~ race + sex + income\n0.145\n0.131\n\n\n…\n…\n…\n\n\nhappiness ~ race*sex + income + marital + age + employment\n0.201\n0.165\n\n\n\n4) Submission\nSubmit a pdf of your code including everything you’ve done, right down to the last step of writing out your predictions (from your best model) to a csv file that you will submit to Kaggle. See previous section, but be sure it has two columns: id and happiness.",
+    "crumbs": [
+      "Kaggle Competition"
+    ]
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License."
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Submit on Gradescope\nYou can find all assignments (and posted solutions) on Datahub Or you can look at the Github repository directly.\n\n\n\n\nAssignment\nDue date\nSolution*\n\n\n\n\nCourse Pre-Survey\nTue June 24 11:59pm\nn/a\n\n\nLab 00 - RStudio Intro\nTue June 24 11:59pm\nn/a\n\n\nLab 01 - Data Visualization\nMon June 30 11:59pm\npdf\n\n\nLab 02 - Data Wrangling\nTue July 1 11:59pm\npdf\n\n\nLab 03 - Permutation Testing\nWed July 8 11:59pm\npdf\n\n\nLab 04 - Randomness and Distributions\nThu July 9 11:59pm\npdf\n\n\nLab 05 - What’s going on in NYC?\nSat July 12 11:59pm\npdf\n\n\nWorksheet - Dog Breeds\nSun July 13 11:59pm\n-\n\n\nLab 06 - Correlation\nSun July 20 11:59pm\n-\n\n\nProbability Quick Practice\n(Ungraded, no submission)\ndoc\n\n\nMidterm\n(in-class Thu July 17)\npdf\n\n\nLab 07 - Post-Midterm Practice\nSun July 27\n-\n\n\nLab 08 - Intro to Modeling\nTue July 29\n-\n\n\nDataset Finding\nFri Aug 1\nSee Ed\n\n\nLab 09 - Regression\nFri Aug 1\n-\n\n\nLab 10 - Getting acquainted with your data\nMon Aug 4\n-\n\n\nLab 11 - Logistic Regression\nFri Aug 8\n-\n\n\nLab 12 - OPTIONAL - Classifier Evaluation\nSun Aug 10\n-\n\n\nLab 13 - Kaggle Competition\nTue Aug 12\n-\n\n\n\n* I call these “solutions,” but there are always many ways to solve any problem. Don’t look at these as “THE right way” to do it, just one way that you might learn something from.",
+    "crumbs": [
+      "Assignments"
+    ]
+  },
+  {
     "objectID": "staff.html",
     "href": "staff.html",
     "title": "🍎 Staff",
     "section": "",
     "text": "The teaching staff is excited to have you in 131A!\n\n\n\n Instructor: Josh Grossman Please call me “Josh”! No need for “Professor”, “Dr.”, “Sir”, etc.  jdgg at berkeley dot edu    \n\n\n GSI: Van Hovenga vhovenga at berkeley dot edu      \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn general, please use Ed to communicate with the course staff.\nUnless otherwise indicated, email should only be used for private concerns directed to a specific member of the teaching staff."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "SYLLABUS STILL UNDER CONSTRUCTION\n\nGrading:\n\n\n\nComponent\nFraction\nNotes\n\n\n\n\nAttendance\n10%\nAttend 80% of classes for full credit\n\n\nLabs/Homework\n20%\nTwo lowest grades dropped\n\n\nMidterm\n30%\n\n\n\nFinal\n40%\n\n\n\n\n\n\nCurving\nThis class is not curved. However, I may curve upwards if the exams prove harder than I intended. I design exams fresh every semester, so it’s hard to perfectly calibrate their difficulty.\n\n\nLetter grades\nWe follow the standard university grading system. 97% = A+, 93% = A, 90% = A-, 87% = B+, etc\n\n\nLaptop policy\nLaptops closed during lecture unless otherwise indicated.\n\n\nAssignments and late policy\n\nYou can submit assignments up to THREE DAYS late, with a penalty of 10% per day late.\nI drop your two lowest assignments in grading\n\n\n\nAttendance\nMeasured through an attendance check in the middle of lecture. Don’t sweat missing a class here and there, you’ll get full credit if you attend 80% of classes.\n\n\nLecture recordings\nWill be posted after class, see main page.\n\n\nOffice Hours\nSee Main page\n\n\nCollaboration policy\nAll assignments are individual assignments unless otherwise indicated. However, you can ask other students for help with specific questions or to better understand something in general - you just can’t do the assignment together.\n\n\nLate Assignments\nAll assignments are worth 10 points. For every day late (up to 1 week) you lose 1 point off the top.\n\n\nExams\n\nMidterm: July 17 (review day in class on July 16)\nFinal (cumulative): August 14 (review day in class on August 13)\n\n\n\nEven more resources\nEverything you need to know for Stat 131a will be covered in lectures, labs, and assignments. However, most of the course material is covered by the online textbook developed specifically for 131A.\n\nYou can find the textbook here or on the homepage\n\nOther resources that may be helpful:\n\nR beginner tutorials\nMarkdown Cheatsheet\nData Viz online book\nStatQuest YouTube Channel\n\nStatQuest provides videos on many of the topics we will cover in class. The instructor is very entertaining!\n\nR for Data Science, by Garrett Grolemund and Hadley Wickham. This is a free online book that covers the tidyverse set of R packages.\nTheory Meets Data by Ani Adhikari. This is the online book for STAT 88 that covers introductory probability at the level of Stat 20.",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "data.html",
@@ -116,22 +143,5 @@
     "title": "Data",
     "section": "Data 2",
     "text": "Data 2"
-  },
-  {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
-    "section": "",
-    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License."
-  },
-  {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "SYLLABUS STILL UNDER CONSTRUCTION\n\nGrading:\n\n\n\nComponent\nFraction\nNotes\n\n\n\n\nAttendance\n10%\nAttend 80% of classes for full credit\n\n\nLabs/Homework\n20%\nTwo lowest grades dropped\n\n\nMidterm\n30%\n\n\n\nFinal\n40%\n\n\n\n\n\n\nCurving\nThis class is not curved. However, I may curve upwards if the exams prove harder than I intended. I design exams fresh every semester, so it’s hard to perfectly calibrate their difficulty.\n\n\nLetter grades\nWe follow the standard university grading system. 97% = A+, 93% = A, 90% = A-, 87% = B+, etc\n\n\nLaptop policy\nLaptops closed during lecture unless otherwise indicated.\n\n\nAssignments and late policy\n\nYou can submit assignments up to THREE DAYS late, with a penalty of 10% per day late.\nI drop your two lowest assignments in grading\n\n\n\nAttendance\nMeasured through an attendance check in the middle of lecture. Don’t sweat missing a class here and there, you’ll get full credit if you attend 80% of classes.\n\n\nLecture recordings\nWill be posted after class, see main page.\n\n\nOffice Hours\nSee Main page\n\n\nCollaboration policy\nAll assignments are individual assignments unless otherwise indicated. However, you can ask other students for help with specific questions or to better understand something in general - you just can’t do the assignment together.\n\n\nLate Assignments\nAll assignments are worth 10 points. For every day late (up to 1 week) you lose 1 point off the top.\n\n\nExams\n\nMidterm: July 17 (review day in class on July 16)\nFinal (cumulative): August 14 (review day in class on August 13)\n\n\n\nEven more resources\nEverything you need to know for Stat 131a will be covered in lectures, labs, and assignments. However, most of the course material is covered by the online textbook developed specifically for 131A.\n\nYou can find the textbook here or on the homepage\n\nOther resources that may be helpful:\n\nR beginner tutorials\nMarkdown Cheatsheet\nData Viz online book\nStatQuest YouTube Channel\n\nStatQuest provides videos on many of the topics we will cover in class. The instructor is very entertaining!\n\nR for Data Science, by Garrett Grolemund and Hadley Wickham. This is a free online book that covers the tidyverse set of R packages.\nTheory Meets Data by Ani Adhikari. This is the online book for STAT 88 that covers introductory probability at the level of Stat 20.",
-    "crumbs": [
-      "Syllabus"
-    ]
   }
 ]
