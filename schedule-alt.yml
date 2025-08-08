@@ -395,7 +395,7 @@
           publish: true
         - type: assignment
           text: "Assignment: Kaggle Modeling Competition! Prizes! (Due Tue Aug 10 midnight)"
-          href: "https://www.kaggle.com/t/0e30b7a6e34a4dd4bdff4a44355ad5ff"
+          href: "competition.html"
           publish: true
   resources:
     - href: "https://www.youtube.com/watch?v=cEvgcoyZvB4"

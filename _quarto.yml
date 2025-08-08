@@ -16,6 +16,8 @@ website:
         text: Main
       - href: assignments.qmd
         text: Assignments
+      - href: competition.qmd
+        text: Kaggle Competition
       - href: syllabus.qmd
         text: Syllabus
 
