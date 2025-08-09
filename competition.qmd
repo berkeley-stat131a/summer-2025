@@ -5,6 +5,10 @@ editor:
     wrap: sentence
 ---
 
+# Foreword - there is a template
+
+Open [datahub](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fberkeley-stat131a%2Fsummer-2025-assignments%2F&urlpath=rstudio%2F&branch=main) to lab13/ or look [here](https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lab13/Lab13_Template.Rmd) on github. This is optional, but a useful outline to help you with the mechanics of Kaggle submission. In case it helps.
+
 # A. What to submit on Kaggle
 
 Follow the instructions on the [competition page](https://www.kaggle.com/t/0e30b7a6e34a4dd4bdff4a44355ad5ff). You "submit" your predictions for all data in the test set. Note that each row in the test set has an `id` column (numbered from 2001 to 4000). You need to include these ids in your prediction file, which should look like the table below (you can also see a sample submission file on Kaggle). For example, the table below shows that for the test row with id 2001, your model predicts a happiness score of 1.9123. For the row with id 2002, your model predicts 3.3825. And so forth.
