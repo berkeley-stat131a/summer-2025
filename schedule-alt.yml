@@ -404,8 +404,26 @@
   days:
     - display-date: Aug 12
       topic: "Lab Work Time"
+      items:
+        - type: slides
+          text: "Lec20 Slides"
+          href: "https://docs.google.com/presentation/d/1K3PIBYAmdRtZMpyzlrZWntQm9z9y8ZIxcMufhbCwuSc/edit?usp=sharing"
+          publish: true
+        - type: video
+          text: "Lec20 Video"
+          href: "https://youtu.be/AovyseiRAaU"
+          publish: true
     - display-date: Aug 13
       topic: "Final Review Session"
+      items:
+        - type: slides
+          text: "Lec21 Slides - Final Exam Review"
+          href: "https://docs.google.com/presentation/d/108bgw-kmv83pYr5BSRl1w7fI_h86rweFOHBElze8Y0Y/edit?usp=sharing"
+          publish: false
+        - type: video
+          text: "Lec21 Video"
+          href: ""
+          publish: false
     - display-date: Aug 14
       topic: "Final Exam"
 
