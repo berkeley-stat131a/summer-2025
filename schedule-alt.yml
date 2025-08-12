@@ -413,6 +413,10 @@
           text: "Lec20 Video"
           href: "https://youtu.be/AovyseiRAaU"
           publish: true
+        - type: code
+          text: "Code Demo from last week"
+          href: "https://github.com/berkeley-stat131a/summer-2025-assignments/blob/main/lectures/Lecture19_CodeDemo.Rmd"
+          publish: true
     - display-date: Aug 13
       topic: "Final Review Session"
       items:
