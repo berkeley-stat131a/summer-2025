@@ -423,11 +423,11 @@
         - type: slides
           text: "Lec21 Slides - Final Exam Review"
           href: "https://docs.google.com/presentation/d/108bgw-kmv83pYr5BSRl1w7fI_h86rweFOHBElze8Y0Y/edit?usp=sharing"
-          publish: false
+          publish: true
         - type: video
           text: "Lec21 Video"
-          href: ""
-          publish: false
+          href: "https://youtu.be/7t440fIfFOw"
+          publish: true
     - display-date: Aug 14
       topic: "Final Exam"
 
